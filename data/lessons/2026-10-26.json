@@ -1,0 +1,584 @@
+{
+ "date": "2026-10-26",
+ "audio": "audio/2026-10-26.mp3",
+ "minutes": 19,
+ "topic": "Hobbies, Weather, and Golf in Korea",
+ "topicKo": "취미, 날씨, 한국의 골프 문화",
+ "teacher": "Teacher",
+ "summary": "선생님과 학생이 주말 지낸 이야기, 셀프 빨래방 이용, 그리고 한국의 골프 문화(스크린골프, 캐디 시스템 등)에 대해 대화했습니다.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 37.26,
+   "end": 44.92,
+   "en": "So happy Monday, sir. How's the weather?",
+   "ko": "즐거운 월요일이네요, 날씨는 어때요?",
+   "chunks": [
+    [
+     "So happy Monday, sir.",
+     "즐거운 월요일이에요,"
+    ],
+    [
+     "How's the weather?",
+     "날씨가 어때요?"
+    ]
+   ],
+   "words": [
+    [
+     "weather",
+     "날씨"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t2",
+   "start": 59.01,
+   "end": 63.14,
+   "en": "How about your weekend?",
+   "ko": "주말은 어땠어요?",
+   "chunks": [
+    [
+     "How about",
+     "어때요?"
+    ],
+    [
+     "your weekend?",
+     "당신의 주말은?"
+    ]
+   ],
+   "words": [
+    [
+     "weekend",
+     "주말"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t3",
+   "start": 67.42,
+   "end": 81.6,
+   "en": "I have a special thing. As a hobby, I make videos.",
+   "ko": "특별한 일이 있어요. 취미로 영상을 만들어요.",
+   "chunks": [
+    [
+     "I have a special thing.",
+     "특별한 것이 있어요."
+    ],
+    [
+     "As a hobby,",
+     "취미로,"
+    ],
+    [
+     "I make videos.",
+     "영상을 만들어요."
+    ]
+   ],
+   "words": [
+    [
+     "hobby",
+     "취미"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t4",
+   "start": 204.95,
+   "end": 212.62,
+   "en": "Have you washed your clothes?",
+   "ko": "빨래는 하셨어요?",
+   "chunks": [
+    [
+     "Have you washed",
+     "빨래를 하셨나요?"
+    ],
+    [
+     "your clothes?",
+     "당신의 옷을?"
+    ]
+   ],
+   "words": [
+    [
+     "wash clothes",
+     "빨래하다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t5",
+   "start": 235.69,
+   "end": 254.55,
+   "en": "In the Philippines, there are self-laundries. Do you use them?",
+   "ko": "필리핀에는 셀프 빨래방이 있어요. 이용하시나요?",
+   "chunks": [
+    [
+     "In the Philippines,",
+     "필리핀에서는,"
+    ],
+    [
+     "there are self-laundries.",
+     "셀프 빨래방이 있어요."
+    ],
+    [
+     "Do you use them?",
+     "이용하시나요?"
+    ]
+   ],
+   "words": [
+    [
+     "self-laundry",
+     "셀프 빨래방"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t6",
+   "start": 297.61,
+   "end": 314.29,
+   "en": "Young people wash their clothes and pillows at self-laundries.",
+   "ko": "젊은 사람들이 셀프 빨래방에서 옷과 베개 등을 빨아요.",
+   "chunks": [
+    [
+     "Young people wash",
+     "젊은 사람들이 빨래해요"
+    ],
+    [
+     "their clothes and pillows",
+     "옷과 베개를"
+    ],
+    [
+     "at self-laundries.",
+     "셀프 빨래방에서."
+    ]
+   ],
+   "words": [
+    [
+     "pillow",
+     "베개"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t7",
+   "start": 334.41,
+   "end": 343.4,
+   "en": "It's easy, and young people do that. I think it's the first step.",
+   "ko": "쉽고 젊은이들이 그렇게 해요. 첫 단계라고 생각해요.",
+   "chunks": [
+    [
+     "It's easy,",
+     "쉬워요,"
+    ],
+    [
+     "and young people do that.",
+     "그리고 젊은이들이 그걸 해요."
+    ],
+    [
+     "I think it's the first step.",
+     "첫 단계라고 생각해요."
+    ]
+   ],
+   "words": [
+    [
+     "first step",
+     "첫 단계"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t8",
+   "start": 354.04,
+   "end": 363.63,
+   "en": "They don't just wait for mom or other people to wash their clothes.",
+   "ko": "그냥 엄마나 다른 사람이 옷을 빨아주기를 기다리지 않아요.",
+   "chunks": [
+    [
+     "They don't just wait",
+     "그냥 기다리지 않아요"
+    ],
+    [
+     "for mom or other people",
+     "엄마나 다른 사람이"
+    ],
+    [
+     "to wash their clothes.",
+     "옷을 빨아주기를."
+    ]
+   ],
+   "words": [
+    [
+     "wait for",
+     "~을 기다리다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t9",
+   "start": 409.79,
+   "end": 416.01,
+   "en": "So is there snow in your city, or not really?",
+   "ko": "그럼 사는 도시에 눈이 오나요, 아니면 별로 안 오나요?",
+   "chunks": [
+    [
+     "So is there snow",
+     "눈이 오나요"
+    ],
+    [
+     "in your city,",
+     "당신의 도시에,"
+    ],
+    [
+     "or not really?",
+     "아니면 별로 안 오나요?"
+    ]
+   ],
+   "words": [
+    [
+     "city",
+     "도시"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t10",
+   "start": 605.12,
+   "end": 618.97,
+   "en": "I think golf is popular in Korea as a hobby.",
+   "ko": "한국에서는 골프가 취미로 인기가 많다고 생각해요.",
+   "chunks": [
+    [
+     "I think golf is popular",
+     "골프가 인기가 많다고 생각해요"
+    ],
+    [
+     "in Korea",
+     "한국에서"
+    ],
+    [
+     "as a hobby.",
+     "취미로."
+    ]
+   ],
+   "words": [
+    [
+     "popular",
+     "인기 있는"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t11",
+   "start": 774.93,
+   "end": 780.53,
+   "en": "Is golf expensive in Korea?",
+   "ko": "한국에서 골프는 비싼가요?",
+   "chunks": [
+    [
+     "Is golf expensive",
+     "골프가 비싼가요"
+    ],
+    [
+     "in Korea?",
+     "한국에서?"
+    ]
+   ],
+   "words": [
+    [
+     "expensive",
+     "비싼"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t12",
+   "start": 1007.49,
+   "end": 1021.76,
+   "en": "The caddy system is unique to Korea.",
+   "ko": "캐디 시스템은 한국만의 독특한 제도예요.",
+   "chunks": [
+    [
+     "The caddy system",
+     "캐디 시스템은"
+    ],
+    [
+     "is unique",
+     "독특해요"
+    ],
+    [
+     "to Korea.",
+     "한국에만."
+    ]
+   ],
+   "words": [
+    [
+     "unique",
+     "독특한"
+    ],
+    [
+     "caddy",
+     "캐디"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  }
+ ],
+ "mine": [
+  {
+   "id": "m1",
+   "start": 32.84,
+   "end": 34.33,
+   "said": "Hello good morning",
+   "better": "Hello, good morning!",
+   "ko": "안녕하세요, 좋은 아침이에요!",
+   "errors": []
+  },
+  {
+   "id": "m2",
+   "start": 42.81,
+   "end": 53.93,
+   "said": "I'm still waiting... I was waiting now",
+   "better": "It's raining now.",
+   "ko": "지금 비가 오고 있어요.",
+   "errors": [
+    {
+     "wrong": "I'm still waiting / I was waiting now",
+     "right": "It's raining now",
+     "why": "'비가 오고 있다'고 할 때는 날씨 비인칭 주어 it을 써서 'It is raining'으로 표현해야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": 179.77,
+   "end": 180.79,
+   "said": "India?",
+   "better": "Is he from India?",
+   "ko": "그 사람은 인도 출신인가요?",
+   "errors": [
+    {
+     "wrong": "India?",
+     "right": "Is he from India?",
+     "why": "단어만 말하기보다 'Is he from ~?'처럼 완전한 의문문 형태로 질문하는 것이 좋습니다."
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "start": 183.74,
+   "end": 185.05,
+   "said": "At the land!",
+   "better": "The Netherlands!",
+   "ko": "네덜란드요!",
+   "errors": [
+    {
+     "wrong": "At the land",
+     "right": "The Netherlands",
+     "why": "국명 발음(Netherlands)의 음성 인식 오류이며, 정식 국명은 'The Netherlands'입니다."
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "start": 217.94,
+   "end": 219.62,
+   "said": "Can you say it again?",
+   "better": "Could you say that again?",
+   "ko": "다시 한번 말씀해 주시겠어요?",
+   "errors": [
+    {
+     "wrong": "Can you say it again?",
+     "right": "Could you say that again?",
+     "why": "상대방에게 부탁할 때는 'Can you'보다 'Could you'가 훨씬 더 정중하고 자연스러운 표현입니다."
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": 383.81,
+   "end": 385.96,
+   "said": "Oh, is it traffic?",
+   "better": "Oh, is there a lot of traffic?",
+   "ko": "아, 차가 많이 막히나요?",
+   "errors": [
+    {
+     "wrong": "is it traffic?",
+     "right": "is there a lot of traffic?",
+     "why": "교통량이 많거나 차가 막히는 상황은 'traffic' 단독보다는 'there is a lot of traffic' 형태로 표현합니다."
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "start": 415.09,
+   "end": 415.94,
+   "said": "release.",
+   "better": "Not really.",
+   "ko": "별로 안 와요.",
+   "errors": [
+    {
+     "wrong": "release",
+     "right": "Not really",
+     "why": "'별로 그렇지 않다'는 의미의 'Not really'가 발음 차이로 인해 음성 인식 오류가 난 문장입니다."
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "start": 599.57,
+   "end": 602.38,
+   "said": "Oh no no no! See me wrong!",
+   "better": "Oh no, you got me wrong!",
+   "ko": "아뇨, 제 말을 오해하셨어요!",
+   "errors": [
+    {
+     "wrong": "See me wrong!",
+     "right": "You got me wrong!",
+     "why": "'내 말을 잘못 이해했다/오해했다'는 표현은 'You got me wrong' 또는 'You misunderstood me'라고 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "start": 1056.68,
+   "end": 1059.02,
+   "said": "They don't have that one yet",
+   "better": "They don't have that in other countries.",
+   "ko": "다른 나라에는 캐디가 없군요.",
+   "errors": [
+    {
+     "wrong": "that one yet",
+     "right": "that in other countries",
+     "why": "다른 나라에는 해당 서비스(캐디)가 없다는 맥락을 명확하게 나타내도록 수정한 표현입니다."
+    }
+   ]
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "I'm still waiting",
+   "better": "It's still raining.",
+   "ko": "비가 아직 오고 있어요.",
+   "tip": "날씨를 말할 때는 I'm waiting이 아니라 It is raining을 써야 해요."
+  },
+  {
+   "mine": "See me wrong!",
+   "better": "You got me wrong!",
+   "ko": "오해하셨어요!",
+   "tip": "상대가 내 말을 오해했을 때는 You got me wrong! 이라는 표현을 씁니다."
+  },
+  {
+   "mine": "Like a homie",
+   "better": "Like a hobby",
+   "ko": "취미처럼",
+   "tip": "homie(친구)와 hobby(취미)의 발음을 혼동하지 않도록 주의하세요."
+  },
+  {
+   "mine": "Very intense",
+   "better": "Very expensive",
+   "ko": "매우 비싼",
+   "tip": "골프 비용을 말할 때는 intense(강렬한) 대신 expensive를 써야 합니다."
+  },
+  {
+   "mine": "Our time is late",
+   "better": "Our time is up.",
+   "ko": "벌써 시간이 다 되었네요.",
+   "tip": "수업 시간이 끝났다고 할 때는 Time is up이라고 표현해요."
+  },
+  {
+   "mine": "I exercised the photo",
+   "better": "I've been playing golf",
+   "ko": "골프를 쳐왔어요",
+   "tip": "운동을 해온 기간을 말할 때는 현재완료진행형(have been -ing)을 사용해 보세요."
+  }
+ ],
+ "phrases": [
+  {
+   "en": "As a hobby",
+   "ko": "취미로",
+   "ex": "I play golf as a hobby."
+  },
+  {
+   "en": "By myself",
+   "ko": "혼자서",
+   "ex": "I wash my clothes by myself."
+  },
+  {
+   "en": "Young people",
+   "ko": "젊은 사람들",
+   "ex": "Young people like to use self-laundry shops."
+  },
+  {
+   "en": "Screen golf",
+   "ko": "스크린 골프",
+   "ex": "I played screen golf with my neighbors."
+  },
+  {
+   "en": "Very expensive",
+   "ko": "매우 비싼",
+   "ex": "Golf is very expensive in Korea."
+  },
+  {
+   "en": "Not a beginner anymore",
+   "ko": "더 이상 초보가 아닌",
+   "ex": "After three years, I'm not a beginner anymore."
+  },
+  {
+   "en": "Help a lot",
+   "ko": "큰 도움이 되다",
+   "ex": "Caddies help a lot during the game."
+  },
+  {
+   "en": "Our time is up",
+   "ko": "시간이 다 되다",
+   "ex": "I think our time is up today."
+  }
+ ],
+ "next": {
+  "q": "What are some popular hobbies for office workers in Korea, and how much do they usually cost?",
+  "ko": "한국 직장인들에게 인기 있는 취미는 무엇이며, 보통 비용이 얼마나 드나요?",
+  "starters": [
+   {
+    "en": "As a hobby, I usually play golf with my friends on weekends.",
+    "ko": "취미로 주말에 보통 친구들과 골프를 칩니다."
+   },
+   {
+    "en": "Golf is very popular in Korea, but it is also very expensive.",
+    "ko": "한국에서 골프는 매우 인기 있지만, 비용도 아주 비쌉니다."
+   },
+   {
+    "en": "I have been playing golf for about three years now.",
+    "ko": "저는 골프를 친 지 3년 정도 되었습니다."
+   },
+   {
+    "en": "In Korea, we have screen golf, which is a great option for office workers.",
+    "ko": "한국에는 직장인들에게 좋은 스크린 골프라는 옵션이 있습니다."
+   },
+   {
+    "en": "Unlike other countries, Korean golf courses have caddies to help us.",
+    "ko": "다른 나라와 달리 한국 골프장에는 도움을 주는 캐디가 있습니다."
+   }
+  ]
+ }
+}
