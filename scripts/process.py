@@ -21,6 +21,14 @@ GEMINI_CANDIDATES = ['gemini-2.5-flash', 'gemini-flash-latest', 'gemini-3.6-flas
                      'gemini-2.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.5-flash-lite', 'gemini-3.1-flash-lite']
 
 
+def diag(msg):
+    """원인 확인용 기록 (diag/last.txt에 남겨 저장소에서 볼 수 있게)"""
+    os.makedirs(os.path.join(ROOT, 'diag'), exist_ok=True)
+    with open(os.path.join(ROOT, 'diag', 'last.txt'), 'w', encoding='utf-8') as f:
+        f.write(time.strftime('%Y-%m-%d %H:%M:%S UTC ', time.gmtime()) + msg + '\n')
+    print(msg)
+
+
 def out(k, v):
     if os.environ.get('GITHUB_OUTPUT'):
         with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
@@ -299,8 +307,9 @@ def main():
         print('config.js에 Apps Script 주소가 없습니다.'); out('todo', 0); return
     try:
         jobs = api('zoom_pendingJobs') or []
+        diag(f"작업 확인 성공: 대기 {len(jobs)}개 · 키 길이 {len(os.environ.get('ZOOM_KEY',''))}")
     except Exception as e:
-        print('작업 목록 확인 실패:', e); out('todo', 0); return
+        print('작업 목록 확인 실패:', e); diag(f'작업 목록 확인 실패: {e} · 키 길이 {len(os.environ.get("ZOOM_KEY",""))}'); out('todo', 0); return
     out('todo', len(jobs))
     if a.plan or not jobs:
         return
@@ -317,7 +326,7 @@ def main():
         process_file(src, job['date'])
         api('zoom_setJob', job['id'], {'status': 'done'})
     except Exception as e:
-        print('실패:', e)
+        print('실패:', e); diag(f'정리 실패: {e}')
         api('zoom_setJob', job['id'], {'status': 'error', 'msg': str(e)[:300]})
         raise
 

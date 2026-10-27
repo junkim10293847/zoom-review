@@ -33,6 +33,15 @@ jobs:
         id: plan
         run: python scripts/process.py --plan
 
+      - name: 확인 결과 기록 (원인 확인용)
+        if: steps.plan.outputs.todo == '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diag 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "확인 기록" && git pull --rebase -q origin main && git push -q || true
+
       - name: 음성 도구 캐시
         if: steps.plan.outputs.todo != '0'
         uses: actions/cache@v4
@@ -70,7 +79,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A audio data
+          git add -A audio data diag
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
           git commit -m "줌 수업 자동 정리"
           git pull --rebase -q origin main
