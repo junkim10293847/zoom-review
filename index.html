@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>줌 수업 복습</title>
+<meta name="theme-color" content="#141B26">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<script src="config.js"></script>
+<style>
+/* 한 화면에 한 가지 일: 목록(날짜별 수업) → 수업(4단계) → 단계(카드 한 장) */
+:root{
+  --bg:#EEF1F4; --card:#FFFFFF; --ink:#141B26; --muted:#5E6878; --line:#D6DCE4;
+  --marker:#FFD43B; --markerInk:#2B2100; --teal:#0F7C78; --tealSoft:#DDF1EF; --miss:#C2410C; --missSoft:#FCE8DD;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0F141B; --card:#18202B; --ink:#E9EEF5; --muted:#9AA5B5; --line:#2A3442;
+  --marker:#F5C518; --markerInk:#1E1700; --teal:#4FD1C5; --tealSoft:#123532; --miss:#FB923C; --missSoft:#3A2216; color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-top:calc(20px + env(safe-area-inset-top,0px));padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font-family:var(--f-display);font-weight:800;font-size:22px;letter-spacing:-.01em}
+.brand mark{background:linear-gradient(transparent 55%,var(--marker) 55%);color:inherit;padding:0 2px}
+.btn{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 14px;font-size:15px}
+.btn.main{background:var(--ink);color:var(--card);border-color:var(--ink);font-weight:700;padding:12px 20px}
+.btn.on{background:var(--marker);color:var(--markerInk);border-color:var(--marker)}
+.btn.sm{font-size:13px;padding:6px 12px}
+.list{display:flex;flex-direction:column;gap:10px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:grid;grid-template-columns:58px minmax(0,1fr);gap:12px;text-align:left;align-items:center}
+.item:hover{border-color:var(--teal)}
+.day{display:flex;flex-direction:column;align-items:center;line-height:1.1}
+.day b{font-family:var(--f-display);font-weight:800;font-size:26px}
+.day span{font-family:var(--f-mono);font-size:11px;color:var(--muted);text-transform:uppercase}
+.item .t{font-weight:700;font-size:16px;min-width:0}
+.item .s{font-size:13px;color:var(--muted)}
+.month{font-family:var(--f-mono);font-size:12px;color:var(--muted);letter-spacing:.06em;padding:4px 4px 0}
+.job{background:var(--card);border:1.5px dashed var(--line);border-radius:14px;padding:12px 14px;font-size:14px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.job.err{border-color:var(--miss);color:var(--miss)}
+.lesson{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:6px}
+.meta{font-family:var(--f-mono);font-size:12px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.lesson h1{font-family:var(--f-display);font-weight:800;font-size:26px;line-height:1.15;margin:0;text-wrap:balance}
+.lesson p{margin:0;color:var(--muted);font-size:14px}
+.steps{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;text-align:left;display:flex;flex-direction:column;gap:4px;min-height:118px}
+.step:hover{border-color:var(--teal)}
+.step .n{font-family:var(--f-mono);font-size:12px;color:var(--teal)}
+.step b{font-size:18px}
+.step span.d{font-size:13px;color:var(--muted)}
+.bar{height:6px;border-radius:3px;background:var(--line);overflow:hidden;margin-top:auto}
+.bar i{display:block;height:100%;background:var(--teal);width:0}
+.prep{background:var(--tealSoft);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:6px;border:0;text-align:left}
+.prep b{font-size:15px}
+.prep span{font-size:13px;color:var(--muted)}
+.how{font-size:13px;color:var(--muted);padding:0 4px;margin:0}
+.how b{color:var(--ink)}
+.head{display:flex;align-items:center;gap:10px}
+.back{background:none;border:1px solid var(--line);border-radius:10px;padding:6px 12px;font-size:14px}
+.head h2{margin:0;font-size:18px;flex:1}
+.count{font-family:var(--f-mono);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:16px}
+.guide{font-size:14px;color:var(--muted);margin:0}
+.en{font-size:21px;line-height:1.45;font-weight:500;margin:0}
+.ko{font-size:16px;color:var(--muted);margin:0}
+.veil{border:1.5px dashed var(--line);border-radius:12px;padding:14px;color:var(--muted);font-size:14px;text-align:center;background:none;width:100%}
+.ts{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.play{display:flex;gap:8px;flex-wrap:wrap}
+.judge{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.judge .ok{background:var(--tealSoft);border:0;border-radius:12px;padding:14px;font-weight:700;color:var(--teal)}
+.judge .no{background:var(--missSoft);border:0;border-radius:12px;padding:14px;font-weight:700;color:var(--miss)}
+.nav{display:flex;justify-content:space-between;gap:10px}
+.nav .btn{flex:1}
+textarea,input[type=date],input[type=password]{width:100%;font:inherit;font-size:17px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:12px}
+textarea{min-height:96px;resize:vertical}
+.diff{font-size:18px;line-height:1.7}
+.diff .w-ok{background:var(--tealSoft);color:var(--teal);border-radius:4px;padding:0 3px}
+.diff .w-miss{background:var(--missSoft);color:var(--miss);border-radius:4px;padding:0 3px;text-decoration:underline}
+.score{font-family:var(--f-display);font-weight:800;font-size:28px}
+.mine{font-size:14px;color:var(--miss);text-decoration:line-through;margin:0}
+.tip{font-size:14px;background:var(--bg);border-radius:10px;padding:10px 12px;margin:0}
+.flip{min-height:170px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;text-align:center;background:var(--card);border-radius:18px;border:1px solid var(--line);padding:24px}
+.flip .big{font-family:var(--f-display);font-weight:800;font-size:28px;line-height:1.2}
+.flip .sm{font-size:15px;color:var(--muted)}
+.chip{display:inline-block;font-size:12px;border-radius:999px;padding:2px 10px;background:var(--bg);color:var(--muted)}
+.chip.hard{background:var(--missSoft);color:var(--miss)}
+.filter{display:flex;gap:8px;flex-wrap:wrap}
+.empty{color:var(--muted);text-align:center;padding:30px 10px;margin:0}
+.qbox{background:var(--marker);color:var(--markerInk);border-radius:14px;padding:14px;font-weight:500}
+.err{background:var(--missSoft);color:var(--miss);border-radius:12px;padding:14px;font-size:14px}
+.mean{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.ch{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:10px;padding:9px 12px;border-top:1px solid var(--line)}
+.ch:first-child{border-top:0}
+.ce{font-weight:500;min-width:0}
+.ck{color:var(--teal);font-size:15px;min-width:0}
+.wds{display:flex;flex-wrap:wrap;gap:6px}
+.wd{font-size:13px;background:var(--bg);border-radius:8px;padding:4px 9px}
+.wd b{background:linear-gradient(transparent 60%,var(--marker) 60%);color:var(--ink)}
+.field{display:flex;flex-direction:column;gap:6px;font-size:14px;color:var(--muted)}
+.drop{border:2px dashed var(--line);border-radius:14px;padding:22px;text-align:center;color:var(--muted);background:none;width:100%}
+.drop b{color:var(--ink)}
+.prog{height:10px;border-radius:5px;background:var(--line);overflow:hidden}
+.prog i{display:block;height:100%;background:var(--teal);width:0;transition:width .2s}
+.sync{font-size:12px;color:var(--muted);text-align:center;margin:0}
+@media (max-width:380px){.steps{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.prog i{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"><p class="empty">수업 목록을 여는 중입니다</p></div>
+<audio id="aud" preload="none"></audio>
+
+<script>
+const API=(window.APP_CONFIG&&window.APP_CONFIG.api)||'';
+const $=s=>document.querySelector(s);
+const app=$('#app'), aud=$('#aud');
+const esc=t=>String(t??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const mmss=s=>String(Math.floor(s/60)).padStart(2,'0')+':'+String(Math.floor(s%60)).padStart(2,'0');
+const WD=['일','월','화','수','목','금','토'];
+
+/* ---------- 저장: 이 기기(localStorage) + 서버(Apps Script) ---------- */
+const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},
+          set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let S=LS.get('zr.progress',{}), KEY=LS.get('zr.key',''), showAll=!!LS.get('zr.all',false);
+let pending={}, syncTimer=null, syncState='';
+async function api(fn,...args){
+  if(!API)throw new Error('no_api');
+  const r=await fetch(API,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({fn,args:[KEY,...args]})});
+  const j=await r.json(); if(j.err)throw new Error(j.err); return j.res;
+}
+function mark(key,val){S[key]=val;LS.set('zr.progress',S);pending[key]=val;
+  if(API&&KEY){clearTimeout(syncTimer);syncTimer=setTimeout(pushProgress,1500)}}
+async function pushProgress(){const d=pending;pending={};
+  try{await api('zoom_saveProgress',d)}catch(e){Object.assign(pending,d)}}
+async function pullProgress(){
+  if(!API||!KEY)return;
+  try{const srv=await api('zoom_getProgress');S=Object.assign({},srv,S);LS.set('zr.progress',S);
+    const diff={};Object.keys(S).forEach(k=>{if(srv[k]!==S[k])diff[k]=S[k]});
+    if(Object.keys(diff).length)api('zoom_saveProgress',diff).catch(()=>{});syncState='ok'}
+  catch(e){syncState=e.message==='wrong_key'?'key':'off'}
+}
+const st=key=>S[key];
+
+/* ---------- 데이터 ---------- */
+let INDEX=[], L=null, JOBS=[];
+const cache={};
+async function loadIndex(){const r=await fetch('data/index.json?v='+Date.now());if(!r.ok)throw 0;INDEX=(await r.json()).lessons||[]}
+async function loadLesson(date){
+  if(!cache[date]){const r=await fetch('data/lessons/'+date+'.json?v='+Date.now());if(!r.ok)throw 0;cache[date]=await r.json()}
+  return cache[date];
+}
+async function loadJobs(){if(!API||!KEY){JOBS=[];return}try{JOBS=(await api('zoom_jobs')).filter(j=>j.status!=='done'||Date.now()-new Date(j.finished||0)<6e5)}catch(e){JOBS=[]}}
+
+/* ---------- 재생 ---------- */
+let rate=1, stopAt=null;
+aud.addEventListener('timeupdate',()=>{if(stopAt!==null&&aud.currentTime>=stopAt){aud.pause();stopAt=null}});
+function playClip(x){
+  const go=()=>{aud.playbackRate=rate;aud.currentTime=x.start;stopAt=x.end;const p=aud.play();if(p&&p.catch)p.catch(()=>{})};
+  if(aud.readyState<1){aud.preload='auto';aud.addEventListener('loadedmetadata',go,{once:true});aud.load()}else go();
+}
+function speak(text){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate<1?0.8:0.95;speechSynthesis.speak(u)}catch(e){}}
+
+/* ---------- 목록 화면 ---------- */
+function dayParts(d){const t=new Date(d+'T00:00:00');return {m:t.getMonth()+1,d:t.getDate(),w:WD[t.getDay()]}}
+function lessonPct(date,n){const keys=Object.keys(S).filter(k=>k.startsWith(date+':L')&&S[k]==='ok').length;return n?Math.min(1,keys/Math.max(1,Math.min(12,n))):0}
+async function listView(){
+  mode='list';aud.pause();location.hash='';
+  await loadJobs();
+  let lastM='';
+  const items=INDEX.map(x=>{const p=dayParts(x.date);const m=x.date.slice(0,7);
+    const head=m!==lastM?`<div class="month">${m.replace('-','. ')}</div>`:'';lastM=m;
+    const pc=Math.round(lessonPct(x.date,x.n)*100);
+    return head+`<button class="item" data-d="${x.date}"><span class="day"><b>${p.d}</b><span>${p.m}월 ${p.w}</span></span>
+      <span style="min-width:0;display:flex;flex-direction:column;gap:4px"><span class="t">${esc(x.topicKo||x.topic)}</span>
+      <span class="s">${esc(x.topic)} · ${esc(x.teacher||'')}${x.minutes?' · '+x.minutes+'분':''}</span>
+      <span class="bar"><i style="width:${pc}%"></i></span><span class="s">듣기 ${pc}%</span></span></button>`}).join('');
+  const jobs=JOBS.map(j=>{const lab={waiting:'정리 대기 중 (15분 안에 시작)',processing:'정리 중… (보통 15~25분)',done:'정리 완료 — 새로고침하면 보입니다',error:'정리 실패'}[j.status]||j.status;
+    return `<div class="job ${j.status==='error'?'err':''}"><span><b>${esc(j.date)}</b> ${lab}${j.msg?'<br><small>'+esc(j.msg)+'</small>':''}</span>
+    ${j.status==='error'||j.status==='done'?`<button class="btn sm" data-del="${esc(j.id)}">지우기</button>`:''}</div>`}).join('');
+  app.innerHTML=`<div class="top"><div class="brand">줌 수업 <mark>복습</mark></div>
+    ${API?`<button class="btn main" id="up" style="padding:10px 14px">+ 수업 올리기</button>`:''}</div>
+    ${jobs}
+    <div class="list">${items||'<p class="empty">아직 수업이 없습니다. 오른쪽 위 버튼으로 줌 녹화를 올려 주세요.</p>'}</div>
+    <p class="how"><b>매일 할 일</b> 수업이 끝나면 줌 녹화를 올립니다. 20~30분 뒤 이 목록에 그날 날짜로 복습 카드가 생깁니다.</p>
+    ${API?`<p class="sync">${!KEY?'진도 동기화 꺼짐 · 수업 올리기에서 비밀번호를 넣으면 켜집니다':syncState==='key'?'비밀번호가 맞지 않습니다 · 수업 올리기에서 다시 넣어 주세요':syncState==='off'?'서버 연결 안 됨 · 이 기기에만 저장 중':'휴대폰·PC 진도 동기화 켜짐'}</p>`:''}`;
+  app.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>openLesson(b.dataset.d));
+  app.querySelectorAll('[data-del]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{await api('zoom_deleteJob',b.dataset.del)}catch(e){}listView()});
+  const up=$('#up');if(up)up.onclick=uploadView;
+}
+
+/* ---------- 올리기 화면 ---------- */
+function guessDate(name){
+  const M={january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12};
+  let m=name.match(/(20\d\d)[-_.]?(\d\d)[-_.]?(\d\d)/);if(m)return `${m[1]}-${m[2]}-${m[3]}`;
+  m=name.toLowerCase().match(/(january|february|march|april|may|june|july|august|september|october|november|december)[_\s-]+(\d{1,2})[_,\s-]+(20\d\d)/);
+  if(m)return `${m[3]}-${String(M[m[1]]).padStart(2,'0')}-${m[2].padStart(2,'0')}`;
+  const t=new Date();return `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`;
+}
+function uploadView(){
+  mode='upload';let file=null;
+  app.innerHTML=`<div class="head"><button class="back" id="back">← 목록</button><h2>수업 올리기</h2></div>
+  <div class="card">
+    ${KEY?'':`<label class="field" for="key">앱 비밀번호 (처음 한 번만)<input type="password" id="key" autocomplete="current-password" placeholder="줌 복습 Apps Script setup 로그의 비밀번호"></label>`}
+    <input type="file" id="file" accept="video/*,audio/*,.mp4,.m4a,.mp3" hidden>
+    <button class="drop" id="pick"><b>줌 녹화 파일 고르기</b><br><span style="font-size:13px">mp4 또는 m4a · 오디오(m4a)가 훨씬 빨리 올라갑니다</span></button>
+    <label class="field" for="date">수업 날짜<input type="date" id="date"></label>
+    <button class="btn main" id="go" disabled>올리기</button>
+    <div id="st" hidden><div class="prog"><i id="pg"></i></div><p class="guide" id="msg" style="margin-top:8px"></p></div>
+  </div>
+  <p class="how">줌 녹화는 보통 <b>문서 › Zoom › 날짜 폴더</b>에 있습니다. 휴대폰에 저장된 녹화도 올릴 수 있습니다.</p>`;
+  $('#back').onclick=listView;
+  $('#date').value=guessDate('');
+  $('#pick').onclick=()=>$('#file').click();
+  $('#file').onchange=e=>{file=e.target.files[0];if(!file)return;
+    $('#pick').innerHTML=`<b>${esc(file.name)}</b><br><span style="font-size:13px">${(file.size/1048576).toFixed(1)}MB · 다른 파일을 고르려면 누르세요</span>`;
+    $('#date').value=guessDate(file.name);$('#go').disabled=false};
+  $('#go').onclick=async()=>{
+    const k=$('#key');if(k){if(!k.value.trim()){k.focus();return}KEY=k.value.trim()}
+    const date=$('#date').value;if(!file||!date)return;
+    const go=$('#go');go.disabled=true;$('#st').hidden=false;const msg=$('#msg'),pg=$('#pg');
+    try{
+      msg.textContent='비밀번호 확인 중…';await api('zoom_check');LS.set('zr.key',KEY);
+      const CH=4*1024*1024, n=Math.ceil(file.size/CH), id=date+'-'+Date.now().toString(36);
+      for(let i=0;i<n;i++){
+        const buf=await file.slice(i*CH,(i+1)*CH).arrayBuffer();
+        let s='';const u=new Uint8Array(buf);for(let j=0;j<u.length;j+=0x8000)s+=String.fromCharCode.apply(null,u.subarray(j,j+0x8000));
+        let tries=0;for(;;){try{await api('zoom_uploadPart',id,i,btoa(s));break}catch(e){if(++tries>=3)throw e;await new Promise(r=>setTimeout(r,3000))}}
+        pg.style.width=((i+1)/n*100)+'%';msg.textContent=`올리는 중 ${i+1} / ${n}`;
+      }
+      await api('zoom_finishUpload',id,date,file.name,n,file.size);
+      msg.textContent='올리기 완료. 20~30분 뒤 목록에 생깁니다.';
+      setTimeout(listView,1500);pullProgress();
+    }catch(e){
+      go.disabled=false;
+      msg.textContent=e.message==='wrong_key'?'비밀번호가 맞지 않습니다. 다시 확인해 주세요.':'올리지 못했습니다: '+e.message+' · 다시 눌러 주세요.';
+      if(e.message==='wrong_key'){KEY='';LS.set('zr.key','');uploadView()}
+    }
+  };
+}
+
+/* ---------- 수업 화면 ---------- */
+let mode='list', idx=0, onlyHard=false, reveal={en:false,ko:false}, sig='';
+const MODES={
+  listen:{n:'1',t:'듣기',d:'핵심 문장을 듣고 끊어서 뜻 잡기',pre:'L'},
+  dict:{n:'2',t:'받아쓰기',d:'들리는 대로 써 보고 맞춰보기',pre:'D'},
+  speak:{n:'3',t:'말하기',d:'내가 하려던 말, 제대로 말하기',pre:'S'},
+  phrase:{n:'4',t:'표현 카드',d:'오늘 나온 표현 외우기',pre:'P'}
+};
+const k=id=>L.date+':'+id;
+function lists(){
+  const base=showAll?L.lines:L.lines.filter(x=>x.core);
+  return {listen:base, dict:showAll?L.lines.filter(x=>x.dict):base.filter(x=>x.dict).length>=6?base.filter(x=>x.dict):base,
+    speak:[...(L.fixes||[]).map((f,i)=>({id:'f'+i,ko:f.ko,en:f.better,mine:f.mine,tip:f.tip})),
+           ...((L.next&&L.next.starters)||[]).map((s,i)=>({id:'n'+i,ko:s.ko,en:s.en,tip:'다음 수업 말하기 준비 문장'}))],
+    phrase:(L.phrases||[]).map((p,i)=>({...p,id:'p'+i}))};
+}
+const progress=m=>{const it=lists()[m];return it.length?it.filter(x=>st(k(MODES[m].pre+x.id))==='ok').length/it.length:0};
+const hardCount=m=>lists()[m].filter(x=>st(k(MODES[m].pre+x.id))==='no').length;
+
+async function openLesson(date){
+  app.innerHTML='<p class="empty">수업을 여는 중입니다</p>';
+  try{L=await loadLesson(date)}catch(e){app.innerHTML='<div class="err">수업 자료를 불러오지 못했습니다. 잠시 뒤 다시 열어 주세요.</div>';return}
+  aud.src=L.audio;aud.preload='none';location.hash='d'+date.replace(/-/g,'');lessonHome();
+}
+function lessonHome(){
+  mode='lesson';aud.pause();
+  const p=dayParts(L.date);
+  app.innerHTML=`<div class="head"><button class="back" id="back">← 목록</button><h2></h2></div>
+  <div class="lesson"><div class="meta">${p.m}월 ${p.d}일 (${p.w}) · ${esc(L.teacher||'')}${L.minutes?' · '+L.minutes+'분':''}</div>
+    <h1>${esc(L.topic)}</h1><p>${esc(L.topicKo)}${L.summary?' — '+esc(L.summary):''}</p></div>
+  <div class="steps">${Object.entries(MODES).map(([m,v])=>{const pc=progress(m),h=hardCount(m);
+    return `<button class="step" data-m="${m}"><span class="n">STEP ${v.n}</span><b>${v.t}</b><span class="d">${v.d}</span>
+      <span class="d">${Math.round(pc*100)}% 완료${h?` · 다시 볼 것 ${h}`:''}</span><span class="bar"><i style="width:${pc*100}%"></i></span></button>`}).join('')}</div>
+  ${L.next&&L.next.q?`<button class="prep" id="prep"><b>다음 수업 말하기 준비</b><span>${esc(L.next.q)}</span></button>`:''}
+  <p class="how"><b>추천 순서</b> 핵심 문장부터. 출근길에 1번 듣기(글자 없이 먼저) → 저녁에 2번 받아쓰기 → 다음 수업 전에 3·4번으로 말하기 준비.</p>`;
+  $('#back').onclick=listView;
+  app.querySelectorAll('.step').forEach(b=>b.onclick=()=>{mode=b.dataset.m;idx=0;onlyHard=false;render()});
+  const pr=$('#prep');if(pr)pr.onclick=prep;
+}
+function items(){const it=lists()[mode];return onlyHard?it.filter(x=>st(k(MODES[mode].pre+x.id))==='no'):it}
+function header(total){
+  const lineMode=mode==='listen'||mode==='dict';
+  return `<div class="head"><button class="back" id="back">← 수업</button><h2>${MODES[mode].t}</h2><span class="count">${total?idx+1:0} / ${total}</span></div>
+  <div class="filter">${lineMode
+    ?`<button class="btn sm ${!onlyHard&&!showAll?'on':''}" id="fCore">핵심 문장</button><button class="btn sm ${!onlyHard&&showAll?'on':''}" id="fAll">전체 ${L.lines.length}</button>`
+    :`<button class="btn sm ${onlyHard?'':'on'}" id="fAll">전체</button>`}<button class="btn sm ${onlyHard?'on':''}" id="fHard">다시 볼 것 (${hardCount(mode)})</button></div>`;
+}
+function meaning(x){
+  return `${(x.chunks||[]).length?`<div class="mean">${x.chunks.map(c=>`<div class="ch"><span class="ce">${esc(c[0])}</span><span class="ck">${esc(c[1])}</span></div>`).join('')}</div>`:''}
+  ${(x.words||[]).length?`<div class="wds">${x.words.map(w=>`<span class="wd"><b>${esc(w[0])}</b> ${esc(w[1])}</span>`).join('')}</div>`:''}
+  <p class="ko">→ ${esc(x.ko)}</p>`;
+}
+const rateBtns=()=>`<button class="btn ${rate===1?'on':''}" data-rate="1">1배속</button><button class="btn ${rate===0.75?'on':''}" data-rate="0.75">0.75배속</button>`;
+const judge=(a,b)=>`<div class="judge"><button class="ok" data-j="ok">${a}</button><button class="no" data-j="no">${b}</button></div>`;
+function render(){
+  const it=items(), total=it.length; if(idx>=total)idx=0;
+  const s=mode+':'+idx+':'+onlyHard+':'+showAll; if(s!==sig){reveal={en:false,ko:false};sig=s}
+  if(!total){app.innerHTML=header(0)+`<div class="card"><p class="empty">다시 볼 것이 없습니다. 전체로 돌아가세요.</p></div>`;wire(0);return}
+  const x=it[idx], key=k(MODES[mode].pre+x.id), state=st(key);
+  const chip=state==='no'?'<span class="chip hard">다시 볼 것</span>':state==='ok'?'<span class="chip">완료</span>':'';
+  let body='';
+  if(mode==='listen'){
+    body=`<p class="guide">글자를 보기 전에 2~3번 먼저 들어 보세요. ${chip}</p>
+      <div class="play"><button class="btn main" id="pl">▶ 강사 목소리 듣기</button>${rateBtns()}</div>
+      <span class="ts">수업 ${mmss(x.start)}</span>
+      ${reveal.en?`<p class="en">${esc(x.en)}</p>`:`<button class="veil" id="ven">영어 문장 보기</button>`}
+      ${reveal.ko?meaning(x):`<button class="veil" id="vko">끊어서 뜻 보기</button>`}
+      ${judge('잘 들렸어요','안 들렸어요')}`;
+  }else if(mode==='dict'){
+    body=`<p class="guide">들리는 단어만이라도 적어 보세요. 철자보다 소리를 잡는 연습입니다. ${chip}</p>
+      <div class="play"><button class="btn main" id="pl">▶ 듣기</button>${rateBtns()}</div>
+      <label for="ans" hidden>받아쓰기</label><textarea id="ans" placeholder="여기에 들은 문장을 입력"></textarea>
+      <button class="btn" id="chk">맞춰보기</button><div id="res"></div>`;
+  }else if(mode==='speak'){
+    body=`<p class="guide">한국어를 보고 영어로 소리 내어 말한 뒤 정답을 확인하세요. ${chip}</p>
+      <p class="en" style="font-size:19px">${esc(x.ko)}</p>
+      ${x.mine?`<p class="mine">수업 때 내가 한 말: ${esc(x.mine)}</p>`:''}
+      ${reveal.en?`<p class="en" style="color:var(--teal)">${esc(x.en)}</p>${x.tip?`<p class="tip">${esc(x.tip)}</p>`:''}
+        <div class="play"><button class="btn" id="tts">🔈 정답 발음 듣기</button></div>`:`<button class="veil" id="ven">정답 보기</button>`}
+      ${judge('바로 말했어요','막혔어요')}`;
+  }else{
+    body=`<button class="flip" id="flip">${reveal.en?`<span class="big">${esc(x.en)}</span><span class="sm">${esc(x.ko)}</span>${x.ex?`<span class="sm">“${esc(x.ex)}”</span>`:''}`
+      :`<span class="big" style="font-size:24px">${esc(x.ko)}</span><span class="sm">눌러서 영어 표현 보기</span>`}</button>
+      ${chip}${reveal.en&&x.ex?`<div class="play"><button class="btn" id="tts">🔈 예문 듣기</button></div>`:''}
+      ${judge('알아요','헷갈려요')}`;
+  }
+  app.innerHTML=header(total)+`<div class="card">${body}</div><div class="nav"><button class="btn" id="prev">← 이전</button><button class="btn" id="next">다음 →</button></div>`;
+  wire(total);
+  app.querySelectorAll('[data-j]').forEach(b=>b.onclick=()=>{mark(key,b.dataset.j);sig='';
+    if(!(onlyHard&&b.dataset.j==='ok'))idx=(idx+1)%total;render()});
+  const on=(id,f)=>{const e=$(id);if(e)e.onclick=f};
+  on('#pl',()=>playClip(x));
+  on('#ven',()=>{reveal.en=true;render()});
+  on('#vko',()=>{reveal.ko=true;render()});
+  on('#flip',()=>{reveal.en=!reveal.en;render()});
+  on('#tts',()=>speak(mode==='phrase'?x.ex:x.en));
+  on('#chk',()=>check(x,key));
+}
+function wire(total){
+  $('#back').onclick=lessonHome;
+  const setAll=v=>{showAll=v;LS.set('zr.all',v)};
+  $('#fAll').onclick=()=>{onlyHard=false;if(mode==='listen'||mode==='dict')setAll(true);idx=0;render()};
+  const fc=$('#fCore');if(fc)fc.onclick=()=>{onlyHard=false;setAll(false);idx=0;render()};
+  $('#fHard').onclick=()=>{onlyHard=true;idx=0;render()};
+  const pv=$('#prev'),nx=$('#next');
+  if(pv)pv.onclick=()=>{idx=(idx-1+total)%total;render()};
+  if(nx)nx.onclick=()=>{idx=(idx+1)%total;render()};
+  app.querySelectorAll('[data-rate]').forEach(b=>b.onclick=()=>{rate=+b.dataset.rate;render()});
+}
+function words(t){return t.toLowerCase().replace(/[’']/g,"'").replace(/[^a-z0-9' ]+/g,' ').split(/\s+/).filter(Boolean)}
+function check(x,key){
+  const ref=x.en.replace(/\s*\[\?\]/g,'').split(/\s+/), refN=ref.map(w=>words(w)[0]||''), got=words($('#ans').value);
+  const n=refN.length,m=got.length,dp=Array.from({length:n+1},()=>new Array(m+1).fill(0));
+  for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)dp[i][j]=refN[i]&&refN[i]===got[j]?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);
+  const hit=new Array(n).fill(false);let i=0,j=0;
+  while(i<n&&j<m){if(refN[i]&&refN[i]===got[j]){hit[i]=true;i++;j++}else if(dp[i+1][j]>=dp[i][j+1])i++;else j++}
+  const score=Math.round(hit.filter(Boolean).length/Math.max(1,refN.filter(Boolean).length)*100);
+  $('#res').innerHTML=`<div class="card" style="padding:14px;gap:10px;background:var(--bg)"><span class="score">${score}점</span>
+    <div class="diff">${ref.map((w,i)=>refN[i]?`<span class="${hit[i]?'w-ok':'w-miss'}">${esc(w)}</span>`:esc(w)).join(' ')}</div>
+    <p class="guide">밑줄 친 단어가 놓친 부분입니다. 다시 들으며 그 소리에 집중해 보세요.</p>${meaning(x)}</div>`;
+  mark(key,score>=80?'ok':'no');
+}
+function prep(){
+  mode='prep';aud.pause();
+  app.innerHTML=`<div class="head"><button class="back" id="back">← 수업</button><h2>다음 수업 말하기 준비</h2></div>
+  <div class="card"><div class="qbox">${esc(L.next.q)}</div><p class="ko">${esc(L.next.ko)}</p>
+  <p class="guide">아래 문장을 이어 붙이면 1분짜리 내 답변이 됩니다. 소리 내어 두세 번 연습해 보세요.</p>
+  ${(L.next.starters||[]).map((s,i)=>`<div style="display:flex;flex-direction:column;gap:2px"><p class="en" style="font-size:18px">${esc(s.en)}</p><p class="ko" style="font-size:14px">${esc(s.ko)}</p>
+   <div><button class="btn sm" data-say="${i}">🔈 듣기</button></div></div>`).join('')}</div>`;
+  $('#back').onclick=lessonHome;
+  app.querySelectorAll('[data-say]').forEach(b=>b.onclick=()=>speak(L.next.starters[+b.dataset.say].en));
+}
+
+/* ---------- 시작 ---------- */
+(async()=>{
+  try{await loadIndex()}catch(e){app.innerHTML='<div class="err">수업 목록을 불러오지 못했습니다. 새로고침해 주세요.</div>';return}
+  await pullProgress();
+  const h=location.hash.match(/^#d(\d{4})(\d{2})(\d{2})$/);
+  if(h&&INDEX.some(x=>x.date===`${h[1]}-${h[2]}-${h[3]}`))openLesson(`${h[1]}-${h[2]}-${h[3]}`);else listView();
+})();
+</script>
+</body>
+</html>

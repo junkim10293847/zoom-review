@@ -1,0 +1,1372 @@
+{
+ "date": "2026-10-23",
+ "teacher": "Teacher Mina",
+ "topic": "Culture at well-known companies",
+ "topicKo": "유명 기업의 문화",
+ "audio": "audio/2026-10-23.mp3",
+ "summary": "삼성의 기업문화(가족 경영·어린이날 선물·보너스), 내가 다닌 회사의 산행 면접, 강사의 이전 직장(7년간 급여 동결)과 필리핀 저임금·해외 취업 이야기.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 40.72,
+   "end": 44.12,
+   "en": "Do you have any plans for the weekend?",
+   "ko": "주말에 무슨 계획 있으세요?",
+   "dict": true,
+   "chunks": [
+    [
+     "Do you have",
+     "있으세요"
+    ],
+    [
+     "any plans",
+     "무슨 계획"
+    ],
+    [
+     "for the weekend?",
+     "주말에"
+    ]
+   ],
+   "words": [
+    [
+     "plan",
+     "계획"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t2",
+   "start": 75.5,
+   "end": 79.49,
+   "en": "I remember you still need to work, is that right?",
+   "ko": "주말에도 일하셔야 한다고 하셨던 걸로 기억하는데, 맞나요?",
+   "dict": true,
+   "chunks": [
+    [
+     "I remember",
+     "기억해요"
+    ],
+    [
+     "you still need to work,",
+     "당신이 그래도 일해야 한다고"
+    ],
+    [
+     "is that right?",
+     "맞나요?"
+    ]
+   ],
+   "words": [
+    [
+     "still",
+     "그래도, 여전히"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t3",
+   "start": 83.99,
+   "end": 89.33,
+   "en": "Mine is normal. I'll just wash my clothes.",
+   "ko": "저는 평범해요. 그냥 빨래나 하려고요.",
+   "dict": true,
+   "chunks": [
+    [
+     "Mine is normal.",
+     "제 건(제 주말은) 평범해요"
+    ],
+    [
+     "I'll just",
+     "그냥 ~할 거예요"
+    ],
+    [
+     "wash my clothes.",
+     "빨래"
+    ]
+   ],
+   "words": [
+    [
+     "mine",
+     "내 것"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t4",
+   "start": 96.41,
+   "end": 107.3,
+   "en": "Okay, let's start here. So we finished with number 12.",
+   "ko": "자, 여기서 시작해요. 지난번에 12번까지 했죠.",
+   "dict": false,
+   "chunks": [
+    [
+     "Okay, let's start here.",
+     "자, 여기서 시작해요"
+    ],
+    [
+     "So we finished",
+     "우리 끝냈죠"
+    ],
+    [
+     "with number 12.",
+     "12번으로(12번까지)"
+    ]
+   ],
+   "words": [
+    [
+     "finish with",
+     "~로 마치다"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t5",
+   "start": 120.47,
+   "end": 126.86,
+   "en": "Have you heard anything about the culture at well-known companies?",
+   "ko": "유명 기업들의 문화에 대해 들어본 적 있으세요?",
+   "dict": true,
+   "chunks": [
+    [
+     "Have you heard anything",
+     "뭔가 들어본 적 있나요"
+    ],
+    [
+     "about the culture",
+     "문화에 대해"
+    ],
+    [
+     "at well-known companies?",
+     "유명한 회사들의"
+    ]
+   ],
+   "words": [
+    [
+     "well-known",
+     "잘 알려진, 유명한"
+    ],
+    [
+     "culture",
+     "문화"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t6",
+   "start": 138.27,
+   "end": 148.05,
+   "en": "Say, in your company, do you follow some traditional things or cultural things?",
+   "ko": "예를 들어 회사에서 지키는 전통이나 문화 같은 게 있나요?",
+   "dict": false,
+   "chunks": [
+    [
+     "Say,",
+     "예를 들면"
+    ],
+    [
+     "in your company,",
+     "당신 회사에서"
+    ],
+    [
+     "do you follow",
+     "따르나요"
+    ],
+    [
+     "some traditional things or cultural things?",
+     "전통적인 것이나 문화적인 것을"
+    ]
+   ],
+   "words": [
+    [
+     "say (문장 앞)",
+     "예를 들어"
+    ],
+    [
+     "follow",
+     "따르다, 지키다"
+    ],
+    [
+     "traditional",
+     "전통의"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t7",
+   "start": 182.25,
+   "end": 192.79,
+   "en": "I'll give an example. The biggest company in Korea — one of the biggest — is Samsung.",
+   "ko": "예를 들어 볼게요. 한국에서 가장 큰 회사, 가장 큰 회사 중 하나가 삼성이죠.",
+   "dict": false,
+   "chunks": [
+    [
+     "I'll give an example.",
+     "예를 하나 들게요"
+    ],
+    [
+     "The biggest company in Korea",
+     "한국에서 가장 큰 회사"
+    ],
+    [
+     "one of the biggest",
+     "가장 큰 것 중 하나"
+    ],
+    [
+     "is Samsung.",
+     "삼성이에요"
+    ]
+   ],
+   "words": [
+    [
+     "one of the + 최상급",
+     "가장 ~한 것 중 하나"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t8",
+   "start": 209.62,
+   "end": 215.39,
+   "en": "It's like a family-controlled company.",
+   "ko": "가족이 지배하는 회사 같은 거죠.",
+   "dict": true,
+   "chunks": [
+    [
+     "It's like",
+     "~같은 거예요"
+    ],
+    [
+     "a family-controlled company.",
+     "가족이 지배하는 회사"
+    ]
+   ],
+   "words": [
+    [
+     "controlled",
+     "지배되는, 통제되는"
+    ],
+    [
+     "family-controlled",
+     "가족 경영의"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t9",
+   "start": 230.01,
+   "end": 237.1,
+   "en": "Their family is the one who manages the company, I think.",
+   "ko": "그 가문이 회사를 경영하는 걸로 알고 있어요.",
+   "dict": true,
+   "chunks": [
+    [
+     "Their family",
+     "그들의 가족이"
+    ],
+    [
+     "is the one who manages",
+     "경영하는 사람이에요"
+    ],
+    [
+     "the company,",
+     "회사를"
+    ],
+    [
+     "I think.",
+     "제 생각엔"
+    ]
+   ],
+   "words": [
+    [
+     "the one who ~",
+     "~하는 사람"
+    ],
+    [
+     "manage",
+     "경영하다, 관리하다"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t10",
+   "start": 343.78,
+   "end": 348.46,
+   "en": "Really? Whoa!",
+   "ko": "정말요? 우와!",
+   "dict": false,
+   "chunks": [
+    [
+     "Really?",
+     "정말요?"
+    ],
+    [
+     "Whoa!",
+     "우와!"
+    ]
+   ],
+   "words": [],
+   "core": false
+  },
+  {
+   "id": "t11",
+   "start": 359.77,
+   "end": 363.28,
+   "en": "Why? Why do they ask that kind of question?",
+   "ko": "왜요? 왜 그런 걸 시키는 거예요?",
+   "dict": true,
+   "chunks": [
+    [
+     "Why?",
+     "왜요?"
+    ],
+    [
+     "Why do they ask",
+     "왜 그들이 요구하나요"
+    ],
+    [
+     "that kind of question?",
+     "그런 종류의 질문(일)을"
+    ]
+   ],
+   "words": [
+    [
+     "that kind of",
+     "그런 종류의"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t12",
+   "start": 475.87,
+   "end": 486.8,
+   "en": "It's also like you are pushing the employees to exercise.",
+   "ko": "직원들에게 운동을 밀어붙이는 것이기도 하네요.",
+   "dict": true,
+   "chunks": [
+    [
+     "It's also like",
+     "그건 또 ~같은 거네요"
+    ],
+    [
+     "you are pushing the employees",
+     "직원들을 밀어붙이는"
+    ],
+    [
+     "to exercise.",
+     "운동하도록"
+    ]
+   ],
+   "words": [
+    [
+     "push A to ~",
+     "A가 ~하도록 밀어붙이다"
+    ],
+    [
+     "employee",
+     "직원"
+    ],
+    [
+     "exercise",
+     "운동하다"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t13",
+   "start": 585.34,
+   "end": 589.8,
+   "en": "Wow! Their kids are so lucky!",
+   "ko": "우와! 그 집 아이들은 정말 운이 좋네요!",
+   "dict": true,
+   "chunks": [
+    [
+     "Wow!",
+     "우와!"
+    ],
+    [
+     "Their kids",
+     "그들의 아이들은"
+    ],
+    [
+     "are so lucky!",
+     "정말 운이 좋네요"
+    ]
+   ],
+   "words": [
+    [
+     "lucky",
+     "운이 좋은"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t14",
+   "start": 592.55,
+   "end": 604.27,
+   "en": "It's like their mom and dad don't need to buy them anything. Samsung will provide the gift.",
+   "ko": "엄마 아빠가 따로 사줄 필요가 없는 거죠. 삼성이 선물을 주니까요.",
+   "dict": false,
+   "chunks": [
+    [
+     "It's like",
+     "~하는 거죠"
+    ],
+    [
+     "their mom and dad",
+     "엄마 아빠가"
+    ],
+    [
+     "don't need to buy them anything.",
+     "아이들에게 아무것도 사줄 필요가 없는"
+    ],
+    [
+     "Samsung will provide",
+     "삼성이 제공할 거니까요"
+    ],
+    [
+     "the gift.",
+     "선물을"
+    ]
+   ],
+   "words": [
+    [
+     "provide",
+     "제공하다"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t15",
+   "start": 607.75,
+   "end": 613.35,
+   "en": "Those are really cool cultures, right?",
+   "ko": "정말 멋진 문화들이네요, 그렇죠?",
+   "dict": true,
+   "chunks": [
+    [
+     "Those are",
+     "그것들은"
+    ],
+    [
+     "really cool cultures,",
+     "정말 멋진 문화네요"
+    ],
+    [
+     "right?",
+     "그렇죠?"
+    ]
+   ],
+   "words": [
+    [
+     "cool",
+     "멋진"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t16",
+   "start": 617.56,
+   "end": 625.6,
+   "en": "Samsung is also generous in their employees' compensation — their salary.",
+   "ko": "삼성은 직원 보상, 즉 급여도 후하다고 하죠.",
+   "dict": false,
+   "chunks": [
+    [
+     "Samsung is also generous",
+     "삼성은 또 후해요"
+    ],
+    [
+     "in their employees' compensation",
+     "직원 보상에 있어서"
+    ],
+    [
+     "their salary.",
+     "즉 급여요"
+    ]
+   ],
+   "words": [
+    [
+     "generous",
+     "후한, 너그러운"
+    ],
+    [
+     "compensation",
+     "보상(급여·보너스·복지 전체)"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t17",
+   "start": 643.12,
+   "end": 649.7,
+   "en": "So it means that the company is really good at handling their employees.",
+   "ko": "그만큼 회사가 직원을 잘 챙긴다는 뜻이죠.",
+   "dict": true,
+   "chunks": [
+    [
+     "So it means",
+     "그러니까 ~라는 뜻이에요"
+    ],
+    [
+     "that the company is really good",
+     "회사가 정말 잘한다는"
+    ],
+    [
+     "at handling their employees.",
+     "직원을 다루는(챙기는) 걸"
+    ]
+   ],
+   "words": [
+    [
+     "be good at ~ing",
+     "~을 잘하다"
+    ],
+    [
+     "handle",
+     "다루다, 관리하다"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t18",
+   "start": 675.93,
+   "end": 685.52,
+   "en": "Yes, that's right. And it also shows that the workers are very important to them.",
+   "ko": "맞아요. 그리고 회사가 직원을 아주 중요하게 여긴다는 뜻이기도 하고요.",
+   "dict": false,
+   "chunks": [
+    [
+     "Yes, that's right.",
+     "네, 맞아요"
+    ],
+    [
+     "And it also shows",
+     "그리고 그건 또 보여줘요"
+    ],
+    [
+     "that the workers are very important",
+     "직원들이 아주 중요하다는 걸"
+    ],
+    [
+     "to them.",
+     "그들(회사)에게"
+    ]
+   ],
+   "words": [
+    [
+     "show that ~",
+     "~라는 걸 보여주다"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t19",
+   "start": 687.3,
+   "end": 707.65,
+   "en": "Because some companies don't pay their workers well. It means they don't give importance to the employees.",
+   "ko": "어떤 회사들은 직원들에게 급여를 제대로 주지 않거든요. 직원을 중요하게 여기지 않는다는 뜻이에요.",
+   "dict": false,
+   "chunks": [
+    [
+     "Because some companies",
+     "왜냐하면 어떤 회사들은"
+    ],
+    [
+     "don't pay their workers well.",
+     "직원에게 돈을 잘 안 줘요"
+    ],
+    [
+     "It means",
+     "그건 ~라는 뜻이에요"
+    ],
+    [
+     "they don't give importance",
+     "중요성을 주지 않는다(중요하게 안 여긴다)"
+    ],
+    [
+     "to the employees.",
+     "직원들에게"
+    ]
+   ],
+   "words": [
+    [
+     "give importance to",
+     "~을 중요하게 여기다"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t20",
+   "start": 731.65,
+   "end": 744.1,
+   "en": "The salary here is good. Actually, I was working at a different company before. I worked there for like seven years.",
+   "ko": "여기 급여는 좋아요. 사실 전에는 다른 회사에서 일했어요. 거기서 7년 정도 일했죠.",
+   "dict": false,
+   "chunks": [
+    [
+     "The salary here is good.",
+     "여기 급여는 좋아요"
+    ],
+    [
+     "Actually,",
+     "사실은"
+    ],
+    [
+     "I was working at a different company before.",
+     "전에는 다른 회사에서 일했어요"
+    ],
+    [
+     "I worked there",
+     "거기서 일했어요"
+    ],
+    [
+     "for like seven years.",
+     "7년 정도"
+    ]
+   ],
+   "words": [
+    [
+     "for like + 기간",
+     "~정도 동안"
+    ],
+    [
+     "actually",
+     "사실은"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t21",
+   "start": 750.85,
+   "end": 758.37,
+   "en": "I'm just kind of sad because for those seven years there was no salary increase.",
+   "ko": "좀 슬픈 게, 7년 동안 급여 인상이 없었어요.",
+   "dict": true,
+   "chunks": [
+    [
+     "I'm just kind of sad",
+     "좀 슬퍼요"
+    ],
+    [
+     "because for those seven years",
+     "왜냐하면 그 7년 동안"
+    ],
+    [
+     "there was no salary increase.",
+     "급여 인상이 없었거든요"
+    ]
+   ],
+   "words": [
+    [
+     "kind of",
+     "좀, 약간"
+    ],
+    [
+     "increase",
+     "인상, 증가"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t22",
+   "start": 765.86,
+   "end": 770.69,
+   "en": "The salary did not go up.",
+   "ko": "급여가 오르지 않았죠.",
+   "dict": true,
+   "chunks": [
+    [
+     "The salary",
+     "급여가"
+    ],
+    [
+     "did not go up.",
+     "오르지 않았어요"
+    ]
+   ],
+   "words": [
+    [
+     "go up",
+     "오르다"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t23",
+   "start": 773.47,
+   "end": 781.69,
+   "en": "That's the sad part. I actually liked the company because it's not stressful.",
+   "ko": "그게 슬픈 부분이에요. 스트레스가 없어서 회사 자체는 좋았거든요.",
+   "dict": true,
+   "chunks": [
+    [
+     "That's the sad part.",
+     "그게 슬픈 부분이에요"
+    ],
+    [
+     "I actually liked the company",
+     "사실 회사는 좋아했어요"
+    ],
+    [
+     "because it's not stressful.",
+     "스트레스가 없어서"
+    ]
+   ],
+   "words": [
+    [
+     "stressful",
+     "스트레스가 많은"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t24",
+   "start": 797.38,
+   "end": 809.03,
+   "en": "Usually in the Philippines, if you are in a company for a long time, there will be an addition to your salary, right?",
+   "ko": "보통 필리핀에서는 한 회사에 오래 다니면 급여가 더 붙잖아요?",
+   "dict": false,
+   "chunks": [
+    [
+     "Usually in the Philippines,",
+     "보통 필리핀에서는"
+    ],
+    [
+     "if you are in a company for a long time,",
+     "한 회사에 오래 있으면"
+    ],
+    [
+     "there will be an addition",
+     "추가가 있잖아요"
+    ],
+    [
+     "to your salary, right?",
+     "급여에"
+    ]
+   ],
+   "words": [
+    [
+     "addition",
+     "추가, 더해진 것"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t25",
+   "start": 809.56,
+   "end": 823.59,
+   "en": "Like an increase or a bonus. But even a bonus — no bonus. So that's kind of sad. That's why I left.",
+   "ko": "인상이나 보너스 같은 거요. 그런데 보너스조차 없었어요. 그래서 그만두었어요.",
+   "dict": false,
+   "chunks": [
+    [
+     "Like an increase or a bonus.",
+     "인상이나 보너스 같은 거요"
+    ],
+    [
+     "But even a bonus",
+     "그런데 보너스조차"
+    ],
+    [
+     "no bonus.",
+     "없었어요"
+    ],
+    [
+     "So that's kind of sad.",
+     "그래서 좀 슬펐죠"
+    ],
+    [
+     "That's why I left.",
+     "그래서 그만뒀어요"
+    ]
+   ],
+   "words": [
+    [
+     "even",
+     "~조차"
+    ],
+    [
+     "That's why ~",
+     "그래서 ~한 거예요"
+    ],
+    [
+     "leave (left)",
+     "떠나다, 그만두다"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t26",
+   "start": 829.88,
+   "end": 843.74,
+   "en": "This company is very good. You will really feel that they're taking care of their teachers.",
+   "ko": "지금 회사는 아주 좋아요. 강사들을 정말 챙겨 준다는 게 느껴져요.",
+   "dict": true,
+   "chunks": [
+    [
+     "This company is very good.",
+     "이 회사는 아주 좋아요"
+    ],
+    [
+     "You will really feel",
+     "정말 느끼게 될 거예요"
+    ],
+    [
+     "that they're taking care of",
+     "그들이 챙기고 있다는 걸"
+    ],
+    [
+     "their teachers.",
+     "강사들을"
+    ]
+   ],
+   "words": [
+    [
+     "take care of",
+     "챙기다, 돌보다"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t27",
+   "start": 859.87,
+   "end": 865.68,
+   "en": "We have a Korean manager and we have a Filipino manager.",
+   "ko": "한국인 매니저와 필리핀 매니저가 있어요.",
+   "dict": true,
+   "chunks": [
+    [
+     "We have a Korean manager",
+     "한국인 매니저가 있고"
+    ],
+    [
+     "and we have a Filipino manager.",
+     "필리핀 매니저가 있어요"
+    ]
+   ],
+   "words": [
+    [
+     "Filipino",
+     "필리핀 사람(의)"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t28",
+   "start": 905.17,
+   "end": 912.78,
+   "en": "And in the Philippines, the Filipino manager is the one who manages here.",
+   "ko": "필리핀에서는 필리핀 매니저가 이쪽을 관리하고요.",
+   "dict": false,
+   "chunks": [
+    [
+     "And in the Philippines,",
+     "그리고 필리핀에서는"
+    ],
+    [
+     "the Filipino manager",
+     "필리핀 매니저가"
+    ],
+    [
+     "is the one who manages here.",
+     "여기를 관리하는 사람이에요"
+    ]
+   ],
+   "words": [
+    [
+     "the one who ~",
+     "~하는 사람"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t29",
+   "start": 920.7,
+   "end": 928.27,
+   "en": "That is very good because we have some language barrier.",
+   "ko": "그게 아주 좋은 게, 우리에겐 언어 장벽이 있거든요.",
+   "dict": true,
+   "chunks": [
+    [
+     "That is very good",
+     "그게 아주 좋아요"
+    ],
+    [
+     "because we have",
+     "왜냐하면 우리에게는 있거든요"
+    ],
+    [
+     "some language barrier.",
+     "언어 장벽이"
+    ]
+   ],
+   "words": [
+    [
+     "language barrier",
+     "언어 장벽"
+    ],
+    [
+     "barrier",
+     "장벽, 장애물"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t30",
+   "start": 930.57,
+   "end": 939.64,
+   "en": "A language barrier is like… our language sometimes stops us from communicating well.",
+   "ko": "언어 장벽이란, 언어 때문에 가끔 소통이 잘 안 되는 걸 말해요.",
+   "dict": true,
+   "chunks": [
+    [
+     "A language barrier is like…",
+     "언어 장벽이란 ~같은 거예요"
+    ],
+    [
+     "our language",
+     "우리의 언어가"
+    ],
+    [
+     "sometimes stops us",
+     "가끔 우리를 막아요"
+    ],
+    [
+     "from communicating well.",
+     "소통을 잘 하는 걸"
+    ]
+   ],
+   "words": [
+    [
+     "stop A from ~ing",
+     "A가 ~하는 것을 막다"
+    ],
+    [
+     "communicate",
+     "소통하다"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t31",
+   "start": 947.89,
+   "end": 954.8,
+   "en": "We don't know how to speak Korean, so they need a Korean to handle things in Korea.",
+   "ko": "우리는 한국어를 못 하니까, 한국 일을 처리할 한국인이 필요하죠.",
+   "dict": false,
+   "chunks": [
+    [
+     "We don't know how to speak Korean,",
+     "우리는 한국어를 할 줄 몰라요"
+    ],
+    [
+     "so they need a Korean",
+     "그래서 한국인이 필요해요"
+    ],
+    [
+     "to handle things in Korea.",
+     "한국에서 일을 처리할"
+    ]
+   ],
+   "words": [
+    [
+     "how to ~",
+     "~하는 방법"
+    ],
+    [
+     "handle things",
+     "일을 처리하다"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t32",
+   "start": 1002.9,
+   "end": 1012.92,
+   "en": "The compensation here is really good.",
+   "ko": "여기 보상은 정말 좋아요.",
+   "dict": true,
+   "chunks": [
+    [
+     "The compensation here",
+     "여기 보상(급여)은"
+    ],
+    [
+     "is really good.",
+     "정말 좋아요"
+    ]
+   ],
+   "words": [
+    [
+     "compensation",
+     "보상, 급여"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t33",
+   "start": 1061.74,
+   "end": 1070.49,
+   "en": "That is the reason why a lot of Filipinos are working abroad — because of the low compensation here in the Philippines.",
+   "ko": "그래서 많은 필리핀 사람들이 해외에서 일해요. 필리핀의 낮은 보수 때문이죠.",
+   "dict": false,
+   "chunks": [
+    [
+     "That is the reason why",
+     "그게 ~한 이유예요"
+    ],
+    [
+     "a lot of Filipinos are working abroad",
+     "많은 필리핀 사람들이 해외에서 일하는"
+    ],
+    [
+     "because of the low compensation",
+     "낮은 보수 때문에"
+    ],
+    [
+     "here in the Philippines.",
+     "이곳 필리핀의"
+    ]
+   ],
+   "words": [
+    [
+     "the reason why ~",
+     "~한 이유"
+    ],
+    [
+     "abroad",
+     "해외에서"
+    ],
+    [
+     "low",
+     "낮은"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t34",
+   "start": 1079.07,
+   "end": 1084.21,
+   "en": "They just go to other countries because their salary will get doubled.",
+   "ko": "급여가 두 배가 되니까 그냥 다른 나라로 가버려요.",
+   "dict": true,
+   "chunks": [
+    [
+     "They just go to other countries",
+     "그냥 다른 나라로 가요"
+    ],
+    [
+     "because their salary",
+     "왜냐하면 급여가"
+    ],
+    [
+     "will get doubled.",
+     "두 배가 되니까요"
+    ]
+   ],
+   "words": [
+    [
+     "double / get doubled",
+     "두 배가 되다"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t35",
+   "start": 1098.34,
+   "end": 1109.27,
+   "en": "Let's say three months of salary here in the Philippines is like only one month in another country.",
+   "ko": "필리핀에서 3개월 치 급여가 다른 나라에서는 한 달 치밖에 안 된다고 보면 돼요.",
+   "dict": false,
+   "chunks": [
+    [
+     "Let's say",
+     "예를 들어 보면"
+    ],
+    [
+     "three months of salary",
+     "3개월 치 급여가"
+    ],
+    [
+     "here in the Philippines",
+     "여기 필리핀에서의"
+    ],
+    [
+     "is like only one month",
+     "겨우 한 달 치 정도예요"
+    ],
+    [
+     "in another country.",
+     "다른 나라에서는"
+    ]
+   ],
+   "words": [
+    [
+     "Let's say ~",
+     "예를 들어 ~라고 해 봐요"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t36",
+   "start": 1132.52,
+   "end": 1141.55,
+   "en": "If you are single and you don't have your own family yet, this work is good.",
+   "ko": "아직 미혼이고 가정이 없다면 이 일은 괜찮아요.",
+   "dict": true,
+   "chunks": [
+    [
+     "If you are single",
+     "미혼이고"
+    ],
+    [
+     "and you don't have your own family yet,",
+     "아직 자기 가정이 없다면"
+    ],
+    [
+     "this work is good.",
+     "이 일은 괜찮아요"
+    ]
+   ],
+   "words": [
+    [
+     "single",
+     "미혼의"
+    ],
+    [
+     "yet",
+     "아직"
+    ]
+   ],
+   "core": false
+  },
+  {
+   "id": "t37",
+   "start": 1155.79,
+   "end": 1160.81,
+   "en": "You just have to take a lot of classes if you want a higher salary.",
+   "ko": "급여를 더 받고 싶으면 수업을 많이 하면 돼요.",
+   "dict": true,
+   "chunks": [
+    [
+     "You just have to",
+     "그냥 ~하기만 하면 돼요"
+    ],
+    [
+     "take a lot of classes",
+     "수업을 많이 맡다"
+    ],
+    [
+     "if you want a higher salary.",
+     "더 높은 급여를 원하면"
+    ]
+   ],
+   "words": [
+    [
+     "have to",
+     "~해야 한다"
+    ],
+    [
+     "take classes",
+     "수업을 맡다(듣다)"
+    ]
+   ],
+   "core": true
+  },
+  {
+   "id": "t38",
+   "start": 1164.56,
+   "end": 1172.3,
+   "en": "I think our time is up, sir. Happy weekend, I'll see you on Monday.",
+   "ko": "시간이 다 된 것 같아요. 즐거운 주말 보내시고 월요일에 봬요.",
+   "dict": true,
+   "chunks": [
+    [
+     "I think",
+     "~인 것 같아요"
+    ],
+    [
+     "our time is up, sir.",
+     "우리 시간이 다 됐어요"
+    ],
+    [
+     "Happy weekend,",
+     "즐거운 주말 보내세요"
+    ],
+    [
+     "I'll see you on Monday.",
+     "월요일에 봬요"
+    ]
+   ],
+   "words": [
+    [
+     "be up (시간)",
+     "다 되다, 끝나다"
+    ]
+   ],
+   "core": false
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "family control company",
+   "better": "a family-controlled company",
+   "ko": "가족이 지배하는 회사",
+   "tip": "명사 앞에서 꾸밀 때는 하이픈 + -ed"
+  },
+  {
+   "mine": "You bone the sess",
+   "better": "They also give bonuses.",
+   "ko": "보너스도 줘요",
+   "tip": "bonus 발음: 보-너스(BOH-nus), 복수 bonuses"
+  },
+  {
+   "mine": "compensation of salary",
+   "better": "generous with employee compensation",
+   "ko": "직원 보상이 후하다",
+   "tip": "compensation 하나로 급여+보너스+복지를 포괄"
+  },
+  {
+   "mine": "climb the mountain at my interview",
+   "better": "At my job interview, we all climbed a mountain.",
+   "ko": "면접 때 다 같이 산에 올랐어요",
+   "tip": "과거 일은 과거형 climbed"
+  },
+  {
+   "mine": "is obeyed, obeyed",
+   "better": "It was mandatory.",
+   "ko": "의무였어요",
+   "tip": "mandatory / obligatory = 의무적인"
+  },
+  {
+   "mine": "Let's take many on... share their worker",
+   "better": "The company shares its profits with its employees.",
+   "ko": "회사가 이익을 직원과 나눠요",
+   "tip": "share A with B"
+  },
+  {
+   "mine": "more class, extra, you... Do you pay extra money?",
+   "better": "Do you get paid extra if you teach more classes?",
+   "ko": "수업을 더 하면 추가 수당을 받나요?",
+   "tip": "get paid extra = 추가로 돈을 받다"
+  },
+  {
+   "mine": "I am parking in my car",
+   "better": "I'm parked in my car.",
+   "ko": "차를 세워두고 그 안에 있어요",
+   "tip": "parking은 주차하는 중, parked는 주차된 상태"
+  }
+ ],
+ "phrases": [
+  {
+   "en": "give importance to",
+   "ko": "~을 중요하게 여기다",
+   "ex": "They don't give importance to the employees."
+  },
+  {
+   "en": "take care of",
+   "ko": "~을 챙기다, 돌보다",
+   "ex": "They're taking care of their teachers."
+  },
+  {
+   "en": "be good at handling",
+   "ko": "~을 잘 다루다",
+   "ex": "The company is really good at handling their employees."
+  },
+  {
+   "en": "no salary increase",
+   "ko": "급여 인상 없음",
+   "ex": "For seven years there was no salary increase."
+  },
+  {
+   "en": "go up",
+   "ko": "오르다",
+   "ex": "The salary did not go up."
+  },
+  {
+   "en": "language barrier",
+   "ko": "언어 장벽",
+   "ex": "We have some language barrier."
+  },
+  {
+   "en": "work abroad",
+   "ko": "해외에서 일하다",
+   "ex": "A lot of Filipinos are working abroad."
+  },
+  {
+   "en": "get doubled",
+   "ko": "두 배가 되다",
+   "ex": "Their salary will get doubled."
+  },
+  {
+   "en": "push someone to",
+   "ko": "~에게 …하도록 밀어붙이다",
+   "ex": "You are pushing the employees to exercise."
+  },
+  {
+   "en": "Our time is up.",
+   "ko": "시간이 다 됐어요",
+   "ex": "I think our time is up, sir."
+  }
+ ],
+ "next": {
+  "q": "When thinking about getting a job, do you think about cultural fit? Will you try to fit their culture? Or are you looking for a company culture that matches your character?",
+  "ko": "취업할 때 문화적 적합성을 생각하나요? 그 회사 문화에 맞추려 하나요, 아니면 내 성격에 맞는 회사 문화를 찾나요?",
+  "starters": [
+   {
+    "en": "Yes, I think cultural fit is very important.",
+    "ko": "네, 문화적 적합성은 아주 중요하다고 생각해요."
+   },
+   {
+    "en": "When I was younger, I tried to fit the company's culture.",
+    "ko": "젊었을 때는 회사 문화에 맞추려고 했어요."
+   },
+   {
+    "en": "Now I look for a company culture that matches my character.",
+    "ko": "지금은 제 성격에 맞는 회사 문화를 찾아요."
+   },
+   {
+    "en": "For example, at my old company, everyone had to climb a mountain together.",
+    "ko": "예를 들어 예전 회사에서는 모두 함께 산에 올라야 했어요."
+   },
+   {
+    "en": "If the culture doesn't fit you, you can't stay long.",
+    "ko": "문화가 안 맞으면 오래 다닐 수 없어요."
+   }
+  ]
+ },
+ "minutes": 20
+}

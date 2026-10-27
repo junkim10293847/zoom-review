@@ -1,0 +1,77 @@
+name: 줌 수업 자동 정리
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'      # 15분마다 새 녹화 확인 (없으면 몇 초 만에 끝남)
+  workflow_dispatch: {}         # Actions 탭에서 'Run workflow'로 바로 실행
+  repository_dispatch:
+    types: [zoom]               # (선택) Apps Script가 업로드 직후 바로 호출
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zoom
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      ZOOM_KEY: ${{ secrets.ZOOM_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      SHERPA_VER: '1.13.8'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 새 녹화 확인
+        id: plan
+        run: python scripts/process.py --plan
+
+      - name: 음성 도구 캐시
+        if: steps.plan.outputs.todo != '0'
+        uses: actions/cache@v4
+        with:
+          path: .sherpa
+          key: sherpa-${{ env.SHERPA_VER }}-whisper-small-en-v1
+
+      - name: 음성 도구 내려받기 (처음 한 번)
+        if: steps.plan.outputs.todo != '0'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          if [ ! -f .sherpa/models/whisper-tokens.txt ]; then
+            mkdir -p .sherpa/models && cd .sherpa
+            R=https://github.com/k2-fsa/sherpa-onnx/releases/download
+            curl -sSL $R/v$SHERPA_VER/sherpa-onnx-v$SHERPA_VER-linux-x64-shared.tar.bz2 | tar xj
+            mv sherpa-onnx-v$SHERPA_VER-linux-x64-shared/bin sherpa-onnx-v$SHERPA_VER-linux-x64-shared/lib . && rm -rf sherpa-onnx-v$SHERPA_VER-linux-x64-shared
+            curl -sSL $R/speaker-segmentation-models/sherpa-onnx-pyannote-segmentation-3-0.tar.bz2 | tar xj
+            mv sherpa-onnx-pyannote-segmentation-3-0/model.onnx models/segmentation.onnx && rm -rf sherpa-onnx-pyannote-segmentation-3-0
+            curl -sSL -o models/embedding.onnx $R/speaker-recongition-models/3dspeaker_speech_eres2net_base_sv_zh-cn_3dspeaker_16k.onnx
+            curl -sSL $R/asr-models/sherpa-onnx-whisper-small.en.tar.bz2 | tar xj
+            W=sherpa-onnx-whisper-small.en
+            mv $W/small.en-encoder.int8.onnx models/whisper-encoder.onnx
+            mv $W/small.en-decoder.int8.onnx models/whisper-decoder.onnx
+            mv $W/small.en-tokens.txt models/whisper-tokens.txt
+            rm -rf $W
+          fi
+          ls -la .sherpa/models
+
+      - name: 녹화 정리 (화자 분리 → 받아쓰기 → Gemini 해석)
+        if: steps.plan.outputs.todo != '0'
+        run: python scripts/process.py
+
+      - name: 저장소에 올리기
+        if: steps.plan.outputs.todo != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A audio data
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "줌 수업 자동 정리"
+          git pull --rebase -q origin main
+          git push
