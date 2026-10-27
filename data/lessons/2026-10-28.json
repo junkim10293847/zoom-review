@@ -1,0 +1,817 @@
+{
+ "date": "2026-10-28",
+ "audio": "audio/2026-10-28.mp3",
+ "minutes": 21,
+ "topic": "Halloween Costumes and Manners",
+ "topicKo": "할로윈 의상과 예절에 관한 대화",
+ "teacher": "Teacher",
+ "summary": "선생님과 학생이 할로윈 문화, 아이들의 코스튬, 그리고 한국과 필리핀의 예절 문화에 대해 이야기 나누었습니다.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 58.67,
+   "end": 63.88,
+   "en": "Alright, so did you eat breakfast? I think no, not yet.",
+   "ko": "아침 식사는 하셨나요? 아직 안 하신 것 같네요.",
+   "chunks": [
+    [
+     "Alright, so did you eat breakfast?",
+     "자, 아침 식사 하셨나요?"
+    ],
+    [
+     "I think no, not yet.",
+     "제 생각엔 아직 안 하신 것 같아요."
+    ]
+   ],
+   "words": [
+    [
+     "not yet",
+     "아직 아니요"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t2",
+   "start": 260.52,
+   "end": 267.85,
+   "en": "Sometimes it's so hard to wake up especially now because it's cold in the morning.",
+   "ko": "특히 요즘은 아침에 날씨가 추워서 일어나기가 정말 힘들 때가 있어요.",
+   "chunks": [
+    [
+     "Sometimes it's so hard to wake up",
+     "일어나기 힘들 때가 종종 있어요"
+    ],
+    [
+     "especially now",
+     "특히 요즘은"
+    ],
+    [
+     "because it's cold in the morning.",
+     "아침에 추우니까요."
+    ]
+   ],
+   "words": [
+    [
+     "especially",
+     "특히"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t3",
+   "start": 286.56,
+   "end": 294.29,
+   "en": "Yeah, I feel that too. But yeah, work is work so you need to wake up early.",
+   "ko": "네, 저도 그렇게 느껴요. 하지만 일은 일이니까 일찍 일어나야죠.",
+   "chunks": [
+    [
+     "Yeah, I feel that too.",
+     "네, 저도 그렇게 느껴요."
+    ],
+    [
+     "But yeah, work is work",
+     "하지만 일은 일이니까"
+    ],
+    [
+     "so you need to wake up early.",
+     "일찍 일어나야 해요."
+    ]
+   ],
+   "words": [
+    [
+     "work is work",
+     "일은 일이다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t4",
+   "start": 358.14,
+   "end": 365.2,
+   "en": "Since Halloween is coming, can you talk about Halloween is coming?",
+   "ko": "할로윈이 다가오고 있으니까, 할로윈에 대해 이야기해 볼까요?",
+   "chunks": [
+    [
+     "Since Halloween is coming,",
+     "할로윈이 다가오고 있으니,"
+    ],
+    [
+     "can you talk about",
+     "이야기해 볼 수 있나요?"
+    ]
+   ],
+   "words": [
+    [
+     "is coming",
+     "다가오고 있다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t5",
+   "start": 388.5,
+   "end": 394.67,
+   "en": "So is Halloween an important day in your country and what does it mean to you?",
+   "ko": "그렇다면 할로윈은 당신의 나라에서 중요한 날인가요, 그리고 당신에게는 어떤 의미인가요?",
+   "chunks": [
+    [
+     "So is Halloween an important day",
+     "할로윈이 중요한 날인가요"
+    ],
+    [
+     "in your country",
+     "당신의 나라에서"
+    ],
+    [
+     "and what does it mean to you?",
+     "그리고 당신에게 어떤 의미인가요?"
+    ]
+   ],
+   "words": [
+    [
+     "important",
+     "중요한"
+    ],
+    [
+     "mean",
+     "의미하다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t6",
+   "start": 575.56,
+   "end": 580.27,
+   "en": "So kids like princess and like superheroes costumes.",
+   "ko": "아이들은 공주나 슈퍼히어로 같은 의상을 좋아해요.",
+   "chunks": [
+    [
+     "So kids like princess",
+     "그래서 아이들은 공주님을 좋아하고"
+    ],
+    [
+     "and like superheroes costumes.",
+     "슈퍼히어로 의상 같은 것을 좋아해요."
+    ]
+   ],
+   "words": [
+    [
+     "costume",
+     "의상, 복장"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t7",
+   "start": 582.75,
+   "end": 585.34,
+   "en": "They don't wear scary costumes.",
+   "ko": "그들은 무서운 의상을 입지 않아요.",
+   "chunks": [
+    [
+     "They don't wear",
+     "그들은 입지 않아요"
+    ],
+    [
+     "scary costumes.",
+     "무서운 의상을."
+    ]
+   ],
+   "words": [
+    [
+     "scary",
+     "무서운"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t8",
+   "start": 721.79,
+   "end": 729.77,
+   "en": "So like people like Halloween here in the Philippines. So Halloween is supposed to be like the day of the dead.",
+   "ko": "필리핀 사람들은 할로윈을 좋아해요. 그래서 할로윈은 일종의 '죽은 자들의 날'이랍니다.",
+   "chunks": [
+    [
+     "So people like Halloween",
+     "사람들은 할로윈을 좋아해요"
+    ],
+    [
+     "here in the Philippines.",
+     "여기 필리핀에서."
+    ],
+    [
+     "So Halloween is supposed to be",
+     "그러니까 할로윈은 ~인 셈이에요"
+    ],
+    [
+     "like the day of the dead.",
+     "죽은 자들의 날 같은 것이죠."
+    ]
+   ],
+   "words": [
+    [
+     "supposed to",
+     "~하기로 되어 있다, ~인 셈이다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t9",
+   "start": 761.47,
+   "end": 770.3,
+   "en": "It's similar with Thanksgiving Day and also like spirit worship.",
+   "ko": "추수감사절과 비슷하고 영혼을 기리는 것과도 비슷해요.",
+   "chunks": [
+    [
+     "It's similar with Thanksgiving Day",
+     "추수감사절과 비슷하고"
+    ],
+    [
+     "and also like spirit worship.",
+     "영혼 숭배와도 비슷해요."
+    ]
+   ],
+   "words": [
+    [
+     "similar",
+     "비슷한"
+    ],
+    [
+     "worship",
+     "숭배, 예배"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t10",
+   "start": 875.05,
+   "end": 878.39,
+   "en": "Oh, then we have the first question: Are you a polite person?",
+   "ko": "아, 그럼 첫 번째 질문이 있네요: 당신은 예의 바른 사람이인가요?",
+   "chunks": [
+    [
+     "Oh, then we have",
+     "아, 그럼 우리는 가지고 있어요"
+    ],
+    [
+     "the first question:",
+     "첫 번째 질문을:"
+    ],
+    [
+     "Are you a polite person?",
+     "당신은 예의 바른 사람인가요?"
+    ]
+   ],
+   "words": [
+    [
+     "polite",
+     "예의 바른"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t11",
+   "start": 925.31,
+   "end": 930.14,
+   "en": "What are some things that people do to be polite in Korea?",
+   "ko": "한국에서 사람들이 예의를 갖추기 위해 하는 행동들에는 어떤 것이 있나요?",
+   "chunks": [
+    [
+     "What are some things",
+     "어떤 것들이 있나요"
+    ],
+    [
+     "that people do",
+     "사람들이 하는"
+    ],
+    [
+     "to be polite in Korea?",
+     "한국에서 예의 바르기 위해?"
+    ]
+   ],
+   "words": [
+    [
+     "polite",
+     "예의 바른"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t12",
+   "start": 983.39,
+   "end": 999.52,
+   "en": "I think you show how to be polite by like bowing. So that is one of the trademarks in Korea.",
+   "ko": "한국에서는 인사할 때 절을 함으로써 예의를 갖추는 것을 보여준다고 생각해요. 그것이 한국의 트레이드마크 중 하나죠.",
+   "chunks": [
+    [
+     "I think you show how to be polite",
+     "예의를 갖추는 것을 보여준다고 생각해요"
+    ],
+    [
+     "by like bowing.",
+     "절을 하는 것 등으로요."
+    ],
+    [
+     "So that is one of the trademarks",
+     "그것은 트레이드마크 중 하나예요"
+    ],
+    [
+     "in Korea.",
+     "한국에서."
+    ]
+   ],
+   "words": [
+    [
+     "bowing",
+     "절하기, 인사하기"
+    ],
+    [
+     "trademark",
+     "상징, 특징"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  }
+ ],
+ "mine": [
+  {
+   "id": "m1",
+   "start": 26.73,
+   "end": 32.46,
+   "said": "Can you hear me? Can you see me?",
+   "better": "Can you hear me? Can you see me?",
+   "ko": "제 목소리 들리세요? 제 화면 보이세요?",
+   "errors": []
+  },
+  {
+   "id": "m2",
+   "start": 37.53,
+   "end": 44.83,
+   "said": "Oh, today... Your background is...",
+   "better": "Oh, today your background looks different.",
+   "ko": "오늘 배경 화면이 달라 보이네요.",
+   "errors": []
+  },
+  {
+   "id": "m3",
+   "start": 144.23,
+   "end": 151.92,
+   "said": "Do you have a class, people my class?",
+   "better": "Do you have a class before my class?",
+   "ko": "제 수업 전에 다른 수업이 있으세요?",
+   "errors": [
+    {
+     "wrong": "people my class",
+     "right": "before my class",
+     "why": "발음 오류 ('before'가 'people'로 잘못 발음/인식됨)"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "start": 156.7,
+   "end": 161.35,
+   "said": "Oh, you are very big.",
+   "better": "Oh, you are very busy.",
+   "ko": "아, 정말 바쁘시네요.",
+   "errors": [
+    {
+     "wrong": "big",
+     "right": "busy",
+     "why": "단어 선택 오류 (바쁘다는 의미의 'busy' 사용)"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "start": 177.53,
+   "end": 186.51,
+   "said": "Oh, very diligent, diligent.",
+   "better": "Oh, you are very diligent.",
+   "ko": "아, 정말 부지런하시네요.",
+   "errors": [
+    {
+     "wrong": "very diligent",
+     "right": "You are very diligent.",
+     "why": "문장 구조 오류 (주어와 동사 누락)"
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": 203.29,
+   "end": 206.58,
+   "said": "Oh, you know, he's busy",
+   "better": "Oh, I see. He must be busy.",
+   "ko": "아 그렇군요, 그분 많이 바쁘겠네요.",
+   "errors": []
+  },
+  {
+   "id": "m7",
+   "start": 214.21,
+   "end": 221.7,
+   "said": "I think he's very diligent",
+   "better": "I think he is very diligent.",
+   "ko": "그분 정말 부지런한 것 같아요.",
+   "errors": []
+  },
+  {
+   "id": "m8",
+   "start": 237.43,
+   "end": 251.24,
+   "said": "Actually, I wake up at about 6 o'clock.",
+   "better": "Actually, I wake up around 6 o'clock.",
+   "ko": "사실 저는 6시쯤에 일어나요.",
+   "errors": [
+    {
+     "wrong": "A wake up",
+     "right": "I wake up",
+     "why": "주어 대명사 발음 오류"
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "start": 258.2,
+   "end": 260.75,
+   "said": "but tired to very tired",
+   "better": "But I am very tired.",
+   "ko": "하지만 너무 피곤해요.",
+   "errors": [
+    {
+     "wrong": "tired to very tired",
+     "right": "I'm very tired",
+     "why": "문장 구조 오류 (주어와 동사 누락)"
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "start": 270.68,
+   "end": 282.41,
+   "said": "When the weather is cold, I hate to wake up.",
+   "better": "When it's cold, I hate waking up early.",
+   "ko": "날씨가 추우면 일찍 일어나는 게 정말 싫어요.",
+   "errors": []
+  },
+  {
+   "id": "m11",
+   "start": 283.13,
+   "end": 286.51,
+   "said": "I want to sleep",
+   "better": "I just want to sleep more.",
+   "ko": "더 자고 싶어요.",
+   "errors": []
+  },
+  {
+   "id": "m12",
+   "start": 302.77,
+   "end": 309.56,
+   "said": "10 years old?",
+   "better": "Is he 10 years old?",
+   "ko": "그 학생이 열 살이에요?",
+   "errors": [
+    {
+     "wrong": "10 years old?",
+     "right": "Is he 10 years old?",
+     "why": "의문문 형식 미갖춤 (동사 누락)"
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "start": 410.99,
+   "end": 428.23,
+   "said": "In 2020, Halloween festival is not for me",
+   "better": "Halloween isn't really a big deal to me.",
+   "ko": "할로윈 축제는 저에게 그리 친숙한 행사가 아니에요.",
+   "errors": [
+    {
+     "wrong": "Halloween festival is not for me",
+     "right": "Halloween isn't really a big deal to me",
+     "why": "어색한 표현 (할로윈 문화가 낯설다는 의미)"
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "start": 469.13,
+   "end": 493.22,
+   "said": "when my children were in kindergarten",
+   "better": "When my children were in kindergarten,",
+   "ko": "우리 아이들이 유치원에 다녔을 때,",
+   "errors": []
+  },
+  {
+   "id": "m15",
+   "start": 495.37,
+   "end": 518.02,
+   "said": "He, my son, well, Spider-Man or crocodile or crows.",
+   "better": "My son wore a Spider-Man or crocodile costume.",
+   "ko": "아들은 스파이더맨이나 악어 코스튬을 입었어요.",
+   "errors": [
+    {
+     "wrong": "Spider-Man or crocodile or crows",
+     "right": "a Spider-Man or crocodile costume",
+     "why": "단어 선택 오류 (할로윈 의상은 'costume' 사용)"
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "start": 523.06,
+   "end": 538.39,
+   "said": "And my daughter was in the kindergarten. She was Princess Cross.",
+   "better": "And when my daughter was in kindergarten, she wore a princess costume.",
+   "ko": "딸아이가 유치원에 다닐 때는 공주 옷을 입었어요.",
+   "errors": [
+    {
+     "wrong": "in the kindergarten",
+     "right": "in kindergarten",
+     "why": "관사 오류 (kindergarten 앞에는 관사 'the' 생략)"
+    },
+    {
+     "wrong": "Princess Cross",
+     "right": "a princess costume",
+     "why": "단어 오류 ('costume'을 잘못 표현함)"
+    }
+   ]
+  },
+  {
+   "id": "m17",
+   "start": 548.34,
+   "end": 567.92,
+   "said": "She wears my sons Spider-Man cross. My daughter wore.",
+   "better": "My daughter also wore my son's Spider-Man costume.",
+   "ko": "딸아이가 아들의 스파이더맨 옷을 물려 입기도 했어요.",
+   "errors": [
+    {
+     "wrong": "wears",
+     "right": "wore",
+     "why": "시제 오류 (과거 일 이야기)"
+    },
+    {
+     "wrong": "Spider-Man cross",
+     "right": "Spider-Man costume",
+     "why": "단어 오류 ('costume' 표현)"
+    }
+   ]
+  },
+  {
+   "id": "m18",
+   "start": 587.35,
+   "end": 592.26,
+   "said": "Although not scared.",
+   "better": "They were not scary.",
+   "ko": "무서운 의상은 아니었어요.",
+   "errors": [
+    {
+     "wrong": "Although not scared",
+     "right": "They were not scary",
+     "why": "형용사 및 문장 구조 오류 ('scary' 사용 및 주어-동사 누락)"
+    }
+   ]
+  },
+  {
+   "id": "m19",
+   "start": 654.58,
+   "end": 657.01,
+   "said": "Oh, very scared",
+   "better": "Oh, that looks really scary!",
+   "ko": "와, 정말 무섭네요!",
+   "errors": [
+    {
+     "wrong": "very scared",
+     "right": "very scary",
+     "why": "형용사 선택 오류 (사물/상황이 무서울 때는 'scary' 사용)"
+    }
+   ]
+  },
+  {
+   "id": "m20",
+   "start": 661.08,
+   "end": 689.93,
+   "said": "When my son in the elementary school, he bought plastic toys. They are from plastic.",
+   "better": "When my son was in elementary school, he bought plastic props.",
+   "ko": "아들이 초등학생이었을 때는 플라스틱 소품을 샀어요.",
+   "errors": [
+    {
+     "wrong": "in the elementary school",
+     "right": "in elementary school",
+     "why": "관사 오류 ('the' 생략)"
+    }
+   ]
+  },
+  {
+   "id": "m21",
+   "start": 831.41,
+   "end": 844.47,
+   "said": "And we are ready to candy or chocolate. We get able to",
+   "better": "We prepared candy and chocolate to give to the kids.",
+   "ko": "아이들에게 주려고 사탕이랑 초콜릿을 준비해 뒀어요.",
+   "errors": [
+    {
+     "wrong": "ready to candy",
+     "right": "prepared candy",
+     "why": "어휘 및 구문 오류 ('prepare' 사용)"
+    },
+    {
+     "wrong": "We get able to",
+     "right": "to give to them",
+     "why": "문맥에 맞지 않는 어색한 표현"
+    }
+   ]
+  },
+  {
+   "id": "m22",
+   "start": 886.53,
+   "end": 903.21,
+   "said": "Light but... Oh yes! I am this. Not lose. It is not good.",
+   "better": "Yes, I try to be polite. Being rude is not good.",
+   "ko": "네, 저는 예의 바르게 행동하려고 해요. 무례한 건 좋지 않으니까요.",
+   "errors": [
+    {
+     "wrong": "Light",
+     "right": "Polite",
+     "why": "발음 오류 ('polite'를 잘못 발음함)"
+    },
+    {
+     "wrong": "Not lose",
+     "right": "Not rude",
+     "why": "단어 오류 ('rude'를 'lose'로 잘못 발음)"
+    }
+   ]
+  },
+  {
+   "id": "m23",
+   "start": 948.26,
+   "end": 974.42,
+   "said": "When we meet someone, first we greeting, greeting. Hello, hi...",
+   "better": "When we meet someone, we greet them first by saying hello.",
+   "ko": "사람을 만날 때 먼저 인사를 건네요.",
+   "errors": [
+    {
+     "wrong": "we greeting",
+     "right": "we greet them",
+     "why": "품사 오류 (동사 'greet' 사용)"
+    }
+   ]
+  },
+  {
+   "id": "m24",
+   "start": 1013.51,
+   "end": 1016.81,
+   "said": "Right? So this peg is very important.",
+   "better": "Showing respect is very important.",
+   "ko": "존중을 표하는 것은 매우 중요해요.",
+   "errors": [
+    {
+     "wrong": "this peg",
+     "right": "respect",
+     "why": "발음/인식 오류 ('respect'를 잘못 발음함)"
+    }
+   ]
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "I wake up about",
+   "better": "I wake up at about 6 o'clock.",
+   "ko": "6시쯤에 일어나요.",
+   "tip": "시간 앞에는 전치사 at을 쓰고, 대략이라는 의미는 about을 써요."
+  },
+  {
+   "mine": "but tired to very tired",
+   "better": "but I was very tired.",
+   "ko": "하지만 아주 피곤했어요.",
+   "tip": "상태를 나타낼 때는 'tired' 형용사를 주어 다음에 be 동사와 함께 써요."
+  },
+  {
+   "mine": "Hate to wake up.",
+   "better": "I hate waking up early.",
+   "ko": "일찍 일어나는 게 싫어요.",
+   "tip": "hate 뒤에는 동명사(waking up)를 써서 구체적인 행동을 싫어한다는 것을 표현해요."
+  },
+  {
+   "mine": "First we greeting, greeting.",
+   "better": "First, we greet each other.",
+   "ko": "먼저 서로 인사를 나눕니다.",
+   "tip": "명사 greeting 대신 동사 greet를 사용해 문장을 완성해요."
+  },
+  {
+   "mine": "When we meet someone",
+   "better": "When we meet someone, we bow.",
+   "ko": "우리는 누군가를 만날 때 고개를 숙여 인사합니다.",
+   "tip": "부사절 뒤에 주어와 동사가 포함된 완전한 주절이 와야 해요."
+  },
+  {
+   "mine": "This peg is very important.",
+   "better": "Respect is very important.",
+   "ko": "존중은 매우 중요합니다.",
+   "tip": "발음 오류가 나기 쉬운 단어는 명확하게 'respect'로 발음해 주세요."
+  },
+  {
+   "mine": "Although not scared.",
+   "better": "They are not scary costumes.",
+   "ko": "그것들은 무서운 의상이 아니에요.",
+   "tip": "사람이 아닌 대상(의상)이 무서움을 주는 것이므로 scary를 써야 해요."
+  },
+  {
+   "mine": "We are ready to candy.",
+   "better": "We are ready with candies.",
+   "ko": "우리는 사탕을 준비해 둡니다.",
+   "tip": "준비된 상태를 나타낼 때는 'ready with' 또는 'prepare'를 사용해요."
+  }
+ ],
+ "phrases": [
+  {
+   "en": "I got hungry",
+   "ko": "배가 고파졌어요",
+   "ex": "We talked about food, so I got hungry."
+  },
+  {
+   "en": "Wake up early",
+   "ko": "일찍 일어나다",
+   "ex": "Work is work, so you need to wake up early."
+  },
+  {
+   "en": "Show respect",
+   "ko": "존경심을 표하다",
+   "ex": "Bowing is a way to show respect to adults."
+  },
+  {
+   "en": "Talk back",
+   "ko": "말대답하다",
+   "ex": "Children are not allowed to talk back to their parents."
+  },
+  {
+   "en": "Polite person",
+   "ko": "예의 바른 사람",
+   "ex": "Do you think you are a polite person?"
+  },
+  {
+   "en": "Trick or treat",
+   "ko": "트릭 오어 트릿 (핼러윈 행사)",
+   "ex": "My children went trick or treating in kindergarten."
+  },
+  {
+   "en": "Costume competition",
+   "ko": "의상 경연 대회",
+   "ex": "They have a Halloween costume competition in the village."
+  },
+  {
+   "en": "Have a good day",
+   "ko": "좋은 하루 보내세요",
+   "ex": "Thank you, have a good day!"
+  }
+ ],
+ "next": {
+  "q": "What are some traditional ways people in Korea show respect to older people or in the workplace?",
+  "ko": "한국에서 연로하신 분들이나 직장에서 예의를 표하는 전통적인 방법에는 어떤 것들이 있나요?",
+  "starters": [
+   {
+    "en": "In Korea, we usually bow when greeting older people.",
+    "ko": "한국에서는 보통 어른들께 인사할 때 고개를 숙여 인사합니다."
+   },
+   {
+    "en": "At work, we use honorific language with our seniors.",
+    "ko": "직장에서는 선배들이나 상사에게 존댓말을 씁니다."
+   },
+   {
+    "en": "When receiving something from an elder, we use two hands.",
+    "ko": "어른에게 물건을 받을 때는 두 손을 사용합니다."
+   },
+   {
+    "en": "We avoid crossing our legs in front of senior people.",
+    "ko": "어른들 앞에서 다리를 꼬고 앉지 않습니다."
+   },
+   {
+    "en": "Politeness and respecting seniors are very important in Korean culture.",
+    "ko": "예의와 어른 공경은 한국 문화에서 매우 중요합니다."
+   }
+  ]
+ }
+}
