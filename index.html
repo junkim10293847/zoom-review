@@ -155,7 +155,7 @@ mark.bad{background:none;color:var(--miss);text-decoration:underline wavy;text-u
 <audio id="aud" preload="none"></audio>
 
 <script>
-const API=(window.APP_CONFIG&&window.APP_CONFIG.api)||'';
+let API=(window.APP_CONFIG&&window.APP_CONFIG.api)||'';
 const $=s=>document.querySelector(s);
 const app=$('#app'), aud=$('#aud');
 const esc=t=>String(t??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -440,6 +440,8 @@ function prep(){
 
 /* ---------- 시작 ---------- */
 (async()=>{
+  /* 휴대폰이 예전 config.js를 기억하고 있어도 최신 서버 주소를 다시 확인 */
+  try{const t=await (await fetch('config.js?v='+Date.now())).text();const m=t.match(/api\s*:\s*["']([^"']+)["']/);if(m&&m[1]!==API)API=m[1]}catch(e){}
   try{await loadIndex()}catch(e){app.innerHTML='<div class="err">수업 목록을 불러오지 못했습니다. 새로고침해 주세요.</div>';return}
   await pullProgress();
   const h=location.hash.match(/^#d(\d{4})(\d{2})(\d{2})$/);
