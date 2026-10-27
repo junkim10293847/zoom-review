@@ -193,12 +193,44 @@ Rules: 6-10 fixes (most useful first), 8-10 phrases, 5 starters that the learner
 TRANSCRIPT:
 """
 
+PROMPT_MINE = """You are an English coach for a Korean adult learner who takes daily 1:1 Zoom conversation classes with a Filipino teacher.
+Below is the machine transcript. Each row is [id] speaker time: text. T = teacher, S = the learner.
+Speech recognition of S is poor: use the teacher's replies and context to work out what S actually said and meant.
+
+Task: list everything meaningful the LEARNER (S) said, in time order, and correct his English.
+- Group consecutive S rows that form one answer into one item (under 40 seconds). Skip pure fillers ("Yes", "Mm", "Thank you", "Oh").
+- "segs": the S row ids used.
+- "said": what S actually said, cleaned only of recognition noise — KEEP his grammar and word-choice mistakes exactly (this is what he will compare against).
+- "better": natural, simple English for what he meant (a level he can say himself, not fancy).
+- "ko": Korean meaning of "better".
+- "errors": each mistake as {"wrong": the part he said, "right": the fix, "why": one short Korean explanation (grammar point, word choice, tense, article, preposition, pronunciation confusion)}. Empty list if the sentence was fine.
+- Up to 25 items.
+
+Return JSON only: {"mine":[{"segs":[0],"said":"","better":"","ko":"","errors":[{"wrong":"","right":"","why":""}]}]}
+
+TRANSCRIPT:
+"""
+
 
 def organize(rows):
     tx = '\n'.join(f"[{r['id']}] {r['who']} {mmss(r['s'])}: {r['t']}" for r in rows)
     A = gemini(PROMPT_LINES + tx)
     B = gemini(PROMPT_SPEAK + tx)
+    try:
+        C = gemini(PROMPT_MINE + tx)
+    except Exception as e:                       # 내 말 교정이 실패해도 나머지는 저장
+        print('내 말 교정 실패:', e); C = {}
     by = {r['id']: r for r in rows}
+    mine = []
+    for i, x in enumerate(C.get('mine', [])):
+        ids = [k for k in (x.get('segs') or []) if k in by]
+        if not ids or not x.get('said'):
+            continue
+        s = min(by[k]['s'] for k in ids) - 0.25
+        e = min(max(by[k]['e'] for k in ids), s + 40) + 0.3
+        mine.append({'id': f'm{i + 1}', 'start': round(max(0, s), 2), 'end': round(e, 2), 'said': x['said'],
+                     'better': x.get('better', ''), 'ko': x.get('ko', ''),
+                     'errors': [er for er in (x.get('errors') or []) if isinstance(er, dict) and er.get('wrong')]})
     lines = []
     for i, x in enumerate(A.get('lines', [])):
         ids = [k for k in (x.get('segs') or []) if k in by]
@@ -214,7 +246,7 @@ def organize(rows):
             l['core'] = True
     nx = B.get('next') or {}
     return {'topic': A.get('topic', 'English class'), 'topicKo': A.get('topicKo', ''), 'teacher': A.get('teacher', 'Teacher'),
-            'summary': A.get('summary', ''), 'lines': lines,
+            'summary': A.get('summary', ''), 'lines': lines, 'mine': mine,
             'fixes': B.get('fixes') or [], 'phrases': B.get('phrases') or [],
             'next': {'q': nx.get('q', ''), 'ko': nx.get('ko', ''), 'starters': nx.get('starters') or []}}
 

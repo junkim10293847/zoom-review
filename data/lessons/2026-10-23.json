@@ -1368,5 +1368,302 @@
    }
   ]
  },
- "minutes": 20
+ "minutes": 20,
+ "mine": [
+  {
+   "id": "m1",
+   "start": 25.55,
+   "end": 36.95,
+   "said": "Not office, but I am parking in my car for our class.",
+   "better": "I'm not in the office. I'm parked in my car for our class.",
+   "ko": "사무실이 아니라 수업 때문에 차를 세워 두고 안에 있어요.",
+   "errors": [
+    {
+     "wrong": "Not office",
+     "right": "I'm not in the office",
+     "why": "주어와 동사를 갖춘 문장으로"
+    },
+    {
+     "wrong": "I am parking",
+     "right": "I'm parked",
+     "why": "parking은 '주차하는 중', 세워 둔 상태는 parked"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "start": 45.63,
+   "end": 73.03,
+   "said": "Our plan… no plan. I have no plan. Normally I am busy and normal schedule is…",
+   "better": "I don't have any plans. It's just a normal weekend. I'm busy as usual.",
+   "ko": "계획은 없어요. 그냥 평범한 주말이고 평소처럼 바빠요.",
+   "errors": [
+    {
+     "wrong": "I have no plan",
+     "right": "I don't have any plans",
+     "why": "plan은 보통 복수 plans, 회화에선 don't have any"
+    },
+    {
+     "wrong": "normal schedule is…",
+     "right": "as usual",
+     "why": "문장을 끝까지 맺기: 평소처럼 = as usual"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": 167.7,
+   "end": 180.2,
+   "said": "Well-known country… company, company.",
+   "better": "Well-known companies? Oh, companies.",
+   "ko": "유명한 회사들이요? 아, 회사요.",
+   "errors": [
+    {
+     "wrong": "country",
+     "right": "company",
+     "why": "country(컨트리, 나라)와 company(컴퍼니, 회사) 발음 구분"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "start": 212.9,
+   "end": 225.53,
+   "said": "Family control.",
+   "better": "It's a family-controlled company.",
+   "ko": "가족이 지배하는 회사예요.",
+   "errors": [
+    {
+     "wrong": "family control",
+     "right": "family-controlled company",
+     "why": "명사를 꾸밀 땐 하이픈 + -ed"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "start": 265.17,
+   "end": 298.95,
+   "said": "…work in the company. The company's name is Ibujari. So that company has a unique culture.",
+   "better": "I used to work at a company called Ibujari. That company had a unique culture.",
+   "ko": "예전에 이부자리라는 회사에서 일했어요. 그 회사는 독특한 문화가 있었어요.",
+   "errors": [
+    {
+     "wrong": "work in the company",
+     "right": "used to work at a company",
+     "why": "지난 경험은 used to, 회사는 at"
+    },
+    {
+     "wrong": "has",
+     "right": "had",
+     "why": "지난 일은 과거형"
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": 308.56,
+   "end": 342.76,
+   "said": "At my interview… climb the mountain. We climbed the mountain… myself and sing a song.",
+   "better": "At my job interview, we climbed a mountain together. I introduced myself and sang a song.",
+   "ko": "면접 때 다 같이 산에 올랐어요. 자기소개를 하고 노래를 불렀어요.",
+   "errors": [
+    {
+     "wrong": "climb the mountain",
+     "right": "climbed a mountain",
+     "why": "과거 일은 과거형, 처음 말하는 산은 a"
+    },
+    {
+     "wrong": "sing a song",
+     "right": "sang a song",
+     "why": "sing의 과거형 sang"
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "start": 349.25,
+   "end": 358.76,
+   "said": "Yes, a very unique culture.",
+   "better": "Yes, it was a very unique culture.",
+   "ko": "네, 아주 독특한 문화였어요.",
+   "errors": [
+    {
+     "wrong": "a very unique culture",
+     "right": "It was a very unique culture.",
+     "why": "주어 + 동사(it was)를 넣어 문장으로"
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "start": 370.1,
+   "end": 396.88,
+   "said": "Workers at that company, maybe owner, what is their health? … they are healthy.",
+   "better": "I think the owner wanted to see if the workers were healthy.",
+   "ko": "사장이 직원들이 건강한지 보고 싶었던 것 같아요.",
+   "errors": [
+    {
+     "wrong": "what is their health?",
+     "right": "if the workers were healthy",
+     "why": "문장 안의 질문은 if/whether + 주어 + 동사"
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "start": 415.36,
+   "end": 437.48,
+   "said": "Worker is like or unlike worker… climbing the mountain is kind of happy.",
+   "better": "They wanted to see whether workers enjoy climbing mountains or not.",
+   "ko": "직원이 등산을 좋아하는지 아닌지 보려는 거였어요.",
+   "errors": [
+    {
+     "wrong": "worker is like or unlike",
+     "right": "whether workers enjoy it or not",
+     "why": "like는 동사: 주어 + like ~ or not"
+    },
+    {
+     "wrong": "is kind of happy",
+     "right": "enjoy / makes them happy",
+     "why": "사람이 즐기면 enjoy, 사물이 주어면 make + 사람 + happy"
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "start": 446.18,
+   "end": 475.11,
+   "said": "Is obeyed, obeyed… once… or months. Yes, in the weekend. We can morning.",
+   "better": "It was mandatory. We hiked once or twice a month, on weekend mornings.",
+   "ko": "의무였어요. 한 달에 한두 번, 주말 아침에 산에 갔어요.",
+   "errors": [
+    {
+     "wrong": "is obeyed",
+     "right": "It was mandatory.",
+     "why": "obey는 '복종하다', 의무는 mandatory"
+    },
+    {
+     "wrong": "once or months",
+     "right": "once or twice a month",
+     "why": "빈도: 횟수 + a month"
+    },
+    {
+     "wrong": "in the weekend",
+     "right": "on weekends",
+     "why": "주말·요일 앞은 on"
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "start": 489.26,
+   "end": 504.1,
+   "said": "Well-known company like Samsung, I heard…",
+   "better": "I heard that well-known companies like Samsung…",
+   "ko": "삼성 같은 유명 회사들은 ~라고 들었어요.",
+   "errors": [
+    {
+     "wrong": "Well-known company like Samsung, I heard",
+     "right": "I heard that well-known companies like Samsung…",
+     "why": "I heard를 앞에, 일반적인 이야기는 복수 companies"
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "start": 545.37,
+   "end": 573.91,
+   "said": "Main feet is children's day… for the children of worker company gives a gift.",
+   "better": "May 5th is Children's Day. The company gives gifts to employees' children.",
+   "ko": "5월 5일은 어린이날이에요. 회사가 직원 자녀들에게 선물을 줘요.",
+   "errors": [
+    {
+     "wrong": "main feet",
+     "right": "May 5th",
+     "why": "fifth의 th 발음을 분명히"
+    },
+    {
+     "wrong": "children of worker",
+     "right": "employees' children",
+     "why": "소유격 's, 복수"
+    },
+    {
+     "wrong": "company gives a gift",
+     "right": "the company gives gifts",
+     "why": "특정 회사는 the, 여러 명에게는 gifts"
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "start": 627.08,
+   "end": 632.82,
+   "said": "Compensation of salary.",
+   "better": "Yes, they're generous with salaries and bonuses.",
+   "ko": "네, 급여와 보너스가 후해요.",
+   "errors": [
+    {
+     "wrong": "compensation of salary",
+     "right": "salaries and bonuses",
+     "why": "compensation 자체가 급여를 포함하므로 of salary 불필요"
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "start": 656.73,
+   "end": 676.07,
+   "said": "That company… let's take many on… share their worker.",
+   "better": "That company makes a lot of money, and it shares its profits with its workers.",
+   "ko": "그 회사는 돈을 많이 벌고, 이익을 직원들과 나눠요.",
+   "errors": [
+    {
+     "wrong": "let's take many on",
+     "right": "makes a lot of money",
+     "why": "돈을 벌다 = make money"
+    },
+    {
+     "wrong": "share their worker",
+     "right": "shares its profits with its workers",
+     "why": "share A with B"
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "start": 716.19,
+   "end": 729.23,
+   "said": "Do you have a salary? This company, you are…",
+   "better": "How about you? How is the salary at your company?",
+   "ko": "선생님은요? 지금 회사 급여는 어때요?",
+   "errors": [
+    {
+     "wrong": "Do you have a salary?",
+     "right": "How is the salary at your company?",
+     "why": "급여 수준을 묻는 자연스러운 질문"
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "start": 978.84,
+   "end": 997.56,
+   "said": "If you have more class, extra, extra… Do you pay extra money?",
+   "better": "If you teach more classes, do you get paid extra?",
+   "ko": "수업을 더 하면 추가로 돈을 받나요?",
+   "errors": [
+    {
+     "wrong": "more class",
+     "right": "more classes",
+     "why": "셀 수 있는 명사는 복수"
+    },
+    {
+     "wrong": "Do you pay extra money?",
+     "right": "Do you get paid extra?",
+     "why": "돈을 받는 쪽이면 get paid"
+    }
+   ]
+  }
+ ]
 }

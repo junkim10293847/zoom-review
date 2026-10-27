@@ -49,7 +49,23 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px soli
 .item .s{font-size:13px;color:var(--muted)}
 .month{font-family:var(--f-mono);font-size:12px;color:var(--muted);letter-spacing:.06em;padding:4px 4px 0}
 .job{background:var(--card);border:1.5px dashed var(--line);border-radius:14px;padding:12px 14px;font-size:14px;display:flex;justify-content:space-between;gap:10px;align-items:center}
-.job.err{border-color:var(--miss);color:var(--miss)}
+.job.said{background:var(--missSoft);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.said p{margin:0;font-size:19px;line-height:1.5}
+.fix{background:var(--tealSoft);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.lab{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+mark.bad{background:none;color:var(--miss);text-decoration:underline wavy;text-underline-offset:4px}
+.errs{display:flex;flex-direction:column;gap:8px}
+.er{display:flex;flex-direction:column;gap:2px;font-size:15px;border-left:3px solid var(--marker);padding-left:10px}
+.er s{color:var(--miss)}
+.er b{color:var(--teal)}
+.er .why{font-size:13px;color:var(--muted)}
+.chat{display:flex;flex-direction:column;gap:8px}
+.bub{max-width:88%;text-align:left;border:0;border-radius:16px;padding:10px 14px;display:flex;flex-direction:column;gap:3px;font-size:15px;line-height:1.45}
+.bub.t{align-self:flex-start;background:var(--card);border:1px solid var(--line);border-top-left-radius:4px}
+.bub.s{align-self:flex-end;background:var(--missSoft);border-top-right-radius:4px}
+.bub .k{font-size:13px;color:var(--muted)}
+.bub .fixk{color:var(--teal);font-weight:500}
+.err{border-color:var(--miss);color:var(--miss)}
 .lesson{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:6px}
 .meta{font-family:var(--f-mono);font-size:12px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
 .lesson h1{font-family:var(--f-display);font-weight:800;font-size:26px;line-height:1.15;margin:0;text-wrap:balance}
@@ -99,6 +115,22 @@ textarea{min-height:96px;resize:vertical}
 .filter{display:flex;gap:8px;flex-wrap:wrap}
 .empty{color:var(--muted);text-align:center;padding:30px 10px;margin:0}
 .qbox{background:var(--marker);color:var(--markerInk);border-radius:14px;padding:14px;font-weight:500}
+.said{background:var(--missSoft);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.said p{margin:0;font-size:19px;line-height:1.5}
+.fix{background:var(--tealSoft);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.lab{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+mark.bad{background:none;color:var(--miss);text-decoration:underline wavy;text-underline-offset:4px}
+.errs{display:flex;flex-direction:column;gap:8px}
+.er{display:flex;flex-direction:column;gap:2px;font-size:15px;border-left:3px solid var(--marker);padding-left:10px}
+.er s{color:var(--miss)}
+.er b{color:var(--teal)}
+.er .why{font-size:13px;color:var(--muted)}
+.chat{display:flex;flex-direction:column;gap:8px}
+.bub{max-width:88%;text-align:left;border:0;border-radius:16px;padding:10px 14px;display:flex;flex-direction:column;gap:3px;font-size:15px;line-height:1.45}
+.bub.t{align-self:flex-start;background:var(--card);border:1px solid var(--line);border-top-left-radius:4px}
+.bub.s{align-self:flex-end;background:var(--missSoft);border-top-right-radius:4px}
+.bub .k{font-size:13px;color:var(--muted)}
+.bub .fixk{color:var(--teal);font-weight:500}
 .err{background:var(--missSoft);color:var(--miss);border-radius:12px;padding:14px;font-size:14px}
 .mean{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .ch{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:10px;padding:9px 12px;border-top:1px solid var(--line)}
@@ -255,15 +287,15 @@ let mode='list', idx=0, onlyHard=false, reveal={en:false,ko:false}, sig='';
 const MODES={
   listen:{n:'1',t:'듣기',d:'핵심 문장을 듣고 끊어서 뜻 잡기',pre:'L'},
   dict:{n:'2',t:'받아쓰기',d:'들리는 대로 써 보고 맞춰보기',pre:'D'},
-  speak:{n:'3',t:'말하기',d:'내가 하려던 말, 제대로 말하기',pre:'S'},
+  speak:{n:'3',t:'내 말 교정',d:'내가 한 말의 틀린 곳 고쳐 말하기',pre:'S'},
   phrase:{n:'4',t:'표현 카드',d:'오늘 나온 표현 외우기',pre:'P'}
 };
 const k=id=>L.date+':'+id;
 function lists(){
   const base=showAll?L.lines:L.lines.filter(x=>x.core);
   return {listen:base, dict:showAll?L.lines.filter(x=>x.dict):base.filter(x=>x.dict).length>=6?base.filter(x=>x.dict):base,
-    speak:[...(L.fixes||[]).map((f,i)=>({id:'f'+i,ko:f.ko,en:f.better,mine:f.mine,tip:f.tip})),
-           ...((L.next&&L.next.starters)||[]).map((s,i)=>({id:'n'+i,ko:s.ko,en:s.en,tip:'다음 수업 말하기 준비 문장'}))],
+    speak:(L.mine&&L.mine.length)?L.mine.map(m=>({...m,en:m.better}))
+      :(L.fixes||[]).map((f,i)=>({id:'f'+i,ko:f.ko,en:f.better,said:f.mine,errors:f.tip?[{wrong:f.mine,right:f.better,why:f.tip}]:[]})),
     phrase:(L.phrases||[]).map((p,i)=>({...p,id:'p'+i}))};
 }
 const progress=m=>{const it=lists()[m];return it.length?it.filter(x=>st(k(MODES[m].pre+x.id))==='ok').length/it.length:0};
@@ -283,11 +315,13 @@ function lessonHome(){
   <div class="steps">${Object.entries(MODES).map(([m,v])=>{const pc=progress(m),h=hardCount(m);
     return `<button class="step" data-m="${m}"><span class="n">STEP ${v.n}</span><b>${v.t}</b><span class="d">${v.d}</span>
       <span class="d">${Math.round(pc*100)}% 완료${h?` · 다시 볼 것 ${h}`:''}</span><span class="bar"><i style="width:${pc*100}%"></i></span></button>`}).join('')}</div>
+  <button class="prep" id="dlg" style="background:var(--card);border:1px solid var(--line)"><b>대화 전체 보기</b><span>강사 ${L.lines.length}문장 · 나 ${(L.mine||[]).length}번 — 시간 순서대로, 눌러서 듣기</span></button>
   ${L.next&&L.next.q?`<button class="prep" id="prep"><b>다음 수업 말하기 준비</b><span>${esc(L.next.q)}</span></button>`:''}
-  <p class="how"><b>추천 순서</b> 핵심 문장부터. 출근길에 1번 듣기(글자 없이 먼저) → 저녁에 2번 받아쓰기 → 다음 수업 전에 3·4번으로 말하기 준비.</p>`;
+  <p class="how"><b>추천 순서</b> 핵심 문장부터. 출근길에 1번 듣기(글자 없이 먼저) → 저녁에 2번 받아쓰기 → 다음 수업 전에 3번 내 말 교정 → 4번 표현.</p>`;
   $('#back').onclick=listView;
   app.querySelectorAll('.step').forEach(b=>b.onclick=()=>{mode=b.dataset.m;idx=0;onlyHard=false;render()});
   const pr=$('#prep');if(pr)pr.onclick=prep;
+  $('#dlg').onclick=dialog;
 }
 function items(){const it=lists()[mode];return onlyHard?it.filter(x=>st(k(MODES[mode].pre+x.id))==='no'):it}
 function header(total){
@@ -324,12 +358,16 @@ function render(){
       <label for="ans" hidden>받아쓰기</label><textarea id="ans" placeholder="여기에 들은 문장을 입력"></textarea>
       <button class="btn" id="chk">맞춰보기</button><div id="res"></div>`;
   }else if(mode==='speak'){
-    body=`<p class="guide">한국어를 보고 영어로 소리 내어 말한 뒤 정답을 확인하세요. ${chip}</p>
-      <p class="en" style="font-size:19px">${esc(x.ko)}</p>
-      ${x.mine?`<p class="mine">수업 때 내가 한 말: ${esc(x.mine)}</p>`:''}
-      ${reveal.en?`<p class="en" style="color:var(--teal)">${esc(x.en)}</p>${x.tip?`<p class="tip">${esc(x.tip)}</p>`:''}
-        <div class="play"><button class="btn" id="tts">🔈 정답 발음 듣기</button></div>`:`<button class="veil" id="ven">정답 보기</button>`}
-      ${judge('바로 말했어요','막혔어요')}`;
+    const errs=x.errors||[];
+    body=`<p class="guide">수업 때 내가 한 말입니다. 틀린 곳을 고쳐서 소리 내어 말해 본 뒤 정답을 확인하세요. ${chip}</p>
+      <div class="said"><span class="lab">내가 한 말${x.start!=null?' · 수업 '+mmss(x.start):''}</span><p>${markWrong(x.said||'',errs)}</p>
+        ${x.start!=null?`<div><button class="btn sm" id="pl">▶ 내 목소리 듣기</button></div>`:''}</div>
+      <p class="ko">뜻: ${esc(x.ko)}</p>
+      ${reveal.en?`<div class="fix"><span class="lab">바르게 말하면</span><p class="en" style="color:var(--teal)">${esc(x.better||x.en)}</p>
+        <div><button class="btn sm" id="tts">🔈 정답 발음 듣기</button></div></div>
+        ${errs.length?`<div class="errs">${errs.map(e=>`<div class="er"><span><s>${esc(e.wrong)}</s> → <b>${esc(e.right)}</b></span><span class="why">${esc(e.why||'')}</span></div>`).join('')}</div>`:'<p class="tip">틀린 곳 없이 잘 말했습니다.</p>'}`
+      :`<button class="veil" id="ven">고친 문장과 오류 설명 보기 (${errs.length}곳)</button>`}
+      ${judge('바로 고쳐 말했어요','막혔어요')}`;
   }else{
     body=`<button class="flip" id="flip">${reveal.en?`<span class="big">${esc(x.en)}</span><span class="sm">${esc(x.ko)}</span>${x.ex?`<span class="sm">“${esc(x.ex)}”</span>`:''}`
       :`<span class="big" style="font-size:24px">${esc(x.ko)}</span><span class="sm">눌러서 영어 표현 보기</span>`}</button>
@@ -371,6 +409,23 @@ function check(x,key){
     <div class="diff">${ref.map((w,i)=>refN[i]?`<span class="${hit[i]?'w-ok':'w-miss'}">${esc(w)}</span>`:esc(w)).join(' ')}</div>
     <p class="guide">밑줄 친 단어가 놓친 부분입니다. 다시 들으며 그 소리에 집중해 보세요.</p>${meaning(x)}</div>`;
   mark(key,score>=80?'ok':'no');
+}
+function markWrong(t,errs){
+  let h=esc(t);
+  errs.forEach(e=>{const w=esc(e.wrong||'');if(w&&h.includes(w))h=h.replace(w,`<mark class="bad">${w}</mark>`)});
+  return h;
+}
+function dialog(){
+  mode='dialog';aud.pause();
+  const T=L.lines.map(x=>({w:'T',s:x.start,x})), S=(L.mine||[]).map(x=>({w:'S',s:x.start,x}));
+  const all=[...T,...S].sort((a,b)=>a.s-b.s);
+  app.innerHTML=`<div class="head"><button class="back" id="back">← 수업</button><h2>대화 전체</h2><span class="count">${all.length}</span></div>
+  <p class="guide">말풍선을 누르면 그 부분을 들을 수 있습니다. 왼쪽은 ${esc(L.teacher||'강사')}, 오른쪽은 나입니다.</p>
+  <div class="chat">${all.map((a,i)=>a.w==='T'
+    ?`<button class="bub t" data-i="${i}"><span class="ts">${mmss(a.s)}</span><span>${esc(a.x.en)}</span><span class="k">${esc(a.x.ko)}</span></button>`
+    :`<button class="bub s" data-i="${i}"><span class="ts">${mmss(a.s)} · 나</span><span>${markWrong(a.x.said,a.x.errors||[])}</span>${a.x.better&&a.x.better!==a.x.said?`<span class="k fixk">→ ${esc(a.x.better)}</span>`:''}</button>`).join('')}</div>`;
+  $('#back').onclick=lessonHome;
+  app.querySelectorAll('.bub').forEach(b=>b.onclick=()=>playClip(all[+b.dataset.i].x));
 }
 function prep(){
   mode='prep';aud.pause();
