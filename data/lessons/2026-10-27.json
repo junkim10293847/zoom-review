@@ -1,0 +1,816 @@
+{
+ "date": "2026-10-27",
+ "audio": "audio/2026-10-27.mp3",
+ "minutes": 18,
+ "topic": "Company Culture and Cultural Awareness",
+ "topicKo": "기업 문화와 문화적 인식",
+ "teacher": "Teacher",
+ "summary": "교사와 학생은 회사의 문화적 적합성(cultural fit)과 국제 업무 시 문화적 차이를 이해하고 존중해야 하는 중요성에 대해 대화했습니다.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 21.75,
+   "end": 29.09,
+   "en": "Can you excuse me? I need to turn on the light. I think it's too dark.",
+   "ko": "실례합니다만, 불을 좀 켜야겠어요. 너무 어두운 것 같아요.",
+   "chunks": [
+    [
+     "Can you excuse me?",
+     "실례합니다만?"
+    ],
+    [
+     "I need to turn on the light.",
+     "불을 켜야겠어요."
+    ],
+    [
+     "I think it's too dark.",
+     "너무 어두운 것 같아요."
+    ]
+   ],
+   "words": [
+    [
+     "turn on",
+     "켜다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t2",
+   "start": 100.51,
+   "end": 112.92,
+   "en": "Maybe because it's almost winter. Yes. And I think the night is getting longer now.",
+   "ko": "아마 거의 겨울이 되어가서 그런가 봐요. 그리고 요즘 밤이 점점 길어지고 있는 것 같아요.",
+   "chunks": [
+    [
+     "Maybe because",
+     "아마 ~때문일 거예요"
+    ],
+    [
+     "it's almost winter.",
+     "거의 겨울이라서요."
+    ],
+    [
+     "And I think",
+     "그리고 제 생각엔"
+    ],
+    [
+     "the night is getting longer now.",
+     "밤이 점점 길어지고 있어요."
+    ]
+   ],
+   "words": [
+    [
+     "getting longer",
+     "길어지고 있는"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t3",
+   "start": 143.13,
+   "end": 145.88,
+   "en": "Yeah, so that would be a holiday.",
+   "ko": "네, 그래서 그날은 휴일이 될 거예요.",
+   "chunks": [
+    [
+     "Yeah, so",
+     "네, 그래서"
+    ],
+    [
+     "that would be",
+     "~가 될 거예요"
+    ],
+    [
+     "a holiday.",
+     "휴일."
+    ]
+   ],
+   "words": [
+    [
+     "holiday",
+     "휴일"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t4",
+   "start": 170.25,
+   "end": 175.98,
+   "en": "We will go to the cemetery and we will visit the grave.",
+   "ko": "우리는 묘지에 가서 산소(무덤)를 방문할 거예요.",
+   "chunks": [
+    [
+     "We will go",
+     "우리는 갈 것입니다"
+    ],
+    [
+     "to the cemetery",
+     "묘지로"
+    ],
+    [
+     "and we will visit",
+     "그리고 방문할 거예요"
+    ],
+    [
+     "the grave.",
+     "무덤을."
+    ]
+   ],
+   "words": [
+    [
+     "cemetery",
+     "묘지"
+    ],
+    [
+     "grave",
+     "무덤, 산소"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t5",
+   "start": 203.34,
+   "end": 209.09,
+   "en": "And it's also like a family gathering.",
+   "ko": "그리고 그것은 또한 가족 모임 같기도 해요.",
+   "chunks": [
+    [
+     "And it's also",
+     "그리고 그것은 또한"
+    ],
+    [
+     "like",
+     "~와 같아요"
+    ],
+    [
+     "a family gathering.",
+     "가족 모임."
+    ]
+   ],
+   "words": [
+    [
+     "family gathering",
+     "가족 모임"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t6",
+   "start": 245.14,
+   "end": 248.29,
+   "en": "I think the days go very fast.",
+   "ko": "제 생각엔 시간이 정말 빠르게 흘러가는 것 같아요.",
+   "chunks": [
+    [
+     "I think",
+     "제 생각에는"
+    ],
+    [
+     "the days go",
+     "날들이 지나갑니다"
+    ],
+    [
+     "very fast.",
+     "매우 빠르게."
+    ]
+   ],
+   "words": [
+    [
+     "go fast",
+     "빨리 지나가다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t7",
+   "start": 346.34,
+   "end": 353.15,
+   "en": "Productive is like you will do a lot of things in one day.",
+   "ko": "생산적이라는 것은 하루에 많은 일들을 해낸다는 뜻이에요.",
+   "chunks": [
+    [
+     "Productive is",
+     "생산적이라는 것은"
+    ],
+    [
+     "like you will do",
+     "~를 한다는 것과 같아요"
+    ],
+    [
+     "a lot of things",
+     "많은 일들을"
+    ],
+    [
+     "in one day.",
+     "하루에."
+    ]
+   ],
+   "words": [
+    [
+     "productive",
+     "생산적인"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t8",
+   "start": 397.85,
+   "end": 404.89,
+   "en": "When thinking about getting a job, do you think about cultural fit?",
+   "ko": "직장을 구할 때, 문화적 적합성을 생각하시나요?",
+   "chunks": [
+    [
+     "When thinking about",
+     "생각할 때"
+    ],
+    [
+     "getting a job,",
+     "직장을 구할 때"
+    ],
+    [
+     "do you think about",
+     "생각하시나요?"
+    ],
+    [
+     "cultural fit?",
+     "문화적 적합성을?"
+    ]
+   ],
+   "words": [
+    [
+     "cultural fit",
+     "문화적 적합성"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t9",
+   "start": 637.5,
+   "end": 642.54,
+   "en": "So, of course, you need to try to fit in.",
+   "ko": "그래서 물론, 여러분은 적응하려고 노력해야 합니다.",
+   "chunks": [
+    [
+     "So, of course,",
+     "그래서 물론,"
+    ],
+    [
+     "you need to try",
+     "노력해야 합니다"
+    ],
+    [
+     "to fit in.",
+     "잘 어울리도록 (적응하도록)."
+    ]
+   ],
+   "words": [
+    [
+     "fit in",
+     "적응하다, 어울리다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t10",
+   "start": 679.79,
+   "end": 686.45,
+   "en": "So this company's culture really matches my character.",
+   "ko": "그래서 이 회사의 문화는 정말로 제 성격과 잘 맞아요.",
+   "chunks": [
+    [
+     "So this company's culture",
+     "그래서 이 회사 문화는"
+    ],
+    [
+     "really matches",
+     "정말 잘 맞습니다"
+    ],
+    [
+     "my character.",
+     "제 성격과."
+    ]
+   ],
+   "words": [
+    [
+     "matches",
+     "~와 일치하다, 맞다"
+    ],
+    [
+     "character",
+     "성격"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t11",
+   "start": 730.55,
+   "end": 741.62,
+   "en": "I think for the whole thing, if you want to apply in a certain company, I think you have to adjust.",
+   "ko": "전체적으로 볼 때, 특정 회사에 지원하고 싶다면 적응해야 한다고 생각해요.",
+   "chunks": [
+    [
+     "I think for the whole thing,",
+     "전체적으로 볼 때 제 생각엔"
+    ],
+    [
+     "if you want to apply",
+     "지원하고 싶다면"
+    ],
+    [
+     "in a certain company,",
+     "특정 회사에"
+    ],
+    [
+     "you have to adjust.",
+     "당신은 적응해야 합니다."
+    ]
+   ],
+   "words": [
+    [
+     "apply",
+     "지원하다"
+    ],
+    [
+     "adjust",
+     "적응하다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t12",
+   "start": 766.56,
+   "end": 774.42,
+   "en": "So why is cultural awareness important when working internationally?",
+   "ko": "그렇다면 국제적으로 일할 때 문화적 인식이 왜 중요할까요?",
+   "chunks": [
+    [
+     "So why is",
+     "그러면 왜 ~인가요?"
+    ],
+    [
+     "cultural awareness important",
+     "문화적 인식이 중요한가요?"
+    ],
+    [
+     "when working internationally?",
+     "국제적으로 일할 때?"
+    ]
+   ],
+   "words": [
+    [
+     "cultural awareness",
+     "문화적 인식"
+    ],
+    [
+     "internationally",
+     "국제적으로"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t13",
+   "start": 875.19,
+   "end": 886.08,
+   "en": "We should be aware of their culture because the first thing is we don't want to offend them.",
+   "ko": "우리는 그들의 문화를 알고 있어야 합니다. 왜냐하면 가장 중요한 것은 그들을 기분 상하게 하고 싶지 않기 때문입니다.",
+   "chunks": [
+    [
+     "We should be aware of",
+     "우리는 ~를 인식해야 합니다"
+    ],
+    [
+     "their culture",
+     "그들의 문화를"
+    ],
+    [
+     "because the first thing is",
+     "첫 번째 이유는 ~이기 때문입니다"
+    ],
+    [
+     "we don't want to offend them.",
+     "우리가 그들을 기분 상하게 하고 싶지 않기 때문입니다."
+    ]
+   ],
+   "words": [
+    [
+     "be aware of",
+     "~을 알다, 인식하다"
+    ],
+    [
+     "offend",
+     "기분 상하게 하다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t14",
+   "start": 919.59,
+   "end": 927.02,
+   "en": "We have to avoid making them feel bad just because we don't know how to act well in front of them.",
+   "ko": "우리가 그들 앞에서 어떻게 행동해야 할지 모른다는 이유만으로 그들을 기분 나쁘게 만드는 것을 피해야 합니다.",
+   "chunks": [
+    [
+     "We have to avoid",
+     "우리는 피해야 합니다"
+    ],
+    [
+     "making them feel bad",
+     "그들을 기분 나쁘게 만드는 것을"
+    ],
+    [
+     "just because",
+     "~라는 이유만으로"
+    ],
+    [
+     "we don't know how to act well",
+     "잘 행동하는 법을 모른다는 것"
+    ]
+   ],
+   "words": [
+    [
+     "avoid",
+     "피하다"
+    ],
+    [
+     "feel bad",
+     "기분 상하다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t15",
+   "start": 1087.14,
+   "end": 1099.86,
+   "en": "We will talk about personality tomorrow because our time is finished and have a good day, sir. I'll see you tomorrow.",
+   "ko": "시간이 다 되었으니 내일 성격에 대해 이야기해 봅시다. 좋은 하루 보내세요, 내일 봬요.",
+   "chunks": [
+    [
+     "We will talk about personality tomorrow",
+     "내일 성격에 대해 이야기합시다"
+    ],
+    [
+     "because our time is finished",
+     "시간이 끝났기 때문에"
+    ],
+    [
+     "and have a good day, sir.",
+     "그리고 좋은 하루 보내세요."
+    ],
+    [
+     "I'll see you tomorrow.",
+     "내일 봬요."
+    ]
+   ],
+   "words": [
+    [
+     "personality",
+     "성격"
+    ],
+    [
+     "time is finished",
+     "시간이 다 되다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  }
+ ],
+ "mine": [
+  {
+   "id": "m1",
+   "start": 71.85,
+   "end": 85.25,
+   "said": "I am wake up when I wake up hours outside is dark",
+   "better": "When I wake up, it's still dark outside.",
+   "ko": "내가 일어났을 때 밖은 여전히 어두워요.",
+   "errors": [
+    {
+     "wrong": "I am wake up",
+     "right": "I wake up",
+     "why": "현재 시제를 쓸 때 불필요한 'am'을 넣었습니다."
+    },
+    {
+     "wrong": "hours outside is dark",
+     "right": "it's dark outside",
+     "why": "시간을 나타낼 때는 비인칭 주어 'it'을 사용해야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "start": 87.43,
+   "end": 98.63,
+   "said": "I can open my eyes",
+   "better": "I can barely open my eyes.",
+   "ko": "눈을 거의 못 뜨겠어요.",
+   "errors": [
+    {
+     "wrong": "I can open my eyes",
+     "right": "I can barely open my eyes",
+     "why": "문맥상 눈이 안 떠질 정도로 어둡다는 의미이므로 'barely(간신히)'를 쓰는 것이 자연스럽습니다."
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": 131.42,
+   "end": 154.42,
+   "said": "Can I just all in the meeting was the first holiday",
+   "better": "Is November 2nd a holiday?",
+   "ko": "11월 2일이 휴일인가요?",
+   "errors": [
+    {
+     "wrong": "all in the meeting was the first holiday",
+     "right": "November 2nd is a holiday",
+     "why": "문장이 너무 길어지고 문맥과 맞지 않습니다. 단순하게 질문하는 것이 좋습니다."
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "start": 265.51,
+   "end": 283.93,
+   "said": "2026. Yes. Almost, almost. 26 is coming. 2026. It's almost finished.",
+   "better": "2026 is almost here.",
+   "ko": "2026년이 거의 다 되었네요.",
+   "errors": [
+    {
+     "wrong": "It's almost finished",
+     "right": "It's almost here",
+     "why": "년도가 끝나간다는 뜻이 아니라 다가오고 있다는 뜻이므로 'coming'이나 'here'를 써야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "start": 287.14,
+   "end": 294.9,
+   "said": "Oh, the formal, formal speech is 2027.",
+   "better": "2027 is coming soon.",
+   "ko": "2027년이 오고 있어요.",
+   "errors": [
+    {
+     "wrong": "formal, formal speech",
+     "right": "future",
+     "why": "'speech'가 아니라 'future(미래)' 또는 년도를 직접 언급하려 한 것으로 보입니다."
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": 427.56,
+   "end": 467.86,
+   "said": "Actually, for me, we work in company, at company. I actually meet people. I don't know the company culture. I work, work company. I work at the Epson company.",
+   "better": "Actually, when working at a company, I usually just meet people and don't pay much attention to the company culture.",
+   "ko": "사실 회사에서 일할 때 저는 그냥 사람들을 만날 뿐이고, 기업 문화는 잘 신경 쓰지 않아요.",
+   "errors": [
+    {
+     "wrong": "we work in company, at company",
+     "right": "working at a company",
+     "why": "전치사와 관사 사용이 부정확합니다. 'at a company'가 자연스럽습니다."
+    },
+    {
+     "wrong": "work, work company",
+     "right": "work for a company",
+     "why": "회사를 위해 일한다는 표현은 'work for a company'를 씁니다."
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "start": 516.83,
+   "end": 548.21,
+   "said": "Companies culture on the whole city employees for employees is the company has many benefits.",
+   "better": "I thought company culture means what benefits the company provides for employees.",
+   "ko": "저는 기업 문화가 회사가 직원들에게 주는 복지 같은 것인 줄 알았어요.",
+   "errors": [
+    {
+     "wrong": "Companies culture",
+     "right": "Company culture",
+     "why": "소유격 대신 명사 복합어를 사용할 때 단수형 'Company'가 자연스럽습니다."
+    },
+    {
+     "wrong": "has many benefits",
+     "right": "offers many benefits",
+     "why": "혜택을 제공한다는 의미이므로 'offer'나 'provide'가 더 좋습니다."
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "start": 550.51,
+   "end": 574.74,
+   "said": "very good, it is very good, but company is make money and make money. Property, property, what's the make of property?",
+   "better": "The company is good, but a company's main goal is making money.",
+   "ko": "회사는 좋지만, 회사는 돈을 벌기 위한 곳이죠.",
+   "errors": [
+    {
+     "wrong": "company is make money",
+     "right": "a company's goal is to make money",
+     "why": "'is make money'는 문법에 맞지 않으며 'makes money' 또는 'is to make money'로 써야 합니다."
+    },
+    {
+     "wrong": "make of property",
+     "right": "make a profit",
+     "why": "재산이나 이익을 남긴다는 표현은 'make a profit'입니다."
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "start": 795.24,
+   "end": 835.54,
+   "said": "Oh, I think you said language pariobes. Yes. Yes. And the end. Yes, it's all because of international... culture, different international culture. We don't understand their habith.",
+   "better": "I think because of language barriers and different international cultures, we don't understand their habits.",
+   "ko": "언어 장벽과 서로 다른 국제적 문화 때문에, 우리는 그들의 습관을 이해하지 못해요.",
+   "errors": [
+    {
+     "wrong": "pariobes",
+     "right": "barriers",
+     "why": "'barriers(장벽)'의 발음과 어휘 오류입니다."
+    },
+    {
+     "wrong": "habith",
+     "right": "habits",
+     "why": "마지막 발음이 과도하게 들어가 'habits'가 'habith'로 들렸습니다."
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "start": 867.76,
+   "end": 870.63,
+   "said": "We should be... I'll help him get",
+   "better": "We should be aware of it.",
+   "ko": "우리는 그것을 알고 있어야 해요.",
+   "errors": [
+    {
+     "wrong": "I'll help him get",
+     "right": "We should be aware",
+     "why": "선생님의 말을 따라 하려다 문장이 섞였습니다."
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "start": 1085.84,
+   "end": 1099.79,
+   "said": "Okay, so look at. Talk to you about. Ropes. tomorrow.",
+   "better": "Let's talk about it tomorrow.",
+   "ko": "내일 그것에 대해 얘기해요.",
+   "errors": [
+    {
+     "wrong": "Talk to you about Ropes",
+     "right": "Let's talk about it",
+     "why": "단어 선택과 문장 구조가 정확하지 않습니다."
+    }
+   ]
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "I work at the Epson company.",
+   "better": "I work for Epson.",
+   "ko": "엡손에 다닙니다.",
+   "tip": "회사 이름만 쓸 때는 전치사 for를 쓰거나 'work at Epson'이 자연스러워요."
+  },
+  {
+   "mine": "Companies' culture on the whole city.",
+   "better": "Company culture affects the whole organization.",
+   "ko": "기업 문화는 전체 조직에 영향을 미칩니다.",
+   "tip": "문맥상 회사가 미치는 영향력을 표현할 때는 affect 동사를 써보세요."
+  },
+  {
+   "mine": "make money and make money. Propey, property",
+   "better": "focusing on making profits and generating revenue.",
+   "ko": "수익 창출과 이익에 집중하는 것.",
+   "tip": "property(재산) 대신 business profit(이익)이나 revenue(수익)라는 표현이 적절해요."
+  },
+  {
+   "mine": "you said language Pariobes",
+   "better": "you mentioned language barriers.",
+   "ko": "언어 장벽을 말씀하셨네요.",
+   "tip": "barriers [배리어즈] 발음과 표현을 정확히 익혀두세요."
+  },
+  {
+   "mine": "We don't understand their Habith",
+   "better": "We don't understand their habits and customs.",
+   "ko": "우리는 그들의 습관과 관습을 이해하지 못합니다.",
+   "tip": "습관이나 풍습은 habit 대신 custom이나 practice를 주로 씁니다."
+  },
+  {
+   "mine": "The formal, formal speech is 2027.",
+   "better": "Time really flies; soon it will be 2027.",
+   "ko": "시간이 정말 빠르네요, 곧 2027년이에요.",
+   "tip": "시간이 빨리 간다고 할 때는 'Time flies'가 가장 원어민스러운 표현입니다."
+  },
+  {
+   "mine": "We work in company, at company.",
+   "better": "When working at a company, we meet various people.",
+   "ko": "회사에서 일할 때, 우리는 다양한 사람들을 만납니다.",
+   "tip": "관사(a company)를 붙여주거나 when working이라고 분사구문으로 쓰면 깔끔해요."
+  },
+  {
+   "mine": "Yes, yes, on the lights.",
+   "better": "Yes, writing names in red is a taboo in Korea.",
+   "ko": "맞아요, 한국에서는 빨간색으로 이름을 쓰는 게 금기죠.",
+   "tip": "lights가 아니라 red ink(빨간 펜/잉크) 또는 taboo(금기)라고 표현해 보세요."
+  }
+ ],
+ "phrases": [
+  {
+   "en": "cultural fit",
+   "ko": "문화적 적합성",
+   "ex": "Do you look for a company culture with a good cultural fit?"
+  },
+  {
+   "en": "fit in",
+   "ko": "어울리다, 적응하다",
+   "ex": "You need to fit in with the company culture."
+  },
+  {
+   "en": "play safe",
+   "ko": "안전하게 하다, 무난하게 대처하다",
+   "ex": "Sometimes it's better to play safe in a new environment."
+  },
+  {
+   "en": "language barrier",
+   "ko": "언어 장벽",
+   "ex": "Working internationally often comes with a language barrier."
+  },
+  {
+   "en": "cross and cons",
+   "ko": "장단점",
+   "ex": "I need to learn the pros and cons of different cultures."
+  },
+  {
+   "en": "time flies",
+   "ko": "시간이 참 빠르다",
+   "ex": "I can't believe the year is almost finished. Time flies!"
+  },
+  {
+   "en": "get intimidated",
+   "ko": "기 죽다, 위축되다",
+   "ex": "You might get intimidated when working with foreigners at first."
+  },
+  {
+   "en": "cultural awareness",
+   "ko": "문화적 인식",
+   "ex": "Cultural awareness is very important when working globally."
+  }
+ ],
+ "next": {
+  "q": "Have you ever experienced any cultural differences or misunderstandings while working with people from other countries?",
+  "ko": "다른 국가의 사람들과 일하면서 문화적 차이나 오해를 겪은 적이 있나요?",
+  "starters": [
+   {
+    "en": "Yes, when I first worked with overseas partners, I felt a bit intimidated by their direct communication style.",
+    "ko": "네, 해외 파트너들과 처음 일했을 때 그들의 직관적인 소통 스타일에 다소 위축되었습니다."
+   },
+   {
+    "en": "At Epson, we sometimes communicate with global branches, and understanding different business etiquettes is crucial.",
+    "ko": "엡손에서 우리는 가끔 글로벌 지사들과 소통하는데, 서로 다른 비즈니스 예절을 이해하는 것이 매우 중요합니다."
+   },
+   {
+    "en": "I think language barriers and different working habits are the biggest challenges in global projects.",
+    "ko": "제 생각에는 언어 장벽과 서로 다른 근무 습관이 글로벌 프로젝트에서 가장 큰 도서인 것 같습니다."
+   },
+   {
+    "en": "To fit in with international clients, I always try to respect their local customs first.",
+    "ko": "해외 고객들과 잘 지내기 위해, 저는 항상 그들의 현지 관습을 먼저 존중하려고 노력합니다."
+   },
+   {
+    "en": "As an executive, managing cultural awareness among team members is one of my key roles.",
+    "ko": "임원으로서 팀원들 사이의 문화적 인식을 관리하는 것이 저의 핵심 역할 중 하나입니다."
+   }
+  ]
+ }
+}
