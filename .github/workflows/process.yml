@@ -53,7 +53,8 @@ jobs:
         if: steps.plan.outputs.todo != '0'
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg bzip2
-          if [ ! -f .sherpa/models/whisper-tokens.txt ]; then
+          if [ ! -f .sherpa/models/whisper-tokens.txt ]; then (
+            set -e
             mkdir -p .sherpa/models && cd .sherpa
             R=https://github.com/k2-fsa/sherpa-onnx/releases/download
             curl -sSL $R/v$SHERPA_VER/sherpa-onnx-v$SHERPA_VER-linux-x64-shared.tar.bz2 | tar xj
@@ -67,8 +68,8 @@ jobs:
             mv $W/small.en-decoder.int8.onnx models/whisper-decoder.onnx
             mv $W/small.en-tokens.txt models/whisper-tokens.txt
             rm -rf $W
-          fi
-          ls -la .sherpa/models
+          ) fi
+          ls -la "$GITHUB_WORKSPACE/.sherpa/models"
 
       - name: 녹화 정리 (화자 분리 → 받아쓰기 → Gemini 해석)
         if: steps.plan.outputs.todo != '0'
