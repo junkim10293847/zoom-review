@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   process:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 90
     env:
       ZOOM_KEY: ${{ secrets.ZOOM_KEY }}
@@ -52,7 +52,7 @@ jobs:
       - name: 음성 도구 내려받기 (처음 한 번)
         if: steps.plan.outputs.todo != '0'
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg bzip2
           if [ ! -f .sherpa/models/whisper-tokens.txt ]; then
             mkdir -p .sherpa/models && cd .sherpa
             R=https://github.com/k2-fsa/sherpa-onnx/releases/download
