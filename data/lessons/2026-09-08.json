@@ -1,0 +1,996 @@
+{
+ "date": "2026-09-08",
+ "audio": "audio/2026-09-08.mp3",
+ "minutes": 19,
+ "topic": "Company Life, Travel, and Business English",
+ "topicKo": "회사 생활, 여행 및 비즈니스 영어",
+ "teacher": "Teacher",
+ "summary": "학생의 회사 건강검진과 AI 활용 경험, 여행 이야기(세부, 뉴욕 등)에 대해 이야기한 뒤, 비즈니스 영어 교재의 캐릭터와 첫 유닛을 살펴보았습니다.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 25.4,
+   "end": 28.9,
+   "en": "How's your Tuesday morning?",
+   "ko": "화요일 아침 기분이 어떠신가요?",
+   "chunks": [
+    [
+     "How's your",
+     "어떠신가요"
+    ],
+    [
+     "Tuesday morning?",
+     "화요일 아침이?"
+    ]
+   ],
+   "words": [],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t2",
+   "start": 41.66,
+   "end": 45.57,
+   "en": "How's the weather today? How's the weather this morning?",
+   "ko": "오늘 날씨 어때요? 오늘 아침 날씨 어때요?",
+   "chunks": [
+    [
+     "How's the weather",
+     "날씨가 어때요"
+    ],
+    [
+     "today?",
+     "오늘?"
+    ]
+   ],
+   "words": [
+    [
+     "weather",
+     "날씨"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t3",
+   "start": 110.45,
+   "end": 117.9,
+   "en": "So in your company, you are like already using AI, yeah?",
+   "ko": "그럼 회사에서 이미 AI를 사용하고 계시네요, 그렇죠?",
+   "chunks": [
+    [
+     "So in your company,",
+     "그럼 회사에서"
+    ],
+    [
+     "you are like already using AI,",
+     "이미 AI를 사용하는 것 같네요"
+    ],
+    [
+     "yeah?",
+     "그렇죠?"
+    ]
+   ],
+   "words": [
+    [
+     "company",
+     "회사"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t4",
+   "start": 138.31,
+   "end": 146.17,
+   "en": "Okay, so I think it is easier if you use AI at work, right?",
+   "ko": "네, 직장에서 AI를 사용하면 더 쉬워질 것 같아요, 맞죠?",
+   "chunks": [
+    [
+     "I think",
+     "생각해요"
+    ],
+    [
+     "it is easier",
+     "더 쉽다고"
+    ],
+    [
+     "if you use AI at work,",
+     "직장에서 AI를 쓰면"
+    ]
+   ],
+   "words": [
+    [
+     "easier",
+     "더 쉬운"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t5",
+   "start": 156.94,
+   "end": 163.88,
+   "en": "By the way, say 'I'm so sorry I didn't or I haven't replied your message.'",
+   "ko": "참, '메시지에 답장을 못 드려서 죄송합니다'라고 말해보세요.",
+   "chunks": [
+    [
+     "By the way,",
+     "그런데"
+    ],
+    [
+     "say",
+     "말해보세요"
+    ],
+    [
+     "I'm so sorry I haven't replied",
+     "답장 못 해서 정말 죄송합니다"
+    ]
+   ],
+   "words": [
+    [
+     "reply",
+     "답장하다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t6",
+   "start": 287.18,
+   "end": 293.18,
+   "en": "The company is providing you a free physical checkup.",
+   "ko": "회사가 무료 건강검진을 제공해 주고 있네요.",
+   "chunks": [
+    [
+     "The company is providing you",
+     "회사가 제공합니다"
+    ],
+    [
+     "a free",
+     "무료의"
+    ],
+    [
+     "physical checkup.",
+     "신체 건강검진을"
+    ]
+   ],
+   "words": [
+    [
+     "provide",
+     "제공하다"
+    ],
+    [
+     "physical checkup",
+     "건강검진"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t7",
+   "start": 297.05,
+   "end": 309.28,
+   "en": "The company needs to make sure once a year.",
+   "ko": "회사는 일 년에 한 번씩 확실히 해둘 필요가 있어요.",
+   "chunks": [
+    [
+     "The company needs to make sure",
+     "회사는 확실히 할 필요가 있다"
+    ],
+    [
+     "once a year.",
+     "일 년에 한 번"
+    ]
+   ],
+   "words": [
+    [
+     "make sure",
+     "확인하다, 확실히 하다"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t8",
+   "start": 326.21,
+   "end": 335.72,
+   "en": "Yeah, oh because it's national policy so that they can make sure that all the employees are healthy.",
+   "ko": "네, 국가 정책이기 때문에 모든 직원이 건강한지 확인할 수 있는 거죠.",
+   "chunks": [
+    [
+     "because it's national policy",
+     "국가 정책이기 때문에"
+    ],
+    [
+     "so that they can make sure",
+     "확인하기 위해서"
+    ],
+    [
+     "all the employees are healthy.",
+     "모든 직원이 건강한지를"
+    ]
+   ],
+   "words": [
+    [
+     "policy",
+     "정책"
+    ],
+    [
+     "employee",
+     "직원"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t9",
+   "start": 365.58,
+   "end": 369.03,
+   "en": "When is your birthday?",
+   "ko": "생일이 언제인가요?",
+   "chunks": [
+    [
+     "When is",
+     "언제인가요"
+    ],
+    [
+     "your birthday?",
+     "당신의 생일이?"
+    ]
+   ],
+   "words": [],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t10",
+   "start": 521.34,
+   "end": 525.23,
+   "en": "In the Philippines, we only have two seasons.",
+   "ko": "필리핀에는 계절이 두 개밖에 없어요.",
+   "chunks": [
+    [
+     "In the Philippines,",
+     "필리핀에서는"
+    ],
+    [
+     "we only have",
+     "우리는 가지고 있다"
+    ],
+    [
+     "two seasons.",
+     "두 개의 계절만"
+    ]
+   ],
+   "words": [
+    [
+     "season",
+     "계절"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t11",
+   "start": 529.13,
+   "end": 536.55,
+   "en": "Like in Korea, you have four seasons, right?",
+   "ko": "한국처럼, 여러분은 네 계절이 있죠, 그렇지 않나요?",
+   "chunks": [
+    [
+     "Like in Korea,",
+     "한국처럼"
+    ],
+    [
+     "you have four seasons,",
+     "네 개의 계절이 있다"
+    ],
+    [
+     "right?",
+     "그렇죠?"
+    ]
+   ],
+   "words": [],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t12",
+   "start": 544.88,
+   "end": 551.76,
+   "en": "Like wet and dry season. It's rainy and sunny.",
+   "ko": "우기와 건처럼요. 비가 오거나 맑아요.",
+   "chunks": [
+    [
+     "Like wet and dry season.",
+     "우기와 건기처럼요."
+    ],
+    [
+     "It's rainy and sunny.",
+     "비가 오고 맑습니다."
+    ]
+   ],
+   "words": [
+    [
+     "wet season",
+     "우기"
+    ],
+    [
+     "dry season",
+     "건기"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t13",
+   "start": 579.08,
+   "end": 590.08,
+   "en": "You haven't, but I think you heard about the Philippines because a lot of Koreans go here, especially in Cebu.",
+   "ko": "가보지 않으셨겠지만, 한국인들이 특히 세부에 많이 가기 때문에 필리핀에 대해 들어보셨을 것 같아요.",
+   "chunks": [
+    [
+     "You haven't,",
+     "가보지 않으셨겠지만"
+    ],
+    [
+     "I think you heard about",
+     "들어보셨을 것 같아요"
+    ],
+    [
+     "the Philippines",
+     "필리핀에 대해"
+    ]
+   ],
+   "words": [
+    [
+     "especially",
+     "특히"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t14",
+   "start": 669.43,
+   "end": 673.91,
+   "en": "And how about you, sir? Do you like to travel?",
+   "ko": "그리고 손님은 어떠세요? 여행 좋아하시나요?",
+   "chunks": [
+    [
+     "And how about you,",
+     "그리고 당신은 어떠세요"
+    ],
+    [
+     "sir?",
+     "손님/선생님?"
+    ],
+    [
+     "Do you like to travel?",
+     "여행하는 것을 좋아하시나요?"
+    ]
+   ],
+   "words": [
+    [
+     "travel",
+     "여행하다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t15",
+   "start": 693.33,
+   "end": 699.19,
+   "en": "I think you have money. Your position in the company is good.",
+   "ko": "돈이 있으실 것 같아요. 회사에서의 직책도 좋으시니까요.",
+   "chunks": [
+    [
+     "I think",
+     "생각해요"
+    ],
+    [
+     "you have money.",
+     "돈이 있으시다고"
+    ],
+    [
+     "Your position in the company is good.",
+     "회사에서의 직책이 좋으시니까요."
+    ]
+   ],
+   "words": [
+    [
+     "position",
+     "직책, 위치"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t16",
+   "start": 722.92,
+   "end": 731.56,
+   "en": "We need to make sure that we can provide our family first, right? Before...",
+   "ko": "우리는 먼저 가족을 부양할 수 있는지 확실히 해야 하죠, 그렇죠? 전에...",
+   "chunks": [
+    [
+     "We need to make sure",
+     "우리는 확실히 해야 한다"
+    ],
+    [
+     "that we can provide our family first,",
+     "가족을 먼저 챙길 수 있음을"
+    ],
+    [
+     "right?",
+     "그렇죠?"
+    ]
+   ],
+   "words": [
+    [
+     "provide",
+     "부양하다, 제공하다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t17",
+   "start": 744.36,
+   "end": 746.39,
+   "en": "No time for travel.",
+   "ko": "여행할 시간이 없군요.",
+   "chunks": [
+    [
+     "No time",
+     "시간이 없다"
+    ],
+    [
+     "for travel.",
+     "여행을 위한"
+    ]
+   ],
+   "words": [],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t18",
+   "start": 876.81,
+   "end": 883.3,
+   "en": "So when you go here, you go to many places in New York.",
+   "ko": "여기에 가셨을 때 뉴욕의 여러 장소를 가보셨군요.",
+   "chunks": [
+    [
+     "So when you go here,",
+     "여기에 가셨을 때"
+    ],
+    [
+     "you go to many places",
+     "많은 장소에 갔군요"
+    ],
+    [
+     "in New York.",
+     "뉴욕의"
+    ]
+   ],
+   "words": [],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t19",
+   "start": 920.26,
+   "end": 923.63,
+   "en": "So, your wife will love Italy.",
+   "ko": "그럼 아내분이 이탈리아를 정말 좋아하실 거예요.",
+   "chunks": [
+    [
+     "So, your wife",
+     "그러면 아내분이"
+    ],
+    [
+     "will love Italy.",
+     "이탈리아를 아주 좋아할 것입니다."
+    ]
+   ],
+   "words": [],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t20",
+   "start": 984.08,
+   "end": 995.28,
+   "en": "So DP Solution is a small foreign owned company in Jongno-gu in Seoul, Korea.",
+   "ko": "DP 솔루션은 한국 서울 종로구에 있는 소규모 외국계 회사입니다.",
+   "chunks": [
+    [
+     "DP Solution is a small",
+     "DP 솔루션은 작은"
+    ],
+    [
+     "foreign owned company",
+     "외국계 회사이다"
+    ],
+    [
+     "in Jongno-gu in Seoul, Korea.",
+     "한국 서울 종로구에 있는"
+    ]
+   ],
+   "words": [
+    [
+     "foreign owned",
+     "외국계의"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t21",
+   "start": 1032.62,
+   "end": 1046.11,
+   "en": "Now the employees of DP Solutions company is John White. John White is the American manager of DP Solutions.",
+   "ko": "이제 DP 솔루션 회사의 직원은 존 화이트입니다. 존 화이트는 DP 솔루션의 미국인 관리자입니다.",
+   "chunks": [
+    [
+     "The employees of DP Solutions",
+     "DP 솔루션의 직원들은"
+    ],
+    [
+     "John White.",
+     "존 화이트이다."
+    ],
+    [
+     "He is the American manager",
+     "그는 미국인 매니저이다"
+    ]
+   ],
+   "words": [
+    [
+     "manager",
+     "관리자, 매니저"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t22",
+   "start": 1083.33,
+   "end": 1090.36,
+   "en": "Amy is an office worker. She assists all of the other employees when they need help.",
+   "ko": "에이미는 회사원입니다. 그녀는 다른 직원들이 도움이 필요할 때 모두 도와줍니다.",
+   "chunks": [
+    [
+     "Amy is an office worker.",
+     "에이미는 회사원이다."
+    ],
+    [
+     "She assists all of the other employees",
+     "그녀는 다른 모든 직원들을 돕는다"
+    ],
+    [
+     "when they need help.",
+     "그들이 도움이 필요할 때"
+    ]
+   ],
+   "words": [
+    [
+     "assist",
+     "돕다"
+    ],
+    [
+     "office worker",
+     "회사원"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t23",
+   "start": 1149.34,
+   "end": 1156.94,
+   "en": "Yeah, so thank you so much for coming today, sir. Thank you and have a good day.",
+   "ko": "네, 오늘 와주셔서 정말 감사합니다. 감사합니다, 좋은 하루 보내세요.",
+   "chunks": [
+    [
+     "thank you so much",
+     "정말 감사합니다"
+    ],
+    [
+     "for coming today,",
+     "오늘 와주셔서"
+    ],
+    [
+     "and have a good day.",
+     "그리고 좋은 하루 보내세요."
+    ]
+   ],
+   "words": [],
+   "core": true,
+   "dict": true
+  }
+ ],
+ "mine": [
+  {
+   "id": "m1",
+   "start": 29.94,
+   "end": 32.82,
+   "said": "I feel so cool.",
+   "better": "I feel refreshed.",
+   "ko": "날씨가 좋아서 상쾌하다는 의미로 'cool'보다는 'refreshed'가 자연스럽습니다.",
+   "errors": [
+    {
+     "wrong": "cool",
+     "right": "refreshed",
+     "why": "날씨나 기분이 상쾌할 때는 'refreshed'를 씁니다."
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "start": 46.81,
+   "end": 75.37,
+   "said": "This morning, I am PG. I work in every... Yes. I'm making an application by the Clotiv AI application.",
+   "better": "I'm working on a project. I'm developing a Clotiv AI application.",
+   "ko": "진행 중인 업무를 설명할 때는 'working on'을 사용합니다.",
+   "errors": [
+    {
+     "wrong": "I am PG",
+     "right": "I am working on a project",
+     "why": "문맥상 업무(project)를 진행 중이라는 의미입니다."
+    },
+    {
+     "wrong": "making an application by",
+     "right": "developing an application using",
+     "why": "앱을 개발할 때는 'develop'을 쓰고, 도구는 'using'으로 연결합니다."
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": 75.79,
+   "end": 92.45,
+   "said": "Yes, there are many innovations by the institutions that finance and HR and fund.",
+   "better": "There are many innovations in finance and HR departments.",
+   "ko": "부서나 분야를 말할 때는 'in'을 사용합니다.",
+   "errors": [
+    {
+     "wrong": "by the institutions that finance and HR and fund",
+     "right": "in finance and HR departments",
+     "why": "분야를 나타낼 때는 전치사 'in'이 적절합니다."
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "start": 118.16,
+   "end": 130.64,
+   "said": "And especially I use very many. Very much so. I use very much",
+   "better": "I use it a lot.",
+   "ko": "빈도를 나타낼 때는 'very much'보다 'a lot'이 자연스럽습니다.",
+   "errors": [
+    {
+     "wrong": "use very many / very much",
+     "right": "use it a lot",
+     "why": "동사를 수식할 때는 'a lot'을 쓰는 것이 훨씬 자연스럽습니다."
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "start": 166.52,
+   "end": 168.37,
+   "said": "I did your last video",
+   "better": "I watched your last video.",
+   "ko": "영상을 보는 것은 'watch'입니다.",
+   "errors": [
+    {
+     "wrong": "did",
+     "right": "watched",
+     "why": "영상을 시청하는 행위는 'watch' 동사를 사용합니다."
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": 215.29,
+   "end": 229.19,
+   "said": "checking people nine hours before that. Four go nine hours. Nine hours. Don't eat anything.",
+   "better": "I have a physical checkup, so I shouldn't eat anything for nine hours before it.",
+   "ko": "건강검진 전 금식에 대한 설명입니다.",
+   "errors": [
+    {
+     "wrong": "checking people",
+     "right": "a physical checkup",
+     "why": "건강검진은 'physical checkup'이라고 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "start": 232.2,
+   "end": 238.93,
+   "said": "Oh, check our tummy.",
+   "better": "It's a stomach checkup.",
+   "ko": "검진 목적을 설명할 때 쓰는 표현입니다.",
+   "errors": [
+    {
+     "wrong": "check our tummy",
+     "right": "a stomach checkup",
+     "why": "검진을 받는다는 명사형 표현이 더 명확합니다."
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "start": 319.95,
+   "end": 325.87,
+   "said": "National policy Nation of Police",
+   "better": "It's a national policy.",
+   "ko": "국가 정책을 말할 때는 'national policy'입니다.",
+   "errors": [
+    {
+     "wrong": "Nation of Police",
+     "right": "national policy",
+     "why": "단어 선택 오류입니다. 'policy(정책)'와 'police(경찰)'는 다릅니다."
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "start": 369.85,
+   "end": 398.35,
+   "said": "My first day I'm a tourist. My birthday is 26 days June 26th",
+   "better": "My birthday is June 26th.",
+   "ko": "생일을 말할 때는 날짜를 바로 말하면 됩니다.",
+   "errors": [
+    {
+     "wrong": "My first day I'm a tourist",
+     "right": "My birthday is",
+     "why": "생일을 묻는 질문에 대한 답변으로 불필요한 문장입니다."
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "start": 427.88,
+   "end": 435.42,
+   "said": "Our annual, our country is summer. And so very hard.",
+   "better": "It's summer in my country, and it's very hot.",
+   "ko": "날씨가 더운 것은 'hot'입니다.",
+   "errors": [
+    {
+     "wrong": "hard",
+     "right": "hot",
+     "why": "날씨가 더울 때는 'hot'을 사용합니다."
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "start": 566.53,
+   "end": 573.51,
+   "said": "I never be... I don't have a bin in Philippines.",
+   "better": "I have never been to the Philippines.",
+   "ko": "경험을 말할 때는 현재완료 'have been to'를 씁니다.",
+   "errors": [
+    {
+     "wrong": "I never be",
+     "right": "I have never been to",
+     "why": "경험을 나타내는 현재완료 시제입니다."
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "start": 612.23,
+   "end": 639.2,
+   "said": "I heard Zebul. Yes, yes. One of the beautiful island. Shable is one of the... A beautiful island, island.",
+   "better": "I've heard of Cebu. It's one of the most beautiful islands.",
+   "ko": "최상급 표현과 복수형 명사를 사용해야 합니다.",
+   "errors": [
+    {
+     "wrong": "one of the beautiful island",
+     "right": "one of the most beautiful islands",
+     "why": "'one of the' 뒤에는 복수명사가 오며, 최상급 표현이 자연스럽습니다."
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "start": 674.92,
+   "end": 682.99,
+   "said": "Yes, I like trouble, but I have no money.",
+   "better": "I like traveling, but I don't have enough money.",
+   "ko": "여행은 'travel'입니다.",
+   "errors": [
+    {
+     "wrong": "trouble",
+     "right": "traveling",
+     "why": "발음 혼동입니다. 'trouble(문제)'이 아닌 'travel(여행)'을 써야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "start": 784.08,
+   "end": 791.01,
+   "said": "Oh yes, I guess I got here three years ago.",
+   "better": "I went there three years ago.",
+   "ko": "과거에 방문한 것을 말할 때는 'went'를 씁니다.",
+   "errors": [
+    {
+     "wrong": "got here",
+     "right": "went there",
+     "why": "과거의 방문을 말할 때는 'go to'의 과거형인 'went'를 씁니다."
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "start": 840.76,
+   "end": 853.9,
+   "said": "Yes, I'm here at Boston, MIT University. Harvard University. I was out in P.C.",
+   "better": "I visited Boston, MIT, and Harvard University.",
+   "ko": "방문했던 곳을 나열할 때는 'visited'를 사용합니다.",
+   "errors": [
+    {
+     "wrong": "I'm here at",
+     "right": "I visited",
+     "why": "과거의 경험이므로 과거형 동사를 사용합니다."
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "start": 957.45,
+   "end": 959.0,
+   "said": "I'm employee",
+   "better": "I am an employee.",
+   "ko": "직업 앞에는 관사 'an'이 필요합니다.",
+   "errors": [
+    {
+     "wrong": "employee",
+     "right": "an employee",
+     "why": "가산 명사 앞에는 관사가 필요합니다."
+    }
+   ]
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "I don't have a bin in Philippines.",
+   "better": "I have never been to the Philippines.",
+   "ko": "필리핀에 가본 적이 없어요.",
+   "tip": "어디에 가본 적이 없다고 경험을 말할 때는 'I have never been to 장소' 패턴을 써야 자연스러워."
+  },
+  {
+   "mine": "checking people nine hours before that. Don't eat anything.",
+   "better": "I have to fast for nine hours before the health checkup.",
+   "ko": "건강검진 9시간 전부터 금식해야 해요.",
+   "tip": "검진 전 '금식하다'는 영어로 fast라는 동사를 쓰고, 건강검진은 health checkup이라고 해."
+  },
+  {
+   "mine": "I like trouble, but I have no money.",
+   "better": "I like traveling, but I don't have much time or money.",
+   "ko": "여행하는 걸 좋아하지만 돈과 시간이 별로 없어요.",
+   "tip": "'travel(여행)' 발음이 'trouble(문제)'로 들릴 수 있으니 입술을 살짝 물며 트래블로 발음해 봐."
+  },
+  {
+   "mine": "And especially I use very many. I use very much.",
+   "better": "I especially use AI a lot at work.",
+   "ko": "특히 저는 직장에서 AI를 정말 많이 써요.",
+   "tip": "'많이 사용한다'는 행위의 빈도나 양을 말할 때는 use many 대신 use a lot을 써."
+  },
+  {
+   "mine": "This is October season is called 'Lead the Book' season.",
+   "better": "In Korea, October is known as the season for reading.",
+   "ko": "한국에서는 10월을 흔히 독서의 계절이라고 불러요.",
+   "tip": "'독서의 계절'은 직역하기보다 'the season for reading'으로 표현하는 것이 훨씬 자연스러워."
+  },
+  {
+   "mine": "Nation of Police",
+   "better": "It's a national policy.",
+   "ko": "국가 정책(법적 의무)이에요.",
+   "tip": "policy(정책/방침)와 police(경찰)는 발음이 헷갈리기 쉬우니 '폴리시'로 명확하게 구분해 줘."
+  },
+  {
+   "mine": "I guess I got here three years ago.",
+   "better": "I visited there about three years ago.",
+   "ko": "거기 3년 전쯤 가봤어요.",
+   "tip": "사진 속 장소를 가리킬 때는 here(여기) 대신 there(거기)을 쓰고, get here보다는 visited there가 깔끔해."
+  },
+  {
+   "mine": "There is no real, yes.",
+   "better": "It's a fictional company, right?",
+   "ko": "가상의 회사인 거죠?",
+   "tip": "실제가 아닌 교재 속 가상의 회사를 말할 때는 'fictional company'라고 표현해."
+  }
+ ],
+ "phrases": [
+  {
+   "en": "physical checkup",
+   "ko": "건강검진",
+   "ex": "The company provides a free physical checkup once a year."
+  },
+  {
+   "en": "make sure",
+   "ko": "확실히 하다, 확인하다",
+   "ex": "The company wants to make sure all employees are healthy."
+  },
+  {
+   "en": "national policy",
+   "ko": "국가 정책, 법적 규정",
+   "ex": "Regular health examinations are required by national policy."
+  },
+  {
+   "en": "wet and dry season",
+   "ko": "우기와 건기",
+   "ex": "In the Philippines, there are only two seasons: wet and dry."
+  },
+  {
+   "en": "have never been to",
+   "ko": "~에 가본 적이 없다",
+   "ex": "I have never been to Cebu, but I've heard a lot about it."
+  },
+  {
+   "en": "provide for my family",
+   "ko": "가족을 부양하다, 가족을 책임지다",
+   "ex": "My priority is to provide for my family before spending on luxury."
+  },
+  {
+   "en": "have no time for",
+   "ko": "~할 시간이 없다",
+   "ex": "I am so busy with work that I have no time for travel."
+  },
+  {
+   "en": "run the entire office",
+   "ko": "사무실(조직) 전체를 총괄 운영하다",
+   "ex": "As a general manager, he runs the entire office."
+  }
+ ],
+ "next": {
+  "q": "If you could take two weeks off to travel to Italy or Spain with your family, what would you like to do there?",
+  "ko": "만약 지금 가족과 함께 이탈리아나 스페인으로 2주간 휴가를 떠날 수 있다면, 그곳에서 무엇을 가장 하고 싶으신가요?",
+  "starters": [
+   {
+    "en": "If I had two weeks of vacation, I would love to take my wife and kids to Italy.",
+    "ko": "만약 2주의 휴가가 생긴다면, 아내와 아이들을 데리고 이탈리아에 꼭 가고 싶습니다."
+   },
+   {
+    "en": "My wife really wants to visit historic cities in Europe, so I want to plan a relaxing trip for her.",
+    "ko": "아내가 유럽의 역사적인 도시들을 정말 가보고 싶어 해서, 아내를 위해 여유로운 여행을 계획해 주고 싶습니다."
+   },
+   {
+    "en": "Since I am usually overwhelmed with work and AI projects, I just want to unplug completely.",
+    "ko": "평소 회사 업무와 AI 프로젝트로 너무 바쁘기 때문에, 완전히 일에서 벗어나 쉬고 싶습니다."
+   },
+   {
+    "en": "I went to New York and Boston for business before, but this time I want to enjoy local food and wine without rushing.",
+    "ko": "예전에 뉴욕과 보스턴은 출장차 다녀왔지만, 이번에는 서두르지 않고 현지 음식과 와인을 즐기고 싶습니다."
+   },
+   {
+    "en": "The most important thing for me is spending stress-free, quality time with my family.",
+    "ko": "저에게 가장 중요한 것은 스트레스 없이 가족들과 가치 있는 시간을 함께 보내는 것입니다."
+   }
+  ]
+ }
+}
