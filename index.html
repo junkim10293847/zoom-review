@@ -158,7 +158,7 @@ mark.bad{background:none;color:var(--miss);text-decoration:underline wavy;text-u
 
 <script>
 let API=(window.APP_CONFIG&&window.APP_CONFIG.api)||'';
-const APP_VER='1.3 · 10/27 23:15';   /* 고칠 때마다 version.txt와 같이 올림 */
+const APP_VER='1.4 · 10/30 12:40';   /* 고칠 때마다 version.txt와 같이 올림 */
 let NEW_VER='';
 const $=s=>document.querySelector(s);
 const app=$('#app'), aud=$('#aud');
@@ -192,7 +192,7 @@ const st=key=>S[key];
 /* ---------- 데이터 ---------- */
 let INDEX=[], L=null, JOBS=[];
 const cache={};
-async function loadIndex(){const r=await fetch('data/index.json?v='+Date.now());if(!r.ok)throw 0;INDEX=(await r.json()).lessons||[]}
+async function loadIndex(){const r=await fetch('data/index.json?v='+Date.now());if(!r.ok)throw 0;INDEX=(await r.json()).lessons||[];LS.set('zr.index',INDEX)}
 async function loadLesson(date){
   if(!cache[date]){const r=await fetch('data/lessons/'+date+'.json?v='+Date.now());if(!r.ok)throw 0;cache[date]=await r.json()}
   return cache[date];
@@ -211,9 +211,17 @@ function speak(text){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtt
 /* ---------- 목록 화면 ---------- */
 function dayParts(d){const t=new Date(d+'T00:00:00');return {m:t.getMonth()+1,d:t.getDate(),w:WD[t.getDay()]}}
 function lessonPct(date,n){const keys=Object.keys(S).filter(k=>k.startsWith(date+':L')&&S[k]==='ok').length;return n?Math.min(1,keys/Math.max(1,Math.min(12,n))):0}
-async function listView(){
-  mode='list';aud.pause();location.hash='';
-  await loadJobs();
+/* 목록은 바로 그리고, 서버(진도·올리기 상태)는 뒤에서 받아 다시 그림 */
+function listView(){renderList();refreshBg()}
+let bgBusy=false;
+async function refreshBg(){
+  if(bgBusy||!API)return; bgBusy=true;
+  await Promise.all([pullProgress(),loadJobs()]);
+  bgBusy=false;
+  if(mode==='list')renderList();
+}
+function renderList(){
+  mode='list';aud.pause();if(location.hash)history.replaceState(null,'',location.pathname+location.search);
   let lastM='';
   const items=INDEX.map(x=>{const p=dayParts(x.date);const m=x.date.slice(0,7);
     const head=m!==lastM?`<div class="month">${m.replace('-','. ')}</div>`:'';lastM=m;
@@ -234,7 +242,7 @@ async function listView(){
     <p class="ver">앱 버전 ${APP_VER} · ${API?'서버 연결됨':'서버 주소 없음'}</p>
     ${API?`<p class="sync">${!KEY?'진도 동기화 꺼짐 · 수업 올리기에서 비밀번호를 넣으면 켜집니다':syncState==='key'?'비밀번호가 맞지 않습니다 · 수업 올리기에서 다시 넣어 주세요':syncState==='off'?'서버 연결 안 됨 · 이 기기에만 저장 중':'휴대폰·PC 진도 동기화 켜짐'}</p>`:''}`;
   app.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>openLesson(b.dataset.d));
-  app.querySelectorAll('[data-del]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{await api('zoom_deleteJob',b.dataset.del)}catch(e){}listView()});
+  app.querySelectorAll('[data-del]').forEach(b=>b.onclick=async()=>{b.disabled=true;try{await api('zoom_deleteJob',b.dataset.del)}catch(e){}JOBS=JOBS.filter(j=>j.id!==b.dataset.del);renderList()});
   const up=$('#up');if(up)up.onclick=uploadView;
   const ud=$('#upd');if(ud)ud.onclick=()=>{location.replace(location.pathname+'?v='+Date.now())};
 }
@@ -447,13 +455,22 @@ function prep(){
 
 /* ---------- 시작 ---------- */
 (async()=>{
-  try{const v=(await (await fetch('version.txt?v='+Date.now())).text()).trim();if(v&&v!==APP_VER)NEW_VER=v}catch(e){}
-  /* 휴대폰이 예전 config.js를 기억하고 있어도 최신 서버 주소를 다시 확인 */
-  try{const t=await (await fetch('config.js?v='+Date.now())).text();const m=t.match(/api\s*:\s*["']([^"']+)["']/);if(m&&m[1]!==API)API=m[1]}catch(e){}
-  try{await loadIndex()}catch(e){app.innerHTML='<div class="err">수업 목록을 불러오지 못했습니다. 새로고침해 주세요.</div>';return}
-  await pullProgress();
+  /* 1) 지난번에 받아 둔 목록이 있으면 기다리지 않고 바로 보여 줌 */
+  const cached=LS.get('zr.index',null);
   const h=location.hash.match(/^#d(\d{4})(\d{2})(\d{2})$/);
-  if(h&&INDEX.some(x=>x.date===`${h[1]}-${h[2]}-${h[3]}`))openLesson(`${h[1]}-${h[2]}-${h[3]}`);else listView();
+  const d=h&&`${h[1]}-${h[2]}-${h[3]}`;
+  if(!d&&cached&&cached.length){INDEX=cached;renderList()}
+  /* 2) 최신 목록·버전·서버 주소를 동시에 받음 */
+  const res=await Promise.all([
+    fetch('version.txt?v='+Date.now()).then(r=>r.text()).then(v=>{v=v.trim();if(v&&v!==APP_VER)NEW_VER=v}).catch(()=>{}),
+    fetch('config.js?v='+Date.now()).then(r=>r.text()).then(t=>{const m=t.match(/api\s*:\s*["']([^"']+)["']/);if(m)API=m[1]}).catch(()=>{}),
+    loadIndex().then(()=>true).catch(()=>false)
+  ]);
+  if(!res[2]&&!INDEX.length){app.innerHTML='<div class="err">수업 목록을 불러오지 못했습니다. 새로고침해 주세요.</div>';return}
+  if(d&&INDEX.some(x=>x.date===d)){openLesson(d);refreshBg()}
+  else if(mode==='list'||!cached)listView();   /* 다른 화면으로 이미 들어갔으면 건드리지 않음 */
+  /* 3) 가장 최근 수업은 미리 받아 둠 (눌렀을 때 바로 열리게) */
+  if(INDEX[0])setTimeout(()=>loadLesson(INDEX[0].date).catch(()=>{}),800);
 })();
 </script>
 </body>

@@ -25,7 +25,7 @@ def diag(msg):
     """원인 확인용 기록 (diag/last.txt에 남겨 저장소에서 볼 수 있게)"""
     os.makedirs(os.path.join(ROOT, 'diag'), exist_ok=True)
     with open(os.path.join(ROOT, 'diag', 'last.txt'), 'w', encoding='utf-8') as f:
-        f.write(time.strftime('%Y-%m-%d %H:%M:%S UTC ', time.gmtime()) + msg + '\n')
+        f.write(msg + '\n')            # 같은 오류가 반복되면 내용이 같아 저장소에 다시 올라가지 않음
     print(msg)
 
 
@@ -307,7 +307,6 @@ def main():
         print('config.js에 Apps Script 주소가 없습니다.'); out('todo', 0); return
     try:
         jobs = api('zoom_pendingJobs') or []
-        diag(f"작업 확인 성공: 대기 {len(jobs)}개 · 키 길이 {len(os.environ.get('ZOOM_KEY',''))}")
     except Exception as e:
         print('작업 목록 확인 실패:', e); diag(f'작업 목록 확인 실패: {e} · 키 길이 {len(os.environ.get("ZOOM_KEY",""))}'); out('todo', 0); return
     out('todo', len(jobs))
