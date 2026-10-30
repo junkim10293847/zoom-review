@@ -1,0 +1,1347 @@
+{
+ "date": "2026-09-11",
+ "audio": "audio/2026-09-11.mp3",
+ "minutes": 20,
+ "topic": "Traffic, Business Products, and Korean Culture",
+ "topicKo": "교통 체증, 회사 제품 및 한국 대중문화",
+ "teacher": "Teacher",
+ "summary": "한국과 필리핀의 출퇴근 교통 체증, 학생 회사의 비타민 제품과 물류 유통, 그리고 배우 공유와 K-pop 아이돌 등 한국 대중문화에 대해 즐겁게 이야기를 나누었습니다.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 35.84,
+   "end": 41.05,
+   "en": "What time does the rush hour start in Korea?",
+   "ko": "한국에서는 출퇴근 길 혼잡 시간이 몇 시에 시작하나요?",
+   "chunks": [
+    [
+     "What time",
+     "몇 시에"
+    ],
+    [
+     "does the rush hour start",
+     "출퇴근 혼잡 시간이 시작하나요"
+    ],
+    [
+     "in Korea?",
+     "한국에서는?"
+    ]
+   ],
+   "words": [
+    [
+     "rush hour",
+     "출퇴근 혼잡 시간"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t2",
+   "start": 66.1,
+   "end": 71.76,
+   "en": "And that is when the students also travel to school.",
+   "ko": "그리고 그때가 학생들이 등교하는 시간이기도 하죠.",
+   "chunks": [
+    [
+     "And that is when",
+     "그리고 그때가 ~하는 때입니다"
+    ],
+    [
+     "the students also travel",
+     "학생들도 이동하는"
+    ],
+    [
+     "to school.",
+     "학교로"
+    ]
+   ],
+   "words": [
+    [
+     "travel to school",
+     "등교하다, 학교로 이동하다"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t3",
+   "start": 75.31,
+   "end": 86.06,
+   "en": "Here in the Philippines, 7:00 is not that traffic yet. It starts at 8:00.",
+   "ko": "여기 필리핀은 7시에는 아직 그다지 막히지 않아요. 8시부터 시작합니다.",
+   "chunks": [
+    [
+     "Here in the Philippines,",
+     "여기 필리핀에서는"
+    ],
+    [
+     "7:00 is not that traffic yet.",
+     "7시는 아직 그렇게 막히지 않아요."
+    ],
+    [
+     "It starts at 8:00.",
+     "8시에 시작해요."
+    ]
+   ],
+   "words": [
+    [
+     "traffic",
+     "교통 체증이 있는"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t4",
+   "start": 118.51,
+   "end": 128.46,
+   "en": "Bicycles are not allowed on the highway, but motorcycles act like cars.",
+   "ko": "고속도로에서는 자전거가 금지되어 있지만, 오토바이는 자동차처럼 다니죠.",
+   "chunks": [
+    [
+     "Bicycles are not allowed",
+     "자전거는 허용되지 않습니다"
+    ],
+    [
+     "on the highway,",
+     "고속도로에서"
+    ],
+    [
+     "but motorcycles act like cars.",
+     "하지만 오토바이는 자동차처럼 다닙니다."
+    ]
+   ],
+   "words": [
+    [
+     "allow",
+     "허용하다"
+    ],
+    [
+     "highway",
+     "고속도로"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t5",
+   "start": 134.85,
+   "end": 144.26,
+   "en": "One of my Korean students told me that even though she has a car, she takes the subway going to work.",
+   "ko": "제 한국인 학생 중 한 명이 차가 있는데도 출근할 때 지하철을 탄다고 하더라고요.",
+   "chunks": [
+    [
+     "One of my Korean students",
+     "제 한국인 학생 중 한 명이"
+    ],
+    [
+     "told me that",
+     "나에게 말하길"
+    ],
+    [
+     "even though she has a car,",
+     "차가 있음에도 불구하고"
+    ],
+    [
+     "she takes the subway",
+     "지하철을 탄다고 했습니다"
+    ],
+    [
+     "going to work.",
+     "출근할 때"
+    ]
+   ],
+   "words": [
+    [
+     "even though",
+     "~임에도 불구하고"
+    ],
+    [
+     "take the subway",
+     "지하철을 타다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t6",
+   "start": 169.68,
+   "end": 177.27,
+   "en": "Yeah, and I think the subway or the trains don't have traffic.",
+   "ko": "맞아요, 그리고 지하철이나 기차는 교통 체증이 없으니까요.",
+   "chunks": [
+    [
+     "Yeah, and I think",
+     "네, 그리고 제 생각엔"
+    ],
+    [
+     "the subway or the trains",
+     "지하철이나 기차는"
+    ],
+    [
+     "don't have traffic.",
+     "교통 체증이 없어요."
+    ]
+   ],
+   "words": [
+    [
+     "subway",
+     "지하철"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t7",
+   "start": 184.16,
+   "end": 191.54,
+   "en": "And I think the weather today is good in your place.",
+   "ko": "오늘 계신 곳의 날씨가 좋은 것 같네요.",
+   "chunks": [
+    [
+     "And I think",
+     "그리고 제 생각엔"
+    ],
+    [
+     "the weather today is good",
+     "오늘 날씨가 좋아요"
+    ],
+    [
+     "in your place.",
+     "계신 곳의"
+    ]
+   ],
+   "words": [
+    [
+     "weather",
+     "날씨"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t8",
+   "start": 207.21,
+   "end": 219.54,
+   "en": "By the way, tomorrow is the weekend. Do you have any plans for the weekend?",
+   "ko": "그나저나 내일이 주말이네요. 주말에 무슨 계획 있으신가요?",
+   "chunks": [
+    [
+     "By the way,",
+     "그나저나"
+    ],
+    [
+     "tomorrow is the weekend.",
+     "내일이 주말이에요."
+    ],
+    [
+     "Do you have any plans",
+     "무슨 계획이 있으신가요"
+    ],
+    [
+     "for the weekend?",
+     "주말에?"
+    ]
+   ],
+   "words": [
+    [
+     "by the way",
+     "그나저나, 그런데"
+    ],
+    [
+     "plan",
+     "계획"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t9",
+   "start": 296.0,
+   "end": 312.62,
+   "en": "They only have one day off on Thursday because their company is a logistics company.",
+   "ko": "물류 회사라서 목요일에 하루만 쉬세요.",
+   "chunks": [
+    [
+     "They only have one day off",
+     "하루만 쉬어요"
+    ],
+    [
+     "on Thursday",
+     "목요일에"
+    ],
+    [
+     "because their company",
+     "그들의 회사가 ~이기 때문에"
+    ],
+    [
+     "is a logistics company.",
+     "물류 회사이다"
+    ]
+   ],
+   "words": [
+    [
+     "day off",
+     "쉬는 날, 휴무"
+    ],
+    [
+     "logistics",
+     "물류, 유통"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t10",
+   "start": 321.06,
+   "end": 335.89,
+   "en": "So it's a logistics company, so they deliver products.",
+   "ko": "그래서 물류 회사니까 제품을 배송하는 회사군요.",
+   "chunks": [
+    [
+     "So it's a logistics company,",
+     "그래서 물류 회사군요"
+    ],
+    [
+     "so they deliver products.",
+     "그래서 제품을 배송합니다."
+    ]
+   ],
+   "words": [
+    [
+     "deliver",
+     "배송하다, 전달하다"
+    ],
+    [
+     "product",
+     "제품, 상품"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t11",
+   "start": 339.85,
+   "end": 350.54,
+   "en": "They deliver different things, like online products.",
+   "ko": "온라인 제품처럼 다양한 물건들을 배송하는군요.",
+   "chunks": [
+    [
+     "They deliver different things,",
+     "다양한 물건들을 배송하네요"
+    ],
+    [
+     "like online products.",
+     "온라인 제품 같은 것을."
+    ]
+   ],
+   "words": [
+    [
+     "different",
+     "다양한, 다른"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t12",
+   "start": 438.53,
+   "end": 449.42,
+   "en": "That is where Singapore delivers. So it's like worldwide delivery.",
+   "ko": "싱가포르가 배송하는 곳이군요. 전 세계 배송인 셈이네요.",
+   "chunks": [
+    [
+     "That is where Singapore delivers.",
+     "거기가 싱가포르가 배송하는 곳이군요."
+    ],
+    [
+     "So it's like",
+     "그러니까 ~인 셈이군요"
+    ],
+    [
+     "worldwide delivery.",
+     "전 세계 배송."
+    ]
+   ],
+   "words": [
+    [
+     "worldwide",
+     "전 세계적인"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t13",
+   "start": 456.55,
+   "end": 460.31,
+   "en": "Okay, so what is the name of your product again?",
+   "ko": "좋아요, 당신 회사의 제품 이름이 다시 뭐라고 했죠?",
+   "chunks": [
+    [
+     "Okay, so what is",
+     "좋아요, 무엇인가요"
+    ],
+    [
+     "the name of your product again?",
+     "당신 제품의 이름이 다시?"
+    ]
+   ],
+   "words": [
+    [
+     "product name",
+     "제품명"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t14",
+   "start": 517.18,
+   "end": 524.23,
+   "en": "I was taking your vitamins before, the ascorbic acid.",
+   "ko": "저 예전에 거기 비타민 먹었었어요, 아스코르브산 비타민이요.",
+   "chunks": [
+    [
+     "I was taking your vitamins before,",
+     "저 예전에 당신 회사의 비타민을 먹었었어요"
+    ],
+    [
+     "the ascorbic acid.",
+     "아스코르브산을."
+    ]
+   ],
+   "words": [
+    [
+     "take vitamins",
+     "비타민을 복용하다"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t15",
+   "start": 554.55,
+   "end": 571.3,
+   "en": "Yeah, I took that a year ago during the pandemic.",
+   "ko": "네, 1년 전 팬데믹 기간 동안 그걸 복용했었어요.",
+   "chunks": [
+    [
+     "Yeah, I took that a year ago",
+     "네, 1년 전에 그걸 복용했어요"
+    ],
+    [
+     "during the pandemic.",
+     "팬데믹 기간 동안."
+    ]
+   ],
+   "words": [
+    [
+     "during",
+     "~ 동안"
+    ],
+    [
+     "pandemic",
+     "전염병 대유행"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t16",
+   "start": 596.57,
+   "end": 602.55,
+   "en": "Wow, but I think it will get expensive to deliver here to the Philippines.",
+   "ko": "와, 하지만 여기 필리핀으로 배송받으려면 비용이 많이 들 것 같아요.",
+   "chunks": [
+    [
+     "Wow, but I think",
+     "와, 하지만 제 생각엔"
+    ],
+    [
+     "it will get expensive",
+     "비싸질 것 같아요"
+    ],
+    [
+     "to deliver here",
+     "여기 배송하는 것이"
+    ],
+    [
+     "to the Philippines.",
+     "필리핀으로."
+    ]
+   ],
+   "words": [
+    [
+     "expensive",
+     "비싼"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t17",
+   "start": 623.16,
+   "end": 631.41,
+   "en": "Of course I want it, but everyone likes free things!",
+   "ko": "당연히 받고 싶죠, 누구나 공짜는 좋아하잖아요!",
+   "chunks": [
+    [
+     "Of course I want it,",
+     "당연히 원하죠"
+    ],
+    [
+     "but everyone likes free things!",
+     "하지만 누구나 공짜를 좋아해요!"
+    ]
+   ],
+   "words": [
+    [
+     "of course",
+     "당연히"
+    ],
+    [
+     "free",
+     "무료의, 공짜인"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t18",
+   "start": 679.91,
+   "end": 688.46,
+   "en": "Your model is very famous, so it means your company is popular.",
+   "ko": "광고 모델이 정말 유명하니 회사가 대단하다는 뜻이네요.",
+   "chunks": [
+    [
+     "Your model is very famous,",
+     "당신의 모델이 매우 유명하니"
+    ],
+    [
+     "so it means",
+     "그것은 ~를 의미하네요"
+    ],
+    [
+     "your company is popular.",
+     "당신의 회사가 인기가 많다는 것을."
+    ]
+   ],
+   "words": [
+    [
+     "famous",
+     "유명한"
+    ],
+    [
+     "popular",
+     "인기 있는, 영향력 있는"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t19",
+   "start": 713.68,
+   "end": 738.98,
+   "en": "So I watched him in Train to Busan and Goblin.",
+   "ko": "그래서 그분이 나온 '부산행'이랑 '도깨비'를 봤어요.",
+   "chunks": [
+    [
+     "So I watched him",
+     "그래서 저는 그 배우를 봤어요"
+    ],
+    [
+     "in Train to Busan and Goblin.",
+     "'부산행'과 '도깨비'에서."
+    ]
+   ],
+   "words": [
+    [
+     "watch",
+     "시청하다, 보다"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t20",
+   "start": 812.7,
+   "end": 816.76,
+   "en": "Lee Dong-gook is famous for his twin children.",
+   "ko": "이동국 씨는 쌍둥이 자녀들로 유명하죠.",
+   "chunks": [
+    [
+     "Lee Dong-gook is famous",
+     "이동국 씨는 유명해요"
+    ],
+    [
+     "for his twin children.",
+     "그의 쌍둥이 자녀들로."
+    ]
+   ],
+   "words": [
+    [
+     "be famous for",
+     "~로 유명하다"
+    ],
+    [
+     "twin",
+     "쌍둥이"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t21",
+   "start": 866.06,
+   "end": 872.08,
+   "en": "I love watching Korean dramas and Korean TV shows.",
+   "ko": "저는 한국 드라마와 한국 예능 프로그램 보는 걸 정말 좋아해요.",
+   "chunks": [
+    [
+     "I love watching",
+     "저는 보는 걸 정말 좋아해요"
+    ],
+    [
+     "Korean dramas",
+     "한국 드라마와"
+    ],
+    [
+     "and Korean TV shows.",
+     "한국 TV 프로그램을."
+    ]
+   ],
+   "words": [
+    [
+     "TV show",
+     "TV 프로그램, 예능"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t22",
+   "start": 877.55,
+   "end": 887.7,
+   "en": "Yeah, he always comes here to the Philippines with Lee Min-ho.",
+   "ko": "맞아요, 그분은 이민호 씨랑 같이 필리핀에 자주 오더라고요.",
+   "chunks": [
+    [
+     "Yeah, he always comes here",
+     "네, 그는 항상 여기에 와요"
+    ],
+    [
+     "to the Philippines",
+     "필리핀에"
+    ],
+    [
+     "with Lee Min-ho.",
+     "이민호 씨와 함께."
+    ]
+   ],
+   "words": [
+    [
+     "always",
+     "항상, 자주"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t23",
+   "start": 902.59,
+   "end": 905.37,
+   "en": "Lee Min-ho is very famous here.",
+   "ko": "이민호 씨는 여기서 정말 유명해요.",
+   "chunks": [
+    [
+     "Lee Min-ho is",
+     "이민호 씨는"
+    ],
+    [
+     "very famous here.",
+     "여기서 매우 유명해요."
+    ]
+   ],
+   "words": [
+    [
+     "famous",
+     "유명한"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t24",
+   "start": 1050.33,
+   "end": 1060.22,
+   "en": "They are also famous here. Teenagers really love them.",
+   "ko": "그들도 여기서 정말 유명해요. 10대들이 정말 좋아하죠.",
+   "chunks": [
+    [
+     "They are also famous here.",
+     "그들도 여기서 유명해요."
+    ],
+    [
+     "Teenagers really love them.",
+     "십대들이 정말 좋아해요."
+    ]
+   ],
+   "words": [
+    [
+     "teenager",
+     "10대, 청소년"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t25",
+   "start": 1069.62,
+   "end": 1078.39,
+   "en": "In my timeline, I loved EXO and Big Bang.",
+   "ko": "제가 학생이던 시절에는 엑소랑 빅뱅을 정말 좋아했어요.",
+   "chunks": [
+    [
+     "In my timeline,",
+     "제 학창 시절 때에는"
+    ],
+    [
+     "I loved EXO and Big Bang.",
+     "엑소와 빅뱅을 좋아했어요."
+    ]
+   ],
+   "words": [
+    [
+     "timeline",
+     "시절, 학창 시절"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t26",
+   "start": 1140.78,
+   "end": 1151.75,
+   "en": "I'm not familiar with new idols now because I have no time to watch.",
+   "ko": "볼 시간이 없어서 요즘 신인 아이돌들은 잘 몰라요.",
+   "chunks": [
+    [
+     "I'm not familiar with",
+     "~에 익숙하지 않아요"
+    ],
+    [
+     "new idols now",
+     "요즘 신인 아이돌들에"
+    ],
+    [
+     "because I have no time to watch.",
+     "볼 시간이 없기 때문에."
+    ]
+   ],
+   "words": [
+    [
+     "be familiar with",
+     "~에 익숙하다, 잘 알다"
+    ],
+    [
+     "no time",
+     "시간이 없다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t27",
+   "start": 1155.85,
+   "end": 1175.57,
+   "en": "I heard about BTS and Blackpink, and my student loves IVE.",
+   "ko": "BTS랑 블랙핑크는 들어봤고, 제 학생은 아이브를 좋아해요.",
+   "chunks": [
+    [
+     "I heard about BTS and Blackpink,",
+     "BTS와 블랙핑크는 들어봤어요"
+    ],
+    [
+     "and my student loves IVE.",
+     "그리고 제 학생은 아이브를 좋아해요."
+    ]
+   ],
+   "words": [
+    [
+     "hear about",
+     "~에 대해 들어보다"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t28",
+   "start": 1202.26,
+   "end": 1205.17,
+   "en": "She said she wants to be an idol.",
+   "ko": "그 학생이 아이돌이 되고 싶다고 하더라고요.",
+   "chunks": [
+    [
+     "She said",
+     "그녀가 말하길"
+    ],
+    [
+     "she wants to be an idol.",
+     "아이돌이 되고 싶다고 했어요."
+    ]
+   ],
+   "words": [
+    [
+     "want to be",
+     "~가 되고 싶다"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t29",
+   "start": 1210.38,
+   "end": 1223.21,
+   "en": "I really want to talk to you more, but thank you so much and have a happy weekend!",
+   "ko": "이야기 더 나누고 싶지만 시간이 다 됐네요. 정말 감사드리고 행복한 주말 보내세요!",
+   "chunks": [
+    [
+     "I really want to talk to you more,",
+     "대화를 더 나누고 싶지만"
+    ],
+    [
+     "but thank you so much",
+     "정말 감사드리고"
+    ],
+    [
+     "and have a happy weekend!",
+     "행복한 주말 보내세요!"
+    ]
+   ],
+   "words": [
+    [
+     "happy weekend",
+     "행복한 주말"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  }
+ ],
+ "mine": [
+  {
+   "id": "m1",
+   "start": 19.78,
+   "end": 26.6,
+   "said": "today, the typically is very happy",
+   "better": "Today is usually very happy.",
+   "ko": "오늘따라 기분이 아주 좋네요.",
+   "errors": [
+    {
+     "wrong": "the typically",
+     "right": "it is usually",
+     "why": "부사(typically)를 명사처럼 사용했습니다."
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "start": 41.48,
+   "end": 53.71,
+   "said": "or maybe oh seven, Seven, 7 Okuras and 8, 9 Okuras.",
+   "better": "Maybe at 7:00, 8:00, or 9:00.",
+   "ko": "아마 7시, 8시, 9시쯤이요.",
+   "errors": [
+    {
+     "wrong": "Okuras",
+     "right": "o'clock",
+     "why": "시간을 말할 때 쓰는 표현(o'clock)을 잘못 들었습니다."
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": 56.13,
+   "end": 65.27,
+   "said": "What could this walk time start to line or clock?",
+   "better": "What time does the rush hour start?",
+   "ko": "러시아워가 몇 시에 시작하나요?",
+   "errors": [
+    {
+     "wrong": "walk time start to line or clock",
+     "right": "time does the rush hour start",
+     "why": "러시아워(rush hour)를 잘못 표현했습니다."
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "start": 102.08,
+   "end": 105.88,
+   "said": "Private hour and private what private",
+   "better": "Private transportation?",
+   "ko": "개인 교통수단인가요?",
+   "errors": [
+    {
+     "wrong": "Private hour",
+     "right": "Private transportation",
+     "why": "단어를 혼동했습니다."
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "start": 150.73,
+   "end": 169.45,
+   "said": "or somewhere, but students go to the school by on work because their house nearby is cool",
+   "better": "Students go to school by walking because their house is nearby.",
+   "ko": "학생들은 집이 가까워서 걸어서 학교에 가요.",
+   "errors": [
+    {
+     "wrong": "on work",
+     "right": "walking",
+     "why": "걸어서 간다는 표현을 잘못 썼습니다."
+    },
+    {
+     "wrong": "is cool",
+     "right": "is close",
+     "why": "가깝다(close)와 시원하다(cool)를 혼동했습니다."
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": 192.14,
+   "end": 195.49,
+   "said": "The weather is good sunnies.",
+   "better": "The weather is nice and sunny.",
+   "ko": "날씨가 좋고 화창해요.",
+   "errors": [
+    {
+     "wrong": "sunnies",
+     "right": "sunny",
+     "why": "형용사(sunny)를 명사형처럼 잘못 썼습니다."
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "start": 225.38,
+   "end": 240.39,
+   "said": "I scheduled the English study, joined the English study Study. small meat-taking",
+   "better": "I have an English study meeting.",
+   "ko": "영어 스터디 모임이 있어요.",
+   "errors": [
+    {
+     "wrong": "meat-taking",
+     "right": "meeting",
+     "why": "모임(meeting)을 잘못 발음했습니다."
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "start": 241.58,
+   "end": 245.27,
+   "said": "So, at saturday",
+   "better": "On Saturday.",
+   "ko": "토요일에요.",
+   "errors": [
+    {
+     "wrong": "at",
+     "right": "on",
+     "why": "요일 앞에는 전치사 on을 씁니다."
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "start": 246.75,
+   "end": 258.86,
+   "said": "I appreciate playing the golf at Sunday. with Vipe",
+   "better": "I enjoy playing golf on Sunday with my friend.",
+   "ko": "일요일에 친구랑 골프 치는 걸 즐겨요.",
+   "errors": [
+    {
+     "wrong": "appreciate",
+     "right": "enjoy",
+     "why": "감사하다(appreciate)와 즐기다(enjoy)를 혼동했습니다."
+    },
+    {
+     "wrong": "at Sunday",
+     "right": "on Sunday",
+     "why": "요일 앞에는 전치사 on을 씁니다."
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "start": 269.34,
+   "end": 289.11,
+   "said": "How about you clean the house with your patso? you did Do you clean the house? Yeah, we do your partner video",
+   "better": "Do you clean your house with your partner?",
+   "ko": "파트너와 함께 집 청소를 하시나요?",
+   "errors": [
+    {
+     "wrong": "patso",
+     "right": "partner",
+     "why": "단어를 잘못 발음했습니다."
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "start": 378.52,
+   "end": 395.69,
+   "said": "We have a company in Singapore. So our company made to Singapore manufacturing our product.",
+   "better": "Our company manufactures our products in Singapore.",
+   "ko": "우리 회사는 싱가포르에서 제품을 제조합니다.",
+   "errors": [
+    {
+     "wrong": "made to Singapore manufacturing",
+     "right": "manufactures in Singapore",
+     "why": "문장 구조가 어색합니다."
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "start": 395.85,
+   "end": 410.75,
+   "said": "And Singapore planned another Asian project for another Asian.",
+   "better": "Singapore is planning projects for other Asian countries.",
+   "ko": "싱가포르는 다른 아시아 국가들을 위한 프로젝트를 계획 중입니다.",
+   "errors": [
+    {
+     "wrong": "planned another Asian project",
+     "right": "is planning projects",
+     "why": "시제와 표현이 어색합니다."
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "start": 449.82,
+   "end": 452.67,
+   "said": "Yes, it's worldwide delivered.",
+   "better": "Yes, we deliver worldwide.",
+   "ko": "네, 전 세계로 배송합니다.",
+   "errors": [
+    {
+     "wrong": "worldwide delivered",
+     "right": "deliver worldwide",
+     "why": "수동태보다 능동태가 자연스럽습니다."
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "start": 462.22,
+   "end": 474.72,
+   "said": "odd name, her name all through vitamin through vitamin. True Vitamine",
+   "better": "The name is True Vitamin.",
+   "ko": "이름은 트루 비타민입니다.",
+   "errors": [
+    {
+     "wrong": "odd name",
+     "right": "The name is",
+     "why": "이름을 말할 때 쓰는 표현이 아닙니다."
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "start": 510.82,
+   "end": 514.29,
+   "said": "include all vitamins",
+   "better": "It includes all vitamins.",
+   "ko": "모든 비타민이 포함되어 있어요.",
+   "errors": [
+    {
+     "wrong": "include",
+     "right": "It includes",
+     "why": "주어와 동사의 수 일치가 필요합니다."
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "start": 618.87,
+   "end": 622.09,
+   "said": "If you want, I tell me.",
+   "better": "If you want, let me know.",
+   "ko": "원하시면 말씀해 주세요.",
+   "errors": [
+    {
+     "wrong": "I tell me",
+     "right": "let me know",
+     "why": "상대방에게 말해달라고 할 때는 let me know를 씁니다."
+    }
+   ]
+  },
+  {
+   "id": "m17",
+   "start": 689.72,
+   "end": 699.28,
+   "said": "Gung-il is... Gung-il say... say Tak. Tak is Danish language. Thank you.",
+   "better": "Gong Yoo said 'Tak'. 'Tak' means 'thank you' in Danish.",
+   "ko": "공유가 'Tak'이라고 했어요. 덴마크어로 '감사합니다'라는 뜻이에요.",
+   "errors": [
+    {
+     "wrong": "say Tak",
+     "right": "said 'Tak'",
+     "why": "과거형(said)을 써야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m18",
+   "start": 796.15,
+   "end": 810.52,
+   "said": "What? What? Is it \"i dong gu\" this one? You don't you don't go yes Yidongguk is a famous football player.",
+   "better": "Is it Lee Dong-gook? He is a famous football player.",
+   "ko": "이동국인가요? 유명한 축구 선수죠.",
+   "errors": [
+    {
+     "wrong": "i dong gu",
+     "right": "Lee Dong-gook",
+     "why": "이름 발음이 정확하지 않습니다."
+    }
+   ]
+  },
+  {
+   "id": "m19",
+   "start": 845.08,
+   "end": 850.38,
+   "said": "We had to one by a lamb or a Thai children's one by a yes. Yes!",
+   "better": "He has five children.",
+   "ko": "그는 다섯 명의 아이가 있어요.",
+   "errors": [
+    {
+     "wrong": "one by a lamb",
+     "right": "five children",
+     "why": "숫자 표현을 잘못 발음했습니다."
+    }
+   ]
+  },
+  {
+   "id": "m20",
+   "start": 877.55,
+   "end": 887.7,
+   "said": "Is this me? In Tokyo, it's a trauma. Yes, you don't move. Right? Yes.",
+   "better": "Is this a drama? Yes, that's right.",
+   "ko": "드라마인가요? 네, 맞아요.",
+   "errors": [
+    {
+     "wrong": "trauma",
+     "right": "drama",
+     "why": "단어를 혼동했습니다."
+    }
+   ]
+  },
+  {
+   "id": "m21",
+   "start": 1097.5,
+   "end": 1111.89,
+   "said": "Oh? That's what you are. You don't look that age of you. You look very younger. Thank you.",
+   "better": "You don't look your age. You look much younger.",
+   "ko": "제 나이로 안 보여요. 훨씬 어려 보여요.",
+   "errors": [
+    {
+     "wrong": "very younger",
+     "right": "much younger",
+     "why": "비교급 앞에는 very 대신 much를 씁니다."
+    }
+   ]
+  },
+  {
+   "id": "m22",
+   "start": 1176.66,
+   "end": 1179.79,
+   "said": "All your stuffs, who is your stuffs?",
+   "better": "Who is your favorite?",
+   "ko": "누가 제일 좋아요?",
+   "errors": [
+    {
+     "wrong": "stuffs",
+     "right": "favorite",
+     "why": "가장 좋아하는 사람을 물을 때는 favorite을 씁니다."
+    }
+   ]
+  },
+  {
+   "id": "m23",
+   "start": 1223.25,
+   "end": 1225.2,
+   "said": "Have a safe, uh, dry being.",
+   "better": "Have a safe trip.",
+   "ko": "안전하게 다녀오세요.",
+   "errors": [
+    {
+     "wrong": "dry being",
+     "right": "trip",
+     "why": "여행(trip)이라는 단어를 잘못 발음했습니다."
+    }
+   ]
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "today, the typically is very... uh happy",
+   "better": "Today, traffic is pretty heavy.",
+   "ko": "오늘 교통이 꽤 막히네요.",
+   "tip": "typically(전형적으로) 대신 traffic is heavy(차가 막히다)를 쓰세요."
+  },
+  {
+   "mine": "What could this walk time start to line or clock?",
+   "better": "What time does rush hour usually start?",
+   "ko": "출퇴근 시간은 보통 몇 시에 시작되나요?",
+   "tip": "출퇴근 시간은 rush hour라고 합니다."
+  },
+  {
+   "mine": "I appreciate playing the golf at Sunday.",
+   "better": "I plan to play golf on Sunday.",
+   "ko": "일요일에는 골프를 치려고 합니다.",
+   "tip": "계획을 말할 때는 plan to-V를 쓰고, 요일 앞에는 전치사 on을 씁니다."
+  },
+  {
+   "mine": "How about you clean the house with your patso?",
+   "better": "Do you clean the house with your partner?",
+   "ko": "파트너와 함께 집 청소를 하시나요?",
+   "tip": "상대방의 반려자나 동반자를 물어볼 때는 partner를 사용하세요."
+  },
+  {
+   "mine": "Our company made to Singapore manufacturing our product.",
+   "better": "Our company manufactures our products in Singapore.",
+   "ko": "우리 회사는 싱가포르에서 제품을 제조합니다.",
+   "tip": "주어 + manufacture(제조하다) + 목적어 + 장소 순으로 말하세요."
+  },
+  {
+   "mine": "through vitamin",
+   "better": "Truevity / True Vitamin",
+   "ko": "트루비타민 (회사 제품명)",
+   "tip": "브랜드나 제품 명칭은 정확한 발음으로 또렷하게 전달하는 연습을 해보세요."
+  },
+  {
+   "mine": "Our post-stanger is very",
+   "better": "Our product quality is very good.",
+   "ko": "우리 제품 품질이 아주 좋습니다.",
+   "tip": "제품은 product, 품질은 quality라고 표현합니다."
+  },
+  {
+   "mine": "If you want, I tell me.",
+   "better": "If you want, just let me know.",
+   "ko": "원하시면 저에게 알려주세요.",
+   "tip": "원하는 것이 있다면 알려달라고 할 때는 'Let me know'가 자연스럽습니다."
+  },
+  {
+   "mine": "What kind of keeper do you like?",
+   "better": "What kind of K-pop idols do you like?",
+   "ko": "어떤 K-pop 아이돌을 좋아하시나요?",
+   "tip": "아이돌은 영어로 K-pop idols 또는 simply idols라고 합니다."
+  },
+  {
+   "mine": "Have a safe dry being.",
+   "better": "Have a safe drive.",
+   "ko": "운전 조심해서 가세요.",
+   "tip": "안전 운전하라는 인사는 'Have a safe drive'입니다."
+  }
+ ],
+ "phrases": [
+  {
+   "en": "rush hour",
+   "ko": "출퇴근 시간, 혼잡 시간대",
+   "ex": "What time does the rush hour start in Korea?"
+  },
+  {
+   "en": "traffic jam",
+   "ko": "교통 체증",
+   "ex": "Oh really? So you are stuck in a traffic jam now."
+  },
+  {
+   "en": "day off",
+   "ko": "휴무일, 쉬는 날",
+   "ex": "They only have like one day off."
+  },
+  {
+   "en": "manufacturing",
+   "ko": "제조, 생산",
+   "ex": "Our company manufactures our product in Singapore."
+  },
+  {
+   "en": "worldwide delivery",
+   "ko": "전 세계 배송",
+   "ex": "Okay, so it's like worldwide delivery."
+  },
+  {
+   "en": "ascorbic acid",
+   "ko": "아스코르브산 (비타민 C)",
+   "ex": "I'm taking your vitamins before, the ascorbic acid."
+  },
+  {
+   "en": "product quality",
+   "ko": "제품 품질",
+   "ex": "Our product quality is very high."
+  },
+  {
+   "en": "K-pop idol",
+   "ko": "케이팝 아이돌",
+   "ex": "What kind of K-pop idols do you like?"
+  }
+ ],
+ "next": {
+  "q": "What are your main responsibilities at your wellness and supplement company, and how does your global logistics work?",
+  "ko": "건강기능식품 회사에서의 주요 업무는 무엇이며, 글로벌 물류는 어떻게 운영되나요?",
+  "starters": [
+   {
+    "en": "I work at a company that produces wellness products like vitamins.",
+    "ko": "저는 비타민 같은 건강 제품을 생산하는 회사에서 일합니다."
+   },
+   {
+    "en": "We manufacture our products in Singapore for worldwide delivery.",
+    "ko": "우리는 전 세계 배송을 위해 싱가포르에서 제품을 제조합니다."
+   },
+   {
+    "en": "My company manages both domestic distribution and Asian market projects.",
+    "ko": "우리 회사는 국내 유통과 아시안 시장 프로젝트를 모두 관리합니다."
+   },
+   {
+    "en": "We focus on high-quality vitamins like ascorbic acid.",
+    "ko": "우리는 아스코르브산 같은 고품질 비타민에 집중합니다."
+   },
+   {
+    "en": "Our logistics network helps deliver products efficiently across different countries.",
+    "ko": "우리의 물류 네트워크는 여러 나라에 제품을 효율적으로 배송하는 데 도움을 줍니다."
+   }
+  ]
+ }
+}
