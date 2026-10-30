@@ -1,0 +1,1355 @@
+{
+ "date": "2026-09-10",
+ "audio": "audio/2026-09-10.mp3",
+ "minutes": 20,
+ "topic": "Weekend Routines, Education Systems, and Commuting",
+ "topicKo": "주말 일상, 교육 환경 비교와 출퇴근길 대화",
+ "teacher": "Teacher",
+ "summary": "주말 집안일과 한국 및 필리핀의 학교·학원 문화 차이, 환절기 감기에 대해 이야기했습니다. 이후 차 안에서 수업을 듣는 학생의 회사 지사 현황과 먼 출퇴근 거리에 대해 대화를 나눴습니다.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 41.41,
+   "end": 51.67,
+   "en": "The week goes so fast. Tomorrow is already Friday.",
+   "ko": "한 주가 정말 빠르게 지나가네요. 내일이 벌써 금요일이에요.",
+   "chunks": [
+    [
+     "The week goes",
+     "한 주가 지나가네요"
+    ],
+    [
+     "so fast.",
+     "정말 빠르게."
+    ],
+    [
+     "Tomorrow is",
+     "내일이"
+    ],
+    [
+     "already Friday.",
+     "벌써 금요일이에요."
+    ]
+   ],
+   "words": [],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t2",
+   "start": 59.97,
+   "end": 72.94,
+   "en": "I think the weekend is not enough because I also need to clean the house.",
+   "ko": "집 청소도 해야 해서 주말은 항상 부족한 것 같아요.",
+   "chunks": [
+    [
+     "I think",
+     "제 생각에는"
+    ],
+    [
+     "the weekend is not enough",
+     "주말이 충분하지 않아요"
+    ],
+    [
+     "because I also need to",
+     "왜냐하면 저도 ~해야 하거든요"
+    ],
+    [
+     "clean the house.",
+     "집을 청소하다."
+    ]
+   ],
+   "words": [
+    [
+     "not enough",
+     "충분하지 않은"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t3",
+   "start": 87.09,
+   "end": 103.15,
+   "en": "Do you clean your house? Yeah, and it's also time to wash clothes.",
+   "ko": "집 청소 하세요? 네, 그리고 빨래도 해야 할 시간이죠.",
+   "chunks": [
+    [
+     "Do you clean",
+     "청소하시나요"
+    ],
+    [
+     "your house?",
+     "집을?"
+    ],
+    [
+     "and it's also time to",
+     "그리고 또한 ~할 시간이에요"
+    ],
+    [
+     "wash clothes.",
+     "빨래를 하다."
+    ]
+   ],
+   "words": [
+    [
+     "wash clothes",
+     "빨래하다"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t4",
+   "start": 118.92,
+   "end": 124.83,
+   "en": "How about your weekend? What do you usually do?",
+   "ko": "회원님의 주말은 어떠신가요? 보통 무엇을 하시나요?",
+   "chunks": [
+    [
+     "How about",
+     "어떠신가요"
+    ],
+    [
+     "your weekend?",
+     "주말은?"
+    ],
+    [
+     "What do you",
+     "무엇을"
+    ],
+    [
+     "usually do?",
+     "보통 하시나요?"
+    ]
+   ],
+   "words": [
+    [
+     "usually",
+     "보통, 대개"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t5",
+   "start": 154.49,
+   "end": 169.03,
+   "en": "Kids in Korea are busy with their academies on the weekend.",
+   "ko": "한국 아이들은 주말에도 학원 때문에 바쁘네요.",
+   "chunks": [
+    [
+     "Kids in Korea",
+     "한국의 아이들은"
+    ],
+    [
+     "are busy with",
+     "~로 바쁘다"
+    ],
+    [
+     "their academies",
+     "학원들"
+    ],
+    [
+     "on the weekend.",
+     "주말에."
+    ]
+   ],
+   "words": [
+    [
+     "be busy with",
+     "~로 바쁘다"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t6",
+   "start": 204.25,
+   "end": 220.6,
+   "en": "In the Philippines, students stay at school from 7 AM until 4 PM.",
+   "ko": "필리핀에서는 학생들이 오전 7시부터 오후 4시까지 학교에 머물러요.",
+   "chunks": [
+    [
+     "In the Philippines,",
+     "필리핀에서는,"
+    ],
+    [
+     "students stay at school",
+     "학생들이 학교에 머뭅니다"
+    ],
+    [
+     "from 7 AM",
+     "오전 7시부터"
+    ],
+    [
+     "until 4 PM.",
+     "오후 4시까지."
+    ]
+   ],
+   "words": [
+    [
+     "stay at",
+     "~에 머무르다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t7",
+   "start": 260.43,
+   "end": 276.1,
+   "en": "In Korea, students go to school at 7 AM and go home after lunch, right?",
+   "ko": "한국에서는 학생들이 7시에 등교해서 점심 먹고 하교하는 게 맞나요?",
+   "chunks": [
+    [
+     "In Korea,",
+     "한국에서는,"
+    ],
+    [
+     "students go to school",
+     "학생들이 학교에 가고"
+    ],
+    [
+     "at 7 AM",
+     "오전 7시에"
+    ],
+    [
+     "and go home",
+     "그리고 집에 간다"
+    ],
+    [
+     "after lunch, right?",
+     "점심 식사 후에, 맞죠?"
+    ]
+   ],
+   "words": [],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t8",
+   "start": 286.82,
+   "end": 293.91,
+   "en": "In the Philippines, students are at school the whole day.",
+   "ko": "필리핀에서는 학생들이 하루 종일 학교에 있어요.",
+   "chunks": [
+    [
+     "In the Philippines,",
+     "필리핀에서는,"
+    ],
+    [
+     "students are at school",
+     "학생들이 학교에 있습니다"
+    ],
+    [
+     "the whole day.",
+     "하루 종일."
+    ]
+   ],
+   "words": [
+    [
+     "the whole day",
+     "하루 종일"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t9",
+   "start": 308.98,
+   "end": 317.09,
+   "en": "I think academies are more expensive than school.",
+   "ko": "학원이 학교보다 더 비싼 것 같아요.",
+   "chunks": [
+    [
+     "I think",
+     "제 생각에는"
+    ],
+    [
+     "academies are",
+     "학원이"
+    ],
+    [
+     "more expensive than",
+     "~보다 더 비싸다"
+    ],
+    [
+     "school.",
+     "학교."
+    ]
+   ],
+   "words": [
+    [
+     "expensive",
+     "비싼"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t10",
+   "start": 320.85,
+   "end": 342.39,
+   "en": "Our middle school and high school are free, but we pay for university.",
+   "ko": "저희는 중학교와 고등학교는 무료이지만, 대학교는 등록금을 냅니다.",
+   "chunks": [
+    [
+     "Our middle school and high school",
+     "저희 중학교와 고등학교는"
+    ],
+    [
+     "are free,",
+     "무료입니다,"
+    ],
+    [
+     "but we pay for",
+     "하지만 우리는 비용을 지불합니다"
+    ],
+    [
+     "university.",
+     "대학교를 위해."
+    ]
+   ],
+   "words": [
+    [
+     "pay for",
+     "~의 값을 지불하다"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t11",
+   "start": 352.96,
+   "end": 364.36,
+   "en": "When I was in college before, we had Korean schoolmates.",
+   "ko": "예전에 제가 대학생이었을 때 한국인 동문들이 있었어요.",
+   "chunks": [
+    [
+     "When I was in college before,",
+     "제가 예전에 대학 다닐 때,"
+    ],
+    [
+     "we had",
+     "우리는 있었습니다"
+    ],
+    [
+     "Korean schoolmates.",
+     "한국인 동문들이."
+    ]
+   ],
+   "words": [
+    [
+     "schoolmate",
+     "학교 친구, 동문"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t12",
+   "start": 401.66,
+   "end": 416.33,
+   "en": "I spent six years in college because I took music education for two years.",
+   "ko": "2년 동안 음악 교육을 전공해서 대학교를 6년 동안 다녔어요.",
+   "chunks": [
+    [
+     "I spent six years",
+     "저는 6년을 보냈습니다"
+    ],
+    [
+     "in college",
+     "대학교에서"
+    ],
+    [
+     "because I took",
+     "왜냐하면 수강했기 때문입니다"
+    ],
+    [
+     "music education",
+     "음악 교육을"
+    ],
+    [
+     "for two years.",
+     "2년 동안."
+    ]
+   ],
+   "words": [
+    [
+     "spend time",
+     "시간을 보내다"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t13",
+   "start": 417.22,
+   "end": 430.49,
+   "en": "Music wasn't for me, so I changed my major to English.",
+   "ko": "음악이 제게 맞지 않아서 전공을 영어로 바꿨어요.",
+   "chunks": [
+    [
+     "Music wasn't for me,",
+     "음악은 제 적성에 맞지 않았어요,"
+    ],
+    [
+     "so I changed my major",
+     "그래서 전공을 바꿨습니다"
+    ],
+    [
+     "to English.",
+     "영어로."
+    ]
+   ],
+   "words": [
+    [
+     "not for me",
+     "내 적성에 맞지 않는, 내 취향이 아닌"
+    ],
+    [
+     "change major",
+     "전공을 바꾸다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t14",
+   "start": 447.04,
+   "end": 455.67,
+   "en": "I already forgot how to play the piano, but I know how to play the guitar.",
+   "ko": "피아노 치는 법은 이미 잊어버렸지만 기타 칠 줄은 알아요.",
+   "chunks": [
+    [
+     "I already forgot",
+     "저는 이미 잊어버렸어요"
+    ],
+    [
+     "how to play the piano,",
+     "피아노 연주하는 법을,"
+    ],
+    [
+     "but I know",
+     "하지만 압니다"
+    ],
+    [
+     "how to play the guitar.",
+     "기타 연주하는 법을."
+    ]
+   ],
+   "words": [
+    [
+     "how to play",
+     "연주하는 법"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t15",
+   "start": 522.59,
+   "end": 537.73,
+   "en": "It's been a long time, so now they are just like decorations.",
+   "ko": "시간이 오래 지나서 이제는 그냥 장식품 같아요.",
+   "chunks": [
+    [
+     "It's been a long time,",
+     "오랜 시간이 지나서,"
+    ],
+    [
+     "so now they are",
+     "그래서 이제 그것들은"
+    ],
+    [
+     "just like decorations.",
+     "그냥 장식품 같아요."
+    ]
+   ],
+   "words": [
+    [
+     "decoration",
+     "장식품"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t16",
+   "start": 542.08,
+   "end": 547.99,
+   "en": "How is the weather today, sir?",
+   "ko": "선생님, 오늘 날씨는 어떤가요?",
+   "chunks": [
+    [
+     "How is the weather",
+     "날씨가 어떤가요"
+    ],
+    [
+     "today, sir?",
+     "오늘, 선생님?"
+    ]
+   ],
+   "words": [],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t17",
+   "start": 571.57,
+   "end": 585.27,
+   "en": "It is autumn now, so the weather is getting colder.",
+   "ko": "이제 가을이라 날씨가 점점 더 쌀쌀해지고 있네요.",
+   "chunks": [
+    [
+     "It is autumn now,",
+     "이제 가을이에요,"
+    ],
+    [
+     "so the weather",
+     "그래서 날씨가"
+    ],
+    [
+     "is getting colder.",
+     "점점 추워지고 있어요."
+    ]
+   ],
+   "words": [
+    [
+     "get colder",
+     "점점 더 추워지다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t18",
+   "start": 602.49,
+   "end": 625.33,
+   "en": "Flu season happens when the weather is getting colder.",
+   "ko": "독감 유행 시기는 날씨가 추워질 때 찾아옵니다.",
+   "chunks": [
+    [
+     "Flu season happens",
+     "독감 시즌이 찾아옵니다"
+    ],
+    [
+     "when the weather",
+     "날씨가"
+    ],
+    [
+     "is getting colder.",
+     "점점 추워질 때."
+    ]
+   ],
+   "words": [
+    [
+     "flu season",
+     "독감 유행 기간"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t19",
+   "start": 631.58,
+   "end": 643.0,
+   "en": "Today my student is absent because he has a cold.",
+   "ko": "오늘 제 학생이 감기에 걸려서 결석했어요.",
+   "chunks": [
+    [
+     "Today my student",
+     "오늘 제 학생이"
+    ],
+    [
+     "is absent",
+     "결석했습니다"
+    ],
+    [
+     "because he has a cold.",
+     "감기에 걸려서."
+    ]
+   ],
+   "words": [
+    [
+     "absent",
+     "결석한, 결근한"
+    ],
+    [
+     "have a cold",
+     "감기에 걸리다"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t20",
+   "start": 675.15,
+   "end": 690.79,
+   "en": "Students usually catch a cold this season, but you got the flu shot, right?",
+   "ko": "이맘때 학생들이 감기에 잘 걸리는데, 독감 예방주사는 맞으셨나요?",
+   "chunks": [
+    [
+     "Students usually catch a cold",
+     "학생들이 보통 감기에 걸려요"
+    ],
+    [
+     "this season,",
+     "이번 계절에,"
+    ],
+    [
+     "but you got the flu shot,",
+     "하지만 독감 주사를 맞으셨죠,"
+    ],
+    [
+     "right?",
+     "맞죠?"
+    ]
+   ],
+   "words": [
+    [
+     "catch a cold",
+     "감기에 걸리다"
+    ],
+    [
+     "flu shot",
+     "독감 예방 주사"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t21",
+   "start": 736.37,
+   "end": 751.32,
+   "en": "Their immune system is not that strong yet, so they have a high chance of catching a cold.",
+   "ko": "면역력이 아직 그리 강하지 않아서 감기에 걸릴 확률이 높아요.",
+   "chunks": [
+    [
+     "Their immune system",
+     "그들의 면역 체계가"
+    ],
+    [
+     "is not that strong yet,",
+     "아직 그렇게 강하지 않아서,"
+    ],
+    [
+     "so they have a high chance",
+     "확률이 높습니다"
+    ],
+    [
+     "of catching a cold.",
+     "감기에 걸릴."
+    ]
+   ],
+   "words": [
+    [
+     "immune system",
+     "면역 체계"
+    ],
+    [
+     "have a high chance of",
+     "~할 가능성이 높다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t22",
+   "start": 760.08,
+   "end": 774.0,
+   "en": "In the Philippines, there's no winter. Now it's rainy season and typhoon season.",
+   "ko": "필리핀에는 겨울이 없어요. 지금은 우기이자 태풍 시즌입니다.",
+   "chunks": [
+    [
+     "In the Philippines,",
+     "필리핀에서는,"
+    ],
+    [
+     "there's no winter.",
+     "겨울이 없습니다."
+    ],
+    [
+     "Now it's rainy season",
+     "지금은 우기입니다"
+    ],
+    [
+     "and typhoon season.",
+     "그리고 태풍 시즌이고요."
+    ]
+   ],
+   "words": [
+    [
+     "rainy season",
+     "우기"
+    ],
+    [
+     "typhoon",
+     "태풍"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t23",
+   "start": 789.11,
+   "end": 814.41,
+   "en": "Because of typhoons, we usually don't have electricity for an hour or two.",
+   "ko": "태풍 때문에 평소 한두 시간씩 전기가 안 들어오곤 해요.",
+   "chunks": [
+    [
+     "Because of typhoons,",
+     "태풍 때문에,"
+    ],
+    [
+     "we usually don't have electricity",
+     "보통 전기가 안 들어옵니다"
+    ],
+    [
+     "for an hour or two.",
+     "한두 시간 동안."
+    ]
+   ],
+   "words": [
+    [
+     "electricity",
+     "전기"
+    ],
+    [
+     "blackout",
+     "정전"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t24",
+   "start": 843.16,
+   "end": 864.43,
+   "en": "I think you are in a car. Are you on your way to work?",
+   "ko": "차 안에 계신 것 같은데요. 출근하시는 길인가요?",
+   "chunks": [
+    [
+     "I think",
+     "제 생각에는"
+    ],
+    [
+     "you are in a car.",
+     "차 안에 계신 것 같아요."
+    ],
+    [
+     "Are you on your way",
+     "가시는 중인가요"
+    ],
+    [
+     "to work?",
+     "출근하러?"
+    ]
+   ],
+   "words": [
+    [
+     "on one's way to",
+     "~로 가는 길인"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t25",
+   "start": 892.4,
+   "end": 900.41,
+   "en": "How many employees do you have in the company?",
+   "ko": "회사에 직원이 몇 분이나 계신가요?",
+   "chunks": [
+    [
+     "How many employees",
+     "직원이 몇 명인가요"
+    ],
+    [
+     "do you have",
+     "데리고 계신가요"
+    ],
+    [
+     "in the company?",
+     "회사에?"
+    ]
+   ],
+   "words": [
+    [
+     "employee",
+     "직원"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t26",
+   "start": 1011.54,
+   "end": 1019.36,
+   "en": "Branches mean you have offices in different locations.",
+   "ko": "지사란 서로 다른 지역에 여러 회사를 두고 있다는 뜻이에요.",
+   "chunks": [
+    [
+     "Branches mean",
+     "지사란 의미합니다"
+    ],
+    [
+     "you have offices",
+     "사무실을 두고 있다는 것을"
+    ],
+    [
+     "in different locations.",
+     "서로 다른 위치에."
+    ]
+   ],
+   "words": [
+    [
+     "branch",
+     "지점, 지사"
+    ],
+    [
+     "location",
+     "위치"
+    ]
+   ],
+   "core": false,
+   "dict": true
+  },
+  {
+   "id": "t27",
+   "start": 1025.93,
+   "end": 1047.07,
+   "en": "It means you have a big company, with different managers in each branch.",
+   "ko": "규모가 큰 회사이고 지사마다 다른 관리자들이 있다는 뜻이네요.",
+   "chunks": [
+    [
+     "It means",
+     "그것은 의미하네요"
+    ],
+    [
+     "you have a big company,",
+     "회사가 크다는 것을,"
+    ],
+    [
+     "with different managers",
+     "각기 다른 관리자들과 함께"
+    ],
+    [
+     "in each branch.",
+     "각 지사에."
+    ]
+   ],
+   "words": [
+    [
+     "manager",
+     "관리자, 팀장"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t28",
+   "start": 1083.04,
+   "end": 1106.83,
+   "en": "Where is the location of the office you manage?",
+   "ko": "선생님께서 관리하시는 사무실의 위치는 어디인가요?",
+   "chunks": [
+    [
+     "Where is the location",
+     "위치가 어디인가요"
+    ],
+    [
+     "of the office",
+     "그 사무실의"
+    ],
+    [
+     "you manage?",
+     "관리하시는?"
+    ]
+   ],
+   "words": [
+    [
+     "manage",
+     "관리하다, 운영하다"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t29",
+   "start": 1156.24,
+   "end": 1166.8,
+   "en": "So you need to travel far, and you do that every day.",
+   "ko": "그럼 먼 거리를 이동하셔야 하는데, 그걸 매일 하시는 거군요.",
+   "chunks": [
+    [
+     "So you need to travel far,",
+     "그래서 먼 거리를 통근하셔야 하네요,"
+    ],
+    [
+     "and you do that",
+     "그리고 그것을 하시는군요"
+    ],
+    [
+     "every day.",
+     "매일매일."
+    ]
+   ],
+   "words": [
+    [
+     "travel far",
+     "먼 거리를 이동하다(통근하다)"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t30",
+   "start": 1167.45,
+   "end": 1186.76,
+   "en": "Our time is finished, so have a safe drive and see you tomorrow.",
+   "ko": "수업 시간이 다 끝났네요. 안전운전하시고 내일 뵙겠습니다.",
+   "chunks": [
+    [
+     "Our time is finished,",
+     "수업 시간이 다 끝났어요,"
+    ],
+    [
+     "so have a safe drive",
+     "그러니 안전운전하시고"
+    ],
+    [
+     "and see you tomorrow.",
+     "내일 뵙겠습니다."
+    ]
+   ],
+   "words": [
+    [
+     "safe drive",
+     "안전 운전"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  }
+ ],
+ "mine": [
+  {
+   "id": "m1",
+   "start": 49.92,
+   "end": 50.99,
+   "said": "tomorrow is Friday",
+   "better": "Tomorrow is Friday.",
+   "ko": "내일은 금요일이에요.",
+   "errors": []
+  },
+  {
+   "id": "m2",
+   "start": 56.09,
+   "end": 56.95,
+   "said": "funny",
+   "better": "It's funny.",
+   "ko": "재미있네요.",
+   "errors": [
+    {
+     "wrong": "funny",
+     "right": "It's funny",
+     "why": "주어와 동사를 포함한 완전한 문장으로 말하는 것이 자연스러워요."
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": 83.99,
+   "end": 85.28,
+   "said": "Ah so you",
+   "better": "Ah, so you...",
+   "ko": "아, 그래서 당신은...",
+   "errors": []
+  },
+  {
+   "id": "m4",
+   "start": 150.27,
+   "end": 153.86,
+   "said": "I don't know stuff.",
+   "better": "I don't know much about that stuff.",
+   "ko": "저는 그런 것들에 대해 잘 몰라요.",
+   "errors": [
+    {
+     "wrong": "stuff",
+     "right": "much about that stuff",
+     "why": "'잘 모른다'고 할 때 목적어나 수식어를 더 붙여주면 의미가 명확해져요."
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "start": 167.86,
+   "end": 168.89,
+   "said": "medias",
+   "better": "media",
+   "ko": "매체, 미디어",
+   "errors": [
+    {
+     "wrong": "medias",
+     "right": "media",
+     "why": "media는 단수와 복수의 형태가 같거나 보통 집합명사로 쓰여 s를 붙이지 않아요."
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": 171.33,
+   "end": 172.52,
+   "said": "So, line up",
+   "better": "So, line up...",
+   "ko": "그래서, 줄을 서서...",
+   "errors": []
+  },
+  {
+   "id": "m7",
+   "start": 192.24,
+   "end": 199.52,
+   "said": "Who asked hours, Unima Holy Holy",
+   "better": "School hours.",
+   "ko": "수업 시간이요.",
+   "errors": [
+    {
+     "wrong": "Who asked hours",
+     "right": "School hours",
+     "why": "선생님이 언급한 'school hours(수업 시간)'라는 단어를 잘못 알아듣거나 발음한 것이에요."
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "start": 256.77,
+   "end": 257.78,
+   "said": "I like milk.",
+   "better": "I like milk.",
+   "ko": "저는 우유를 좋아해요.",
+   "errors": []
+  },
+  {
+   "id": "m9",
+   "start": 272.53,
+   "end": 273.96,
+   "said": "with the whole room.",
+   "better": "for the whole day.",
+   "ko": "하루 종일요.",
+   "errors": [
+    {
+     "wrong": "room",
+     "right": "day",
+     "why": "맥락상 '방 전체'가 아니라 '하루 종일(all day / whole day)'을 말하려던 것으로 보여요."
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "start": 288.61,
+   "end": 289.59,
+   "said": "So very",
+   "better": "So very true. / It's very different.",
+   "ko": "",
+   "errors": [
+    {
+     "wrong": "So very",
+     "right": "It is very true",
+     "why": "문장이 미완성 상태입니다. 완결된 문장으로 말해 보세요."
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "start": 319.19,
+   "end": 320.23,
+   "said": "Whoa.",
+   "better": "Wow.",
+   "ko": "와.",
+   "errors": []
+  },
+  {
+   "id": "m12",
+   "start": 370.47,
+   "end": 371.61,
+   "said": "University.",
+   "better": "University.",
+   "ko": "대학교요.",
+   "errors": []
+  },
+  {
+   "id": "m13",
+   "start": 407.41,
+   "end": 411.1,
+   "said": "Yeah Yes.",
+   "better": "Yes.",
+   "ko": "네.",
+   "errors": []
+  },
+  {
+   "id": "m14",
+   "start": 412.41,
+   "end": 413.43,
+   "said": "Yes, yes.",
+   "better": "Yes.",
+   "ko": "네, 맞아요.",
+   "errors": []
+  },
+  {
+   "id": "m15",
+   "start": 418.62,
+   "end": 421.8,
+   "said": "You did. I think",
+   "better": "I think so.",
+   "ko": "제 생각에도 그래요.",
+   "errors": []
+  },
+  {
+   "id": "m16",
+   "start": 455.66,
+   "end": 457.19,
+   "said": "and the",
+   "better": "and the...",
+   "ko": "그리고...",
+   "errors": []
+  },
+  {
+   "id": "m17",
+   "start": 487.86,
+   "end": 489.49,
+   "said": "This is my only",
+   "better": "This is my only one.",
+   "ko": "이게 저의 유일한...이에요.",
+   "errors": [
+    {
+     "wrong": "only",
+     "right": "only one",
+     "why": "'유일한 것'이라고 할 때는 뒤에 one을 붙여주는 것이 자연스러워요."
+    }
+   ]
+  },
+  {
+   "id": "m18",
+   "start": 498.15,
+   "end": 499.81,
+   "said": "and Pippa",
+   "better": "and a pipe / and a small one",
+   "ko": "그리고 작은 거요.",
+   "errors": []
+  },
+  {
+   "id": "m19",
+   "start": 516.19,
+   "end": 517.38,
+   "said": "get taught her much",
+   "better": "the guitar is much longer.",
+   "ko": "기타가 훨씬 더 길어요.",
+   "errors": [
+    {
+     "wrong": "get taught her much",
+     "right": "the guitar is much longer",
+     "why": "음성 인식 오류로, '기타가 훨씬 길다(guitar is much longer)'는 의미를 말하려 한 것입니다."
+    }
+   ]
+  },
+  {
+   "id": "m20",
+   "start": 529.98,
+   "end": 531.17,
+   "said": "Oh!",
+   "better": "Oh!",
+   "ko": "아!",
+   "errors": []
+  },
+  {
+   "id": "m21",
+   "start": 555.61,
+   "end": 556.48,
+   "said": "Oh.",
+   "better": "Oh.",
+   "ko": "아.",
+   "errors": []
+  },
+  {
+   "id": "m22",
+   "start": 560.82,
+   "end": 562.18,
+   "said": "4th!",
+   "better": "Cold!",
+   "ko": "추워요!",
+   "errors": [
+    {
+     "wrong": "4th",
+     "right": "Cold",
+     "why": "날씨가 '춥다(cold)'는 단어를 발음할 때 헷갈린 것 같아요."
+    }
+   ]
+  },
+  {
+   "id": "m23",
+   "start": 578.95,
+   "end": 580.32,
+   "said": "I'll try and-",
+   "better": "It's getting colder.",
+   "ko": "점점 추워지네요.",
+   "errors": []
+  },
+  {
+   "id": "m24",
+   "start": 638.21,
+   "end": 639.32,
+   "said": "class.",
+   "better": "class.",
+   "ko": "수업이요.",
+   "errors": []
+  },
+  {
+   "id": "m25",
+   "start": 646.53,
+   "end": 647.52,
+   "said": "Yes.",
+   "better": "Yes.",
+   "ko": "네.",
+   "errors": []
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "I am training at the car",
+   "better": "I am taking the class in my car on my way to work.",
+   "ko": "출근하는 차 안에서 수업을 듣고 있습니다.",
+   "tip": "'수업을 듣다'는 take a class, '차로 이동 중'은 on my way to work가 자연스럽다."
+  },
+  {
+   "mine": "It is become atom",
+   "better": "It's turning into autumn now.",
+   "ko": "이제 날씨가 가을로 접어들고 있습니다.",
+   "tip": "'가을' 발음은 autumn[오텀]이며, 계절 변화는 'turn into' 또는 'become autumn'으로 표현한다."
+  },
+  {
+   "mine": "First factory is located by Python in Huazong",
+   "better": "Our first factory is located in Hwaseong.",
+   "ko": "첫 번째 공장은 화성에 위치해 있습니다.",
+   "tip": "특정 지역 위치를 나타낼 때는 'located by' 대신 'located in [지역명]'을 쓴다."
+  },
+  {
+   "mine": "about about 160 employees",
+   "better": "There are about 160 employees in our company.",
+   "ko": "우리 회사에는 약 160명의 직원이 있습니다.",
+   "tip": "'about'을 중복하기보다 'There are about ~' 문장 구조를 사용하면 완벽하다."
+  },
+  {
+   "mine": "I am grouped by headquarters",
+   "better": "I work at the headquarters.",
+   "ko": "저는 본사 소속입니다.",
+   "tip": "'본사 소속이다'라는 표현은 'I work at HQ' 또는 'I am based at headquarters'로 간단히 말한다."
+  },
+  {
+   "mine": "No, no. Very wrong",
+   "better": "No, it is quite far from my house.",
+   "ko": "아니요, 집에서 거리가 꽤 멉니다.",
+   "tip": "거리가 멀다는 의미일 때 'wrong'이 아닌 'far'를 써야 뜻이 통한다."
+  },
+  {
+   "mine": "I am living in Seoul",
+   "better": "I live in Seoul and commute to Yongin.",
+   "ko": "저는 서울에 살고 용인으로 출퇴근합니다.",
+   "tip": "거주 상태처럼 지속적인 사실은 진행형(am living)보다 현재형(live)을 쓰는 것이 일반적이다."
+  }
+ ],
+ "phrases": [
+  {
+   "en": "on my way to work",
+   "ko": "출근하는 길에",
+   "ex": "I am in my car on my way to work."
+  },
+  {
+   "en": "pick up my kids",
+   "ko": "아이들을 데리러 가다",
+   "ex": "I usually pick up my daughter and son from their academies."
+  },
+  {
+   "en": "catch a cold",
+   "ko": "감기에 걸리다",
+   "ex": "Students usually catch a cold during this season."
+  },
+  {
+   "en": "flu shot",
+   "ko": "독감 예방주사",
+   "ex": "Did you get a flu shot for this season?"
+  },
+  {
+   "en": "headquarters (HQ)",
+   "ko": "본사",
+   "ex": "Our R&D center and headquarters are located in Yongin."
+  },
+  {
+   "en": "be located in",
+   "ko": "~에 위치해 있다",
+   "ex": "Our second factory is located in Pyeongtaek."
+  },
+  {
+   "en": "blackout",
+   "ko": "정전",
+   "ex": "There was a blackout because of the typhoon."
+  },
+  {
+   "en": "long commute",
+   "ko": "긴 출퇴근 거리",
+   "ex": "Living in Seoul and working in Yongin means a long daily commute."
+  }
+ ],
+ "next": {
+  "q": "You mentioned commuting from Seoul to Yongin every day while managing multiple factory locations. How do you usually spend your time during your daily commute, and how do you handle the stress of traveling long distances?",
+  "ko": "서울에서 용인까지 매일 출퇴근하시면서 여러 사업장을 관리하신다고 하셨는데, 보통 출퇴근 시간에 무엇을 하시고 장거리 이동 스트레스는 어떻게 해소하시나요?",
+  "starters": [
+   {
+    "en": "I usually take this 20-minute Zoom English class in my car during my commute.",
+    "ko": "보통 출퇴근 시간에 차 안에서 이 20분 화상영어 수업을 듣곤 합니다."
+   },
+   {
+    "en": "I leave home very early in the morning to avoid heavy traffic on the highway.",
+    "ko": "고속도로 교통 체증을 피하기 위해 아침 일찍 집에서 출발합니다."
+   },
+   {
+    "en": "I listen to music or news podcasts to make the long drive less tiring.",
+    "ko": "장거리 운전이 지루하지 않도록 음악이나 뉴스 팟캐스트를 들어 피로를 풉니다."
+   },
+   {
+    "en": "I use that quiet commuting time to review my daily work schedule for headquarters.",
+    "ko": "그 조용한 출퇴근 시간을 활용해 본사 업무 일정을 정리하고 구상합니다."
+   },
+   {
+    "en": "Although commuting is exhausting, I consider that alone time in the car as my personal relaxing time.",
+    "ko": "출퇴근이 피곤하긴 하지만, 차 안에서 혼자 보내는 시간을 개인적인 휴식 시간으로 생각합니다."
+   }
+  ]
+ }
+}
