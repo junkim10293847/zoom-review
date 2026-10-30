@@ -1,0 +1,1163 @@
+{
+ "date": "2026-09-09",
+ "audio": "audio/2026-09-09.mp3",
+ "minutes": 20,
+ "topic": "Talking about Work, Routines, and Health Supplements",
+ "topicKo": "업무, 일상 루틴, 그리고 건강보조식품에 관한 대화",
+ "teacher": "Teacher",
+ "summary": "학생의 이른 기상 시간과 회사 출근 이야기로 시작하여, 회사의 주요 업무인 건강기능식품(프로바이오틱스, 비타민 등) 제조 및 공급에 관해 이야기를 나누었습니다.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 33.99,
+   "end": 35.85,
+   "en": "Can you hear me well?",
+   "ko": "제 목소리 잘 들리시나요?",
+   "chunks": [
+    [
+     "Can you hear me",
+     "내 목소리가 들리나요"
+    ],
+    [
+     "well?",
+     "잘?"
+    ]
+   ],
+   "words": [
+    [
+     "hear",
+     "들다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t2",
+   "start": 54.52,
+   "end": 57.44,
+   "en": "What time do you usually wake up?",
+   "ko": "보통 몇 시에 일어나시나요?",
+   "chunks": [
+    [
+     "What time",
+     "몇 시에"
+    ],
+    [
+     "do you usually wake up?",
+     "보통 일어나시나요?"
+    ]
+   ],
+   "words": [
+    [
+     "usually",
+     "보통"
+    ],
+    [
+     "wake up",
+     "일어나다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t3",
+   "start": 70.33,
+   "end": 72.89,
+   "en": "That's too early.",
+   "ko": "와, 너무 일찍 일어나시네요.",
+   "chunks": [
+    [
+     "That's",
+     "그것은 ~이다"
+    ],
+    [
+     "too early.",
+     "너무 일찍"
+    ]
+   ],
+   "words": [
+    [
+     "early",
+     "일찍"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t4",
+   "start": 89.91,
+   "end": 93.9,
+   "en": "Okay, so that's why you woke up early today.",
+   "ko": "아, 그래서 오늘 일찍 일어나셨군요.",
+   "chunks": [
+    [
+     "that's why",
+     "그래서 ~한 것이다"
+    ],
+    [
+     "you woke up early today",
+     "당신이 오늘 일찍 일어난"
+    ]
+   ],
+   "words": [
+    [
+     "woke up",
+     "일어났다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t5",
+   "start": 97.49,
+   "end": 101.11,
+   "en": "Did you eat breakfast?",
+   "ko": "아침 식사는 하셨나요?",
+   "chunks": [
+    [
+     "Did you eat",
+     "먹었나요"
+    ],
+    [
+     "breakfast?",
+     "아침 식사"
+    ]
+   ],
+   "words": [
+    [
+     "breakfast",
+     "아침 식사"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t6",
+   "start": 121.13,
+   "end": 124.72,
+   "en": "Do you always drink coffee in the morning?",
+   "ko": "아침마다 항상 커피를 마시나요?",
+   "chunks": [
+    [
+     "Do you always drink",
+     "당신은 항상 마시나요"
+    ],
+    [
+     "coffee in the morning?",
+     "아침에 커피를?"
+    ]
+   ],
+   "words": [
+    [
+     "always",
+     "항상"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t7",
+   "start": 149.44,
+   "end": 158.84,
+   "en": "So Korea is one hour ahead of the Philippines.",
+   "ko": "한국이 필리핀보다 한 시간 빠르네요.",
+   "chunks": [
+    [
+     "Korea is one hour ahead",
+     "한국이 한 시간 앞서 있다"
+    ],
+    [
+     "of the Philippines.",
+     "필리핀보다"
+    ]
+   ],
+   "words": [
+    [
+     "ahead",
+     "앞서 있는"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t8",
+   "start": 219.58,
+   "end": 226.39,
+   "en": "I think you are the first person in the company today.",
+   "ko": "오늘 회사에 가장 먼저 도착하신 것 같네요.",
+   "chunks": [
+    [
+     "I think",
+     "내 생각엔 ~이다"
+    ],
+    [
+     "you are the first person",
+     "당신이 첫 번째 사람이다"
+    ],
+    [
+     "in the company today.",
+     "오늘 회사에서"
+    ]
+   ],
+   "words": [
+    [
+     "first",
+     "첫 번째의"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t9",
+   "start": 303.28,
+   "end": 304.82,
+   "en": "Do you like to read it?",
+   "ko": "한 번 읽어보시겠어요?",
+   "chunks": [
+    [
+     "Do you like",
+     "원하시나요"
+    ],
+    [
+     "to read it?",
+     "이것을 읽는 것을?"
+    ]
+   ],
+   "words": [
+    [
+     "read",
+     "읽다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t10",
+   "start": 384.11,
+   "end": 392.57,
+   "en": "Do you know what major is, sir?",
+   "ko": "메이저가 무슨 뜻인지 아시나요, 회원님?",
+   "chunks": [
+    [
+     "Do you know",
+     "아시나요"
+    ],
+    [
+     "what major is,",
+     "메이저가 무엇인지"
+    ],
+    [
+     "sir?",
+     "선생님/회원님"
+    ]
+   ],
+   "words": [
+    [
+     "major",
+     "전공, 주요한"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t11",
+   "start": 453.25,
+   "end": 458.05,
+   "en": "For example, I have a major problem.",
+   "ko": "예를 들어, 나한테 큰 문제가 있어.",
+   "chunks": [
+    [
+     "For example,",
+     "예를 들어"
+    ],
+    [
+     "I have",
+     "나는 가지고 있다"
+    ],
+    [
+     "a major problem.",
+     "큰 문제를"
+    ]
+   ],
+   "words": [
+    [
+     "problem",
+     "문제"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t12",
+   "start": 557.31,
+   "end": 562.44,
+   "en": "What do the salesmen do in your company?",
+   "ko": "회사에서 영업 사원들은 어떤 일을 하나요?",
+   "chunks": [
+    [
+     "What do the salesmen do",
+     "영업 사원들은 무엇을 하나요"
+    ],
+    [
+     "in your company?",
+     "당신의 회사에서?"
+    ]
+   ],
+   "words": [
+    [
+     "salesmen",
+     "영업 사원들"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t13",
+   "start": 677.67,
+   "end": 689.49,
+   "en": "They need people to buy or be interested in your products.",
+   "ko": "사람들이 구매하도록 하거나 제품에 관심을 갖게 해야 하네요.",
+   "chunks": [
+    [
+     "They need people",
+     "그들은 사람들이 필요하다"
+    ],
+    [
+     "to buy",
+     "사도록"
+    ],
+    [
+     "or be interested in your products.",
+     "또는 제품에 관심을 갖도록"
+    ]
+   ],
+   "words": [
+    [
+     "interested",
+     "관심이 있는"
+    ],
+    [
+     "products",
+     "제품"
+    ]
+   ],
+   "core": false,
+   "dict": false
+  },
+  {
+   "id": "t14",
+   "start": 739.7,
+   "end": 746.76,
+   "en": "Do you also send your products to the Philippines?",
+   "ko": "제품을 필리핀으로도 보내시나요?",
+   "chunks": [
+    [
+     "Do you also send",
+     "또한 보내시나요"
+    ],
+    [
+     "your products",
+     "당신의 제품을"
+    ],
+    [
+     "to the Philippines?",
+     "필리핀으로?"
+    ]
+   ],
+   "words": [
+    [
+     "send",
+     "보내다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t15",
+   "start": 774.38,
+   "end": 783.58,
+   "en": "So you deliver your products to the pharmacy or to some hospital?",
+   "ko": "그럼 제품을 약국이나 병원으로 납품하시나요?",
+   "chunks": [
+    [
+     "So you deliver",
+     "그럼 배송하시나요"
+    ],
+    [
+     "your products",
+     "제품을"
+    ],
+    [
+     "to the pharmacy or to some hospital?",
+     "약국이나 병원으로?"
+    ]
+   ],
+   "words": [
+    [
+     "deliver",
+     "배달하다, 납품하다"
+    ],
+    [
+     "pharmacy",
+     "약국"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t16",
+   "start": 990.7,
+   "end": 993.83,
+   "en": "What is the name of that vitamin?",
+   "ko": "그 비타민 이름이 무엇인가요?",
+   "chunks": [
+    [
+     "What is the name",
+     "이름이 무엇인가요"
+    ],
+    [
+     "of that vitamin?",
+     "그 비타민의?"
+    ]
+   ],
+   "words": [
+    [
+     "vitamin",
+     "비타민"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t17",
+   "start": 1098.34,
+   "end": 1104.5,
+   "en": "How much is that in Korean price?",
+   "ko": "한국 돈으로 얼마인가요?",
+   "chunks": [
+    [
+     "How much is that",
+     "얼마인가요 그것은"
+    ],
+    [
+     "in Korean price?",
+     "한국 가격으로?"
+    ]
+   ],
+   "words": [
+    [
+     "price",
+     "가격"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t18",
+   "start": 1182.33,
+   "end": 1188.94,
+   "en": "I think our time is finished, but thank you so much.",
+   "ko": "벌써 시간이 다 된 것 같네요. 정말 감사합니다.",
+   "chunks": [
+    [
+     "I think",
+     "생각한다"
+    ],
+    [
+     "our time is finished,",
+     "우리 시간이 끝났다고"
+    ],
+    [
+     "but thank you so much.",
+     "하지만 정말 감사합니다."
+    ]
+   ],
+   "words": [
+    [
+     "finished",
+     "끝난"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  }
+ ],
+ "mine": [
+  {
+   "id": "m1",
+   "start": 28.16,
+   "end": 29.27,
+   "said": "Happy when.",
+   "better": "Happy Wednesday.",
+   "ko": "수요일이에요.",
+   "errors": [
+    {
+     "wrong": "when",
+     "right": "Wednesday",
+     "why": "발음 혼동 (Wednesday를 when으로 잘못 들었거나 잘못 발음함)"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "start": 41.87,
+   "end": 50.33,
+   "said": "So I wake up early and I am here in my office.",
+   "better": "So I woke up early and I am here in my office.",
+   "ko": "그래서 일찍 일어나서 지금 사무실에 있어요.",
+   "errors": [
+    {
+     "wrong": "wake up",
+     "right": "woke up",
+     "why": "시제 (이미 일어난 과거 일이므로 과거형 사용)"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": 57.75,
+   "end": 70.08,
+   "said": "Oh, usually I wake up 6 o'clock. But today I wake up 5 o'clock.",
+   "better": "Oh, usually I wake up at 6 o'clock. But today I woke up at 5 o'clock.",
+   "ko": "보통 6시에 일어나는데, 오늘은 5시에 일어났어요.",
+   "errors": [
+    {
+     "wrong": "wake up 6 o'clock",
+     "right": "wake up at 6 o'clock",
+     "why": "전치사 (시각 앞에는 전치사 at을 써야 합니다)"
+    },
+    {
+     "wrong": "wake up 5 o'clock",
+     "right": "woke up at 5 o'clock",
+     "why": "시제 및 전치사 (오늘 일어난 일은 과거형 woke up, 시각 앞에는 at)"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "start": 73.78,
+   "end": 87.79,
+   "said": "Oh, uh, yesterday I go to the bed 10 o'clock PM.",
+   "better": "Oh, yesterday I went to bed at 10 PM.",
+   "ko": "어제 밤 10시에 잠자리에 들었어요.",
+   "errors": [
+    {
+     "wrong": "go to the bed",
+     "right": "go to bed",
+     "why": "관사 (잠자리에 들다라는 표현인 go to bed에는 the를 쓰지 않습니다)"
+    },
+    {
+     "wrong": "go",
+     "right": "went",
+     "why": "시제 (어제 일어난 일이므로 과거형 사용)"
+    },
+    {
+     "wrong": "10 o'clock PM",
+     "right": "at 10 PM",
+     "why": "전치사 및 표현 (시각 앞에는 at을 쓰고 o'clock과 PM은 같이 쓰지 않습니다)"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "start": 101.64,
+   "end": 111.03,
+   "said": "No, usually I can't eat breakfast.",
+   "better": "No, I usually don't eat breakfast.",
+   "ko": "아니요, 저는 보통 아침을 안 먹어요.",
+   "errors": [
+    {
+     "wrong": "can't",
+     "right": "don't",
+     "why": "단어 선택 (능력이 없어서 못 먹는 것이 아니라 안 먹는 습관이므로 don't가 자연스럽습니다)"
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": 115.02,
+   "end": 132.34,
+   "said": "I'll call it copy or yes yes copy yes, or copy or another T.",
+   "better": "Coffee, or some tea.",
+   "ko": "커피나 차를 마셔요.",
+   "errors": [
+    {
+     "wrong": "copy",
+     "right": "coffee",
+     "why": "발음 혼동 (coffee를 copy로 잘못 발음함)"
+    },
+    {
+     "wrong": "T",
+     "right": "tea",
+     "why": "단어 선택 (차를 뜻하는 단어는 tea입니다)"
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "start": 136.05,
+   "end": 144.26,
+   "said": "I need the drink yes drink all time.",
+   "better": "I need to drink it all the time.",
+   "ko": "항상 마셔야 해요.",
+   "errors": [
+    {
+     "wrong": "the drink",
+     "right": "to drink",
+     "why": "문법 (need 다음에 동사가 올 때는 to 부정사(~할 것을 필요로 하다)를 씁니다)"
+    },
+    {
+     "wrong": "all time",
+     "right": "all the time",
+     "why": "숙어 표현 (항상, 늘 이라는 뜻은 all the time입니다)"
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "start": 238.28,
+   "end": 246.74,
+   "said": "I am first person in company.",
+   "better": "I am the first person in the company.",
+   "ko": "제가 회사에서 첫 번째 사람이에요.",
+   "errors": [
+    {
+     "wrong": "first person",
+     "right": "the first person",
+     "why": "관사 (서수 first 앞에는 정관사 the를 붙입니다)"
+    },
+    {
+     "wrong": "in company",
+     "right": "in the company",
+     "why": "관사 (회사를 특정하므로 the company가 알맞습니다)"
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "start": 307.5,
+   "end": 347.8,
+   "said": "Major, position, email address, salaryman, employee, hometown, business card, work related, personal information, office worker, investment company, sales department, office number, reception list, counting department, free time activity, favorite coworker, culture, politics, relations, small talk, salary.",
+   "better": "Major, position, email address, salaryman, employee, hometown, business card, work-related, personal information, office worker, investment company, sales department, office number, receptionist, accounting department, free time activity, favorite coworker, culture, politics, relations, small talk, salary.",
+   "ko": "단어 목록 읽기 연습",
+   "errors": [
+    {
+     "wrong": "reception list",
+     "right": "receptionist",
+     "why": "단어 선택 및 발음 (접수 담당자는 receptionist입니다)"
+    },
+    {
+     "wrong": "counting department",
+     "right": "accounting department",
+     "why": "단어 선택 (회계 부서는 accounting department입니다)"
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "start": 368.13,
+   "end": 374.3,
+   "said": "salary man, segment",
+   "better": "salaried man, salesman",
+   "ko": "샐러리맨, 영업사원",
+   "errors": [
+    {
+     "wrong": "segment",
+     "right": "salesman",
+     "why": "발음 혼동 (salesman을 segment로 잘못 발음함)"
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "start": 376.36,
+   "end": 380.3,
+   "said": "Politist",
+   "better": "politics",
+   "ko": "정치",
+   "errors": [
+    {
+     "wrong": "Politist",
+     "right": "politics",
+     "why": "발음 및 단어 선택 (정치는 politics라고 발음해야 합니다)"
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "start": 398.27,
+   "end": 406.41,
+   "said": "Oh, yes, I major accounting in my university.",
+   "better": "Oh, yes, I majored in accounting in university.",
+   "ko": "네, 대학에서 회계학을 전공했어요.",
+   "errors": [
+    {
+     "wrong": "major",
+     "right": "majored in",
+     "why": "시제 및 전치사 (과거에 전공한 것이므로 majored, 전공하다는 major in입니다)"
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "start": 545.06,
+   "end": 553.1,
+   "said": "Yes, we have 10, says the man.",
+   "better": "Yes, we have 10 salesmen.",
+   "ko": "네, 영업사원이 10명 있어요.",
+   "errors": [
+    {
+     "wrong": "says the man",
+     "right": "salesmen",
+     "why": "발음 혼동 (salesmen을 says the man으로 잘못 들었거나 발음함)"
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "start": 566.88,
+   "end": 593.52,
+   "said": "We manufacture function food and our customer explain our benefits. You can't take this.",
+   "better": "We manufacture functional food, and our salesmen explain our product benefits to customers.",
+   "ko": "우리는 건강기능식품을 제조하고, 영업사원들이 고객들에게 제품의 효능을 설명합니다.",
+   "errors": [
+    {
+     "wrong": "function food",
+     "right": "functional food",
+     "why": "단어 형태 (기능성 식품은 functional food라고 합니다)"
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "start": 610.34,
+   "end": 630.66,
+   "said": "Oh this is what this is a probiotics and captured. Here's the capture.",
+   "better": "Oh, this is probiotics in capsules. Here are the capsules.",
+   "ko": "아, 이건 캡슐에 들어있는 유산균이에요. 여기 캡슐이 있어요.",
+   "errors": [
+    {
+     "wrong": "captured",
+     "right": "capsules",
+     "why": "단어 선택 (알약 캡슐은 capsule입니다)"
+    },
+    {
+     "wrong": "capture",
+     "right": "capsules",
+     "why": "단어 선택 (캡슐의 복수형은 capsules입니다)"
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "start": 658.88,
+   "end": 674.57,
+   "said": "customer, they explained our Many picture for two to the customer",
+   "better": "They explain our manufactured products to the customers.",
+   "ko": "그들이 제조한 제품을 고객들에게 설명해요.",
+   "errors": [
+    {
+     "wrong": "Many picture",
+     "right": "manufactured products",
+     "why": "발음 혼동 (manufactured를 many picture로 잘못 발음함)"
+    }
+   ]
+  },
+  {
+   "id": "m17",
+   "start": 709.78,
+   "end": 725.67,
+   "said": "We are a company, a medical manufacturer, similar medical medical company similar agents",
+   "better": "We are a medical manufacturing company, similar to pharmaceutical companies.",
+   "ko": "우리는 제약회사들과 비슷한 의료 제조업체예요.",
+   "errors": [
+    {
+     "wrong": "similar agents",
+     "right": "similar companies",
+     "why": "단어 선택 (에이전트가 아니라 비슷한 회사들을 뜻하는 companies가 알맞습니다)"
+    }
+   ]
+  },
+  {
+   "id": "m18",
+   "start": 768.61,
+   "end": 774.67,
+   "said": "We can deliver it. obey your birth",
+   "better": "We can deliver our products.",
+   "ko": "우리는 제품을 배송할 수 있어요.",
+   "errors": [
+    {
+     "wrong": "obey your birth",
+     "right": "deliver our products",
+     "why": "음성 인식 오류 (제품 배송을 의미하는 표현)"
+    }
+   ]
+  },
+  {
+   "id": "m19",
+   "start": 785.11,
+   "end": 825.41,
+   "said": "Oh, no, no, no. Our opinion is P2P. Our customer is not person. Our customer is company. And our customer order or customer receive a PO. and we manufacturing and then all our company, our customer, all our customer company",
+   "better": "No, our business model is B2B. Our customers are not individuals; they are companies. They send a PO (Purchase Order), we manufacture the products, and supply them.",
+   "ko": "아니요, 저희 비즈니스 모델은 B2B예요. 개인 고객이 아니라 기업 고객입니다. 고객이 PO를 보내면 저희가 제조해서 공급해요.",
+   "errors": [
+    {
+     "wrong": "opinion",
+     "right": "business model / system",
+     "why": "단어 선택 (의견이 아니라 사업 방식을 뜻하는 모델이나 시스템이 알맞습니다)"
+    },
+    {
+     "wrong": "person",
+     "right": "individuals",
+     "why": "단어 형태 (개인들이라는 복수형 individual 또는 people이 자연스럽습니다)"
+    },
+    {
+     "wrong": "customer order",
+     "right": "customers order",
+     "why": "주어-동사 일치 (복수 주어 customer 뒤의 동사 원형 order)"
+    },
+    {
+     "wrong": "we manufacturing",
+     "right": "we manufacture",
+     "why": "문법 (진행형이 아니라 평소 하는 일을 말하므로 동사원형 manufacture를 씁니다)"
+    }
+   ]
+  },
+  {
+   "id": "m20",
+   "start": 842.82,
+   "end": 847.51,
+   "said": "Supply supply yes yes yes like supply",
+   "better": "Yes, we supply them.",
+   "ko": "네, 공급해요.",
+   "errors": []
+  },
+  {
+   "id": "m21",
+   "start": 853.17,
+   "end": 855.25,
+   "said": "Yes, surprise!",
+   "better": "Yes, we supply!",
+   "ko": "네, 공급합니다!",
+   "errors": [
+    {
+     "wrong": "surprise",
+     "right": "supply",
+     "why": "발음 혼동 (supply를 surprise로 잘못 발음함)"
+    }
+   ]
+  },
+  {
+   "id": "m22",
+   "start": 862.58,
+   "end": 872.99,
+   "said": "Oh yes, the pythony, yes, we make a very... but available by Tami. Okay. Yes.",
+   "better": "Yes, we make vitamins and probiotics.",
+   "ko": "네, 비타민과 유산균을 만들어요.",
+   "errors": [
+    {
+     "wrong": "pythony / by Tami",
+     "right": "vitamins",
+     "why": "발음 혼동 (vitamins를 잘못 발음함)"
+    }
+   ]
+  },
+  {
+   "id": "m23",
+   "start": 882.38,
+   "end": 900.55,
+   "said": "And the people in Egypt, the people interested in. function for this Do you do interesting function for the Python and probiotics? Yes?",
+   "better": "Are people interested in functional foods and probiotics?",
+   "ko": "사람들이 기능성 식품과 유산균에 관심이 있나요?",
+   "errors": [
+    {
+     "wrong": "Egypt",
+     "right": "internet / general",
+     "why": "음성 인식 오류"
+    },
+    {
+     "wrong": "Do you do interesting",
+     "right": "Are people interested",
+     "why": "표현 (관심이 있다라는 표현은 be interested in을 사용합니다)"
+    }
+   ]
+  },
+  {
+   "id": "m24",
+   "start": 983.81,
+   "end": 1024.11,
+   "said": "Oh, around here I found this vitamin. vitamin or true vitamin. Name is true vitamin. friend, tempest friend, tempest friend you are our main customer. And our mother company is HBO. HBO's brand, Tempest.",
+   "better": "Oh, here is our vitamin. The brand name is True Vitamin. Tempest is our brand, and our parent company is HBO.",
+   "ko": "아, 여기 저희 비타민이 있어요. 브랜드 이름은 트루 비타민이에요. 템페스트는 저희 브랜드고 모회사는 HBO예요.",
+   "errors": [
+    {
+     "wrong": "mother company",
+     "right": "parent company",
+     "why": "표현 (모회사는 mother company가 아니라 parent company라고 합니다)"
+    }
+   ]
+  },
+  {
+   "id": "m25",
+   "start": 1031.11,
+   "end": 1034.63,
+   "said": "Yes, yes, my other company is HP.",
+   "better": "Yes, my parent company is HP.",
+   "ko": "네, 모회사가 HP예요.",
+   "errors": [
+    {
+     "wrong": "other company",
+     "right": "parent company",
+     "why": "단어 선택 (다른 회사가 아니라 모회사를 뜻하는 parent company가 알맞습니다)"
+    }
+   ]
+  },
+  {
+   "id": "m26",
+   "start": 1058.03,
+   "end": 1061.78,
+   "said": "Do you do you interest the tired supplement?",
+   "better": "Are you interested in dietary supplements?",
+   "ko": "건강기능식품에 관심이 있으신가요?",
+   "errors": [
+    {
+     "wrong": "Do you interest",
+     "right": "Are you interested in",
+     "why": "문법 (관심이 있다라는 형용사 표현이므로 be interested in을 써야 합니다)"
+    },
+    {
+     "wrong": "tired supplement",
+     "right": "dietary supplement",
+     "why": "발음 및 단어 선택 (dietary supplement가 건강기능식품/보조제입니다)"
+    }
+   ]
+  },
+  {
+   "id": "m27",
+   "start": 1078.63,
+   "end": 1079.61,
+   "said": "This is my right",
+   "better": "This is Myra E.",
+   "ko": "이것은 마이라 E예요.",
+   "errors": []
+  },
+  {
+   "id": "m28",
+   "start": 1083.78,
+   "end": 1096.11,
+   "said": "Yes. If we include the item in ABCDE or. Wow, really?",
+   "better": "Yes, it includes vitamins A, B, C, D, and E. Wow, really?",
+   "ko": "네, 비타민 A, B, C, D, E가 포함되어 있어요. 와, 정말요?",
+   "errors": [
+    {
+     "wrong": "include the item in",
+     "right": "includes vitamins",
+     "why": "표현 (성분이 포함되어 있다라고 할 때는 include를 사용합니다)"
+    }
+   ]
+  },
+  {
+   "id": "m29",
+   "start": 1109.52,
+   "end": 1128.51,
+   "said": "3, 4, 4 40 hundred. Man, man, man. Of 40,000.",
+   "better": "40,000 won.",
+   "ko": "4만 원이요.",
+   "errors": [
+    {
+     "wrong": "man",
+     "right": "ten thousand",
+     "why": "단어 선택 (한국어 '만'을 영어로 말할 때는 ten thousand라고 해야 합니다)"
+    }
+   ]
+  },
+  {
+   "id": "m30",
+   "start": 1131.5,
+   "end": 1151.11,
+   "said": "Yes, one box, one box. This is the included. 40 this package includes 40 on 30",
+   "better": "Yes, one box. This package includes 30 sticks.",
+   "ko": "네, 한 상자에요. 이 포장에는 30포가 들어있어요.",
+   "errors": [
+    {
+     "wrong": "40 on 30",
+     "right": "30 sticks / 30 sachets",
+     "why": "단어 선택 (30개입 스틱/포를 뜻합니다)"
+    }
+   ]
+  },
+  {
+   "id": "m31",
+   "start": 1152.46,
+   "end": 1153.81,
+   "said": "Oh, sick!",
+   "better": "Oh, six!",
+   "ko": "아, 6개요!",
+   "errors": [
+    {
+     "wrong": "sick",
+     "right": "six",
+     "why": "발음 혼동 (숫자 6인 six를 sick으로 잘못 발음함)"
+    }
+   ]
+  },
+  {
+   "id": "m32",
+   "start": 1159.77,
+   "end": 1173.84,
+   "said": "Yes, one day, one day, one day. Yeah, once I am. One side, one side.",
+   "better": "Yes, once a day, one sachet a day.",
+   "ko": "네, 하루에 한 포요.",
+   "errors": [
+    {
+     "wrong": "once I am / one side",
+     "right": "once a day / one sachet",
+     "why": "표현 (하루에 한 번은 once a day, 한 포는 one sachet입니다)"
+    }
+   ]
+  },
+  {
+   "id": "m33",
+   "start": 1193.92,
+   "end": 1198.84,
+   "said": "Have a good day Thank you.",
+   "better": "Have a good day. Thank you.",
+   "ko": "좋은 하루 보내세요. 감사합니다.",
+   "errors": []
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "I go to the bed 10 o'clock.",
+   "better": "I went to bed at 10 PM.",
+   "ko": "10시에 잠자리에 들었어요.",
+   "tip": "과거 일을 말할 때는 go의 과거형 went를 쓰고, 시각 앞에는 전치사 at을 써요."
+  },
+  {
+   "mine": "Usually I can't eat breakfast.",
+   "better": "I usually skip breakfast.",
+   "ko": "저는 보통 아침을 거릅니다.",
+   "tip": "아침을 안 먹는다고 할 때는 can't eat보다 skip breakfast라는 표현이 훨씬 자연스러워요."
+  },
+  {
+   "mine": "I am first person in company.",
+   "better": "I'm the first person to arrive at the office.",
+   "ko": "제가 회사에 가장 먼저 도착한 사람입니다.",
+   "tip": "최상급 앞에는 꼭 the를 붙이고, '회사에'는 at the office라고 표현해요."
+  },
+  {
+   "mine": "I major accounting in my university.",
+   "better": "I majored in accounting in college.",
+   "ko": "대학에서 회계학을 전공했습니다.",
+   "tip": "전공하다는 과거형 majored를 쓰고 뒤에 전치사 in을 붙여요."
+  },
+  {
+   "mine": "Our customer is company.",
+   "better": "Our clients are other businesses (B2B).",
+   "ko": "우리 고객은 기업입니다 (B2B입니다).",
+   "tip": "기업 고객을 지칭할 때는 보통 company 대신 clients나 businesses라는 단어를 써요."
+  },
+  {
+   "mine": "Do you interest the vitamin?",
+   "better": "Are you interested in vitamins?",
+   "ko": "비타민에 관심이 있으신가요?",
+   "tip": "관심이 있다고 할 때는 I am interested in 형식을 사용해야 해요."
+  },
+  {
+   "mine": "Today I wake up 5 o'clock.",
+   "better": "I woke up at 5 o'clock today.",
+   "ko": "오늘 5시에 일어났어요.",
+   "tip": "오늘 일어난 일은 과거형 woke up을 사용하고 시각 앞에는 at을 넣어요."
+  },
+  {
+   "mine": "We can deliver it.",
+   "better": "We supply and deliver our products.",
+   "ko": "우리는 제품을 공급하고 배송합니다.",
+   "tip": "기업 간 거래에서 물품을 납품할 때는 supply라는 단어가 아주 유용해요."
+  }
+ ],
+ "phrases": [
+  {
+   "en": "wake up early",
+   "ko": "일찍 일어나다",
+   "ex": "I usually wake up early to get to the office."
+  },
+  {
+   "en": "skip breakfast",
+   "ko": "아침을 거르다",
+   "ex": "I had no time, so I had to skip breakfast."
+  },
+  {
+   "en": "B2B (Business-to-Business)",
+   "ko": "기업 간 거래",
+   "ex": "Our company operates on a B2B model, supplying other companies."
+  },
+  {
+   "en": "health supplements",
+   "ko": "건강 보조 식품",
+   "ex": "Many people buy vitamins and health supplements online."
+  },
+  {
+   "en": "manufacturing company",
+   "ko": "제조업 회사",
+   "ex": "We are a manufacturing company that makes functional foods."
+  },
+  {
+   "en": "first person to arrive",
+   "ko": "가장 먼저 도착하는 사람",
+   "ex": "I am usually the first person to arrive at work."
+  },
+  {
+   "en": "diet supplement",
+   "ko": "다이어트 보조제",
+   "ex": "She takes a diet supplement every morning."
+  },
+  {
+   "en": "deliver products",
+   "ko": "제품을 배송하다",
+   "ex": "We safely deliver our products to our clients."
+  }
+ ],
+ "next": {
+  "q": "What kind of products does your company manufacture and supply to other businesses?",
+  "ko": "귀사는 어떤 종류의 제품을 제조하여 다른 기업에 공급하나요?",
+  "starters": [
+   {
+    "en": "We mainly manufacture health supplements like probiotics and vitamins.",
+    "ko": "우리는 주로 유산균이나 비타민 같은 건강 보조 식품을 제조합니다."
+   },
+   {
+    "en": "Our company focuses on B2B supply for functional foods.",
+    "ko": "우리 회사는 기능성 식품의 B2B 공급에 집중하고 있습니다."
+   },
+   {
+    "en": "We supply manufactured health products to corporate clients.",
+    "ko": "우리는 기업 고객들에게 제조된 건강 제품을 공급합니다."
+   },
+   {
+    "en": "We produce daily vitamins and deliver them to our business partners.",
+    "ko": "우리는 매일 먹는 비타민을 생산하여 비즈니스 파트너들에게 납품합니다."
+   },
+   {
+    "en": "As a manufacturer, we provide various health-related items.",
+    "ko": "제조업체로서 우리는 다양한 건강 관련 품목을 제공합니다."
+   }
+  ]
+ }
+}
