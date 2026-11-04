@@ -1,0 +1,1096 @@
+{
+ "date": "2026-11-04",
+ "audio": "audio/2026-11-04.mp3",
+ "minutes": 20,
+ "topic": "Table Manners in Korea and Cultural Habits",
+ "topicKo": "한국의 식사 예절과 문화적 습관",
+ "teacher": "Teacher",
+ "summary": "선생님이 편두통 때문에 카메라를 끄고 수업을 진행하며, 한국의 식사 예절(숟가락/젓가락 사용, 소리 내어 먹기 등)과 한국의 전래동화(용왕과 효녀 심청 이야기)에 대해 대화했습니다.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 23.61,
+   "end": 27.89,
+   "en": "Oh by the way sir, can I close my camera today?",
+   "ko": "아 그런데 선생님, 오늘 제 카메라를 꺼도 될까요?",
+   "chunks": [
+    [
+     "Oh by the way sir,",
+     "아 그런데 선생님,"
+    ],
+    [
+     "can I close my camera",
+     "제 카메라를 꺼도 될까요"
+    ],
+    [
+     "today?",
+     "오늘?"
+    ]
+   ],
+   "words": [
+    [
+     "by the way",
+     "그런데"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t2",
+   "start": 29.11,
+   "end": 40.93,
+   "en": "Yeah, because I have a migraine and I turned off my light.",
+   "ko": "네, 편두통이 있어서 불을 껐거든요.",
+   "chunks": [
+    [
+     "Yeah,",
+     "네,"
+    ],
+    [
+     "because I have a migraine",
+     "편두통이 있어서"
+    ],
+    [
+     "and I turned off my light.",
+     "그리고 불을 껐어요."
+    ]
+   ],
+   "words": [
+    [
+     "migraine",
+     "편두통"
+    ],
+    [
+     "turn off",
+     "끄다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t3",
+   "start": 106.85,
+   "end": 112.87,
+   "en": "I will send it with our recordings today.",
+   "ko": "오늘 수업 녹화본과 함께 그것을 보내드릴게요.",
+   "chunks": [
+    [
+     "I will send it",
+     "보내드릴게요"
+    ],
+    [
+     "with our recordings",
+     "녹화본과 함께"
+    ],
+    [
+     "today.",
+     "오늘"
+    ]
+   ],
+   "words": [
+    [
+     "recording",
+     "녹화, 녹음"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t4",
+   "start": 206.69,
+   "end": 216.03,
+   "en": "Oh, so while we're having a conversation, you mean you're watching our recordings?",
+   "ko": "아, 그러니까 우리가 대화하는 동안, 녹화본을 보고 계신다는 말씀이시죠?",
+   "chunks": [
+    [
+     "Oh, so while we're having a conversation,",
+     "아, 우리가 대화하는 동안,"
+    ],
+    [
+     "you mean",
+     "말씀이시죠"
+    ],
+    [
+     "you're watching our recordings?",
+     "녹화본을 보고 계신다는"
+    ]
+   ],
+   "words": [
+    [
+     "conversation",
+     "대화"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t5",
+   "start": 263.61,
+   "end": 285.37,
+   "en": "So if you don't understand what I'm talking about, you can ask me so that I can explain it.",
+   "ko": "그러니까 제가 무슨 말 하는지 이해가 안 되면, 제가 설명해 줄 수 있게 저한테 물어보셔도 돼요.",
+   "chunks": [
+    [
+     "So if you don't understand",
+     "만약 이해가 안 된다면"
+    ],
+    [
+     "what I'm talking about,",
+     "제가 말하는 것을"
+    ],
+    [
+     "you can ask me",
+     "저에게 물어보세요"
+    ],
+    [
+     "so that I can explain it.",
+     "제가 설명할 수 있도록."
+    ]
+   ],
+   "words": [
+    [
+     "explain",
+     "설명하다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t6",
+   "start": 312.56,
+   "end": 332.14,
+   "en": "I don't know if you're familiar with it, Dragon King.",
+   "ko": "용왕 이야기에 대해 잘 아실지 모르겠네요.",
+   "chunks": [
+    [
+     "I don't know",
+     "모르겠네요"
+    ],
+    [
+     "if you're familiar with it,",
+     "잘 아실지"
+    ],
+    [
+     "Dragon King.",
+     "용왕"
+    ]
+   ],
+   "words": [
+    [
+     "be familiar with",
+     "~에 익숙하다, 잘 알다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t7",
+   "start": 376.46,
+   "end": 388.36,
+   "en": "I think you are also familiar with the story, right? It's like the girl that sacrifices herself.",
+   "ko": "당신도 그 이야기를 잘 아실 것 같아요, 맞죠? 자신을 희생하는 소녀 이야기요.",
+   "chunks": [
+    [
+     "I think",
+     "생각해요"
+    ],
+    [
+     "you are also familiar with the story,",
+     "이야기에 익숙하다고"
+    ],
+    [
+     "right? It's like the girl",
+     "맞죠? 소녀 같은 이야기요"
+    ],
+    [
+     "that sacrifices herself.",
+     "스스로를 희생하는."
+    ]
+   ],
+   "words": [
+    [
+     "sacrifice",
+     "희생하다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t8",
+   "start": 519.01,
+   "end": 522.81,
+   "en": "So we will continue with our questions here.",
+   "ko": "그럼 여기 질문들을 계속 이어갈게요.",
+   "chunks": [
+    [
+     "So",
+     "그럼"
+    ],
+    [
+     "we will continue",
+     "계속하겠습니다"
+    ],
+    [
+     "with our questions here.",
+     "여기 질문들을"
+    ]
+   ],
+   "words": [
+    [
+     "continue",
+     "계속하다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t9",
+   "start": 559.19,
+   "end": 582.5,
+   "en": "What table manners should I remember so that I will not offend Koreans when I go there?",
+   "ko": "한국에 갔을 때 한국인들을 기분 상하게 하지 않으려면 어떤 식사 예절을 기억해야 할까요?",
+   "chunks": [
+    [
+     "What table manners should I remember",
+     "어떤 식사 예절을 기억해야 할까요"
+    ],
+    [
+     "so that I will not offend Koreans",
+     "한국인들을 기분 상하게 하지 않으려고"
+    ],
+    [
+     "when I go there?",
+     "거기에 갈 때?"
+    ]
+   ],
+   "words": [
+    [
+     "table manners",
+     "식사 예절"
+    ],
+    [
+     "offend",
+     "기분 상하게 하다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t10",
+   "start": 741.01,
+   "end": 759.12,
+   "en": "I think in Korea, some people said that restaurants like it when they hear sound when people are eating.",
+   "ko": "제 생각에 한국에서는 사람들이 먹을 때 소리가 나면 식당에서 좋아한다고 하더라고요.",
+   "chunks": [
+    [
+     "I think in Korea,",
+     "제 생각엔 한국에서는"
+    ],
+    [
+     "some people said that",
+     "어떤 사람들이 말했어요"
+    ],
+    [
+     "restaurants like it",
+     "식당들이 좋아한다고"
+    ],
+    [
+     "when they hear sound when people are eating.",
+     "먹을 때 소리가 날 때."
+    ]
+   ],
+   "words": [
+    [
+     "restaurant",
+     "식당"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t11",
+   "start": 759.83,
+   "end": 764.01,
+   "en": "Because they said it means that the food is good.",
+   "ko": "음식이 맛있다는 뜻이기 때문이래요.",
+   "chunks": [
+    [
+     "Because they said",
+     "왜냐하면 그들이 말하기를"
+    ],
+    [
+     "it means",
+     "그것은 의미한다고"
+    ],
+    [
+     "that the food is good.",
+     "음식이 맛있다는 것을."
+    ]
+   ],
+   "words": [
+    [
+     "mean",
+     "의미하다"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t12",
+   "start": 1109.8,
+   "end": 1114.28,
+   "en": "I think I will have a hard time because I'm not good at using chopsticks.",
+   "ko": "저는 젓가락질을 잘 못해서 힘들 것 같아요.",
+   "chunks": [
+    [
+     "I think",
+     "생각해요"
+    ],
+    [
+     "I will have a hard time",
+     "힘들 것이라고"
+    ],
+    [
+     "because I'm not good at using chopsticks.",
+     "젓가락을 잘 못 쓰기 때문에."
+    ]
+   ],
+   "words": [
+    [
+     "have a hard time",
+     "고생하다, 힘들다"
+    ],
+    [
+     "chopsticks",
+     "젓가락"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  }
+ ],
+ "mine": [
+  {
+   "id": "m1",
+   "start": 80.44,
+   "end": 86.27,
+   "said": "Today recording is not update.",
+   "better": "Today's recording is not updated.",
+   "ko": "오늘 녹화본이 업데이트되지 않았어요.",
+   "errors": [
+    {
+     "wrong": "Today",
+     "right": "Today's",
+     "why": "소유격(possessive) 's를 붙여야 합니다."
+    },
+    {
+     "wrong": "not update",
+     "right": "not updated",
+     "why": "수동태 표현으로 과거분사(ed)를 써야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "start": 99.48,
+   "end": 101.65,
+   "said": "Yesterday's equity",
+   "better": "Yesterday's recording",
+   "ko": "어제 녹화본이요.",
+   "errors": [
+    {
+     "wrong": "equity",
+     "right": "recording",
+     "why": "단어 선택 오류 (equity는 주식/자산 등을 의미함)."
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": 287.7,
+   "end": 301.95,
+   "said": "Your pronunciation isn't very clear. Your voice is good.",
+   "better": "Your pronunciation isn't very clear, but your voice is good.",
+   "ko": "발음이 아주 명확하지는 않지만 목소리는 좋습니다.",
+   "errors": []
+  },
+  {
+   "id": "m4",
+   "start": 365.33,
+   "end": 371.61,
+   "said": "Jungwon, or Dragon?",
+   "better": "Yongwan, or Dragon?",
+   "ko": "용왕이요, 아니면 드래곤인가요?",
+   "errors": []
+  },
+  {
+   "id": "m5",
+   "start": 409.22,
+   "end": 411.46,
+   "said": "I know this story",
+   "better": "I know this story.",
+   "ko": "이 이야기 알아요.",
+   "errors": []
+  },
+  {
+   "id": "m6",
+   "start": 414.92,
+   "end": 418.56,
+   "said": "What's those? Pay was 3",
+   "better": "Shim Cheong. Her father was blind.",
+   "ko": "심청전이요. 아버지가 장님이에요.",
+   "errors": [
+    {
+     "wrong": "Pay was 3",
+     "right": "Shim Cheong",
+     "why": "발음 오류 또는 인식 오류로 인한 단어 수정 (심청전/심청)."
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "start": 422.1,
+   "end": 433.41,
+   "said": "And her father is blind. can see anything.",
+   "better": "Her father is blind and cannot see anything.",
+   "ko": "아버지가 장님이라 아무것도 못 봐요.",
+   "errors": [
+    {
+     "wrong": "can see anything",
+     "right": "cannot see anything",
+     "why": "부정문이므로 cannot(can't)을 써야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "start": 451.05,
+   "end": 458.27,
+   "said": "Help is the help her father's eyes cross eyes.",
+   "better": "She helps her father to cure his eyes.",
+   "ko": "그녀는 아버지의 눈을 고치기 위해 도와요.",
+   "errors": []
+  },
+  {
+   "id": "m9",
+   "start": 469.31,
+   "end": 471.7,
+   "said": "I am king. Oh, yes",
+   "better": "The Dragon King, oh yes.",
+   "ko": "용왕이요, 아 맞다.",
+   "errors": []
+  },
+  {
+   "id": "m10",
+   "start": 476.8,
+   "end": 479.36,
+   "said": "and what Girl deal?",
+   "better": "What did the girl do?",
+   "ko": "소녀가 뭘 했나요?",
+   "errors": [
+    {
+     "wrong": "Girl deal",
+     "right": "did the girl do",
+     "why": "과거 시제 의문문 어순 오류입니다."
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "start": 482.02,
+   "end": 482.94,
+   "said": "thought",
+   "better": "She thought",
+   "ko": "생각했어요.",
+   "errors": []
+  },
+  {
+   "id": "m12",
+   "start": 490.42,
+   "end": 491.33,
+   "said": "her mish.",
+   "better": "her wish.",
+   "ko": "소원을요.",
+   "errors": [
+    {
+     "wrong": "mish",
+     "right": "wish",
+     "why": "발음 혼동 (m과 w 발음 교정 필요)."
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "start": 529.91,
+   "end": 534.27,
+   "said": "so 5 are some good people.",
+   "better": "Number 5: What are some good table manners?",
+   "ko": "5번: 좋은 식사 예절에는 무엇이 있나요?",
+   "errors": []
+  },
+  {
+   "id": "m14",
+   "start": 537.77,
+   "end": 540.06,
+   "said": "Mmm... Papermana",
+   "better": "Table manners.",
+   "ko": "식사 예절이요.",
+   "errors": [
+    {
+     "wrong": "Papermana",
+     "right": "Table manners",
+     "why": "발음 오류 (table manners를 잘못 발음함)."
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "start": 553.35,
+   "end": 557.29,
+   "said": "Good news. Give me like some examples.",
+   "better": "Give me some examples.",
+   "ko": "예시를 좀 주세요.",
+   "errors": []
+  },
+  {
+   "id": "m16",
+   "start": 573.55,
+   "end": 588.34,
+   "said": "What should I do? so that I will not like Okay, the favorment.",
+   "better": "What should I do so that I will not break table manners?",
+   "ko": "식사 예절을 어기지 않으려면 어떻게 해야 하나요?",
+   "errors": []
+  },
+  {
+   "id": "m17",
+   "start": 589.5,
+   "end": 598.53,
+   "said": "during the... have a dinner or have a breakfast.",
+   "better": "during dinner or breakfast.",
+   "ko": "저녁이나 아침을 먹을 때요.",
+   "errors": [
+    {
+     "wrong": "have a dinner",
+     "right": "dinner",
+     "why": "식사 앞에는 관사 'a'를 보통 붙이지 않습니다."
+    }
+   ]
+  },
+  {
+   "id": "m18",
+   "start": 603.79,
+   "end": 606.53,
+   "said": "What I shouldn't do.",
+   "better": "What I shouldn't do.",
+   "ko": "하지 말아야 할 것들이요.",
+   "errors": []
+  },
+  {
+   "id": "m19",
+   "start": 617.59,
+   "end": 643.57,
+   "said": "I... when I have a... dinner with my family Uh, I... I... Orange the... Complained with my son.",
+   "better": "When I have dinner with my family, my son complains about me.",
+   "ko": "가족과 저녁을 먹을 때, 아들이 저한테 불평해요.",
+   "errors": [
+    {
+     "wrong": "Orange the Complained with",
+     "right": "complains about",
+     "why": "단어 선택 및 동사 형태 오류입니다."
+    }
+   ]
+  },
+  {
+   "id": "m20",
+   "start": 643.6,
+   "end": 650.15,
+   "said": "When I eat something",
+   "better": "When I eat something,",
+   "ko": "제가 무언가를 먹을 때요.",
+   "errors": []
+  },
+  {
+   "id": "m21",
+   "start": 651.04,
+   "end": 676.58,
+   "said": "finelessly oil soup It's something. in my mouth Don't sound top top.",
+   "better": "I make a smacking sound with my mouth while eating soup.",
+   "ko": "국을 먹을 때 입에서 쩝쩝 소리를 내요.",
+   "errors": [
+    {
+     "wrong": "Don't sound top top",
+     "right": "make smacking sounds",
+     "why": "쩝쩝 소리를 낸다는 표현을 다르게 말함."
+    }
+   ]
+  },
+  {
+   "id": "m22",
+   "start": 679.35,
+   "end": 702.94,
+   "said": "I think usually It sound... Come out But my family don't... Don't hear the sounds.",
+   "better": "I think the sound comes out, but my family doesn't like it.",
+   "ko": "소리가 나는 것 같은데, 가족들이 싫어해요.",
+   "errors": [
+    {
+     "wrong": "It sound",
+     "right": "It sounds",
+     "why": "주어가 3인칭 단수이므로 동사에 s를 붙여야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m23",
+   "start": 708.28,
+   "end": 728.08,
+   "said": "and To all the... While eating while eating? inside the mouse, inside mouse.",
+   "better": "while eating with my mouth open.",
+   "ko": "입을 벌리고 먹으면서요.",
+   "errors": [
+    {
+     "wrong": "mouse",
+     "right": "mouth",
+     "why": "발음 혼동 (mouse는 쥐, mouth는 입)."
+    }
+   ]
+  },
+  {
+   "id": "m24",
+   "start": 728.16,
+   "end": 730.06,
+   "said": "and that sound",
+   "better": "making that sound.",
+   "ko": "그런 소리를 내요.",
+   "errors": []
+  },
+  {
+   "id": "m25",
+   "start": 733.79,
+   "end": 735.39,
+   "said": "Yes, yes, yes.",
+   "better": "Yes, exactly.",
+   "ko": "네, 맞아요.",
+   "errors": []
+  },
+  {
+   "id": "m26",
+   "start": 832.26,
+   "end": 836.18,
+   "said": "All in Philippines.",
+   "better": "Not in the Philippines.",
+   "ko": "필리핀에서는 아니에요.",
+   "errors": []
+  },
+  {
+   "id": "m27",
+   "start": 836.41,
+   "end": 837.79,
+   "said": "Baby Meno?",
+   "better": "Table manners?",
+   "ko": "식사 예절이요?",
+   "errors": [
+    {
+     "wrong": "Baby Meno",
+     "right": "Table manners",
+     "why": "발음 오류입니다."
+    }
+   ]
+  },
+  {
+   "id": "m28",
+   "start": 843.88,
+   "end": 856.96,
+   "said": "Mmm... Mmm... Mmm... Oh, that the soup is very good.",
+   "better": "Making sounds means the soup is very good.",
+   "ko": "소리를 내는 건 국이 아주 맛있다는 뜻이에요.",
+   "errors": []
+  },
+  {
+   "id": "m29",
+   "start": 857.52,
+   "end": 867.25,
+   "said": "No, no, no, no. Another means, another means. Also I'm wrong. Just, just...",
+   "better": "No, I mean another thing. Maybe I'm wrong.",
+   "ko": "아니요, 다른 뜻이에요. 제가 틀렸을 수도 있어요.",
+   "errors": []
+  },
+  {
+   "id": "m30",
+   "start": 867.22,
+   "end": 874.35,
+   "said": "Yes, just sound.",
+   "better": "Yes, just making sounds.",
+   "ko": "네, 그냥 소리를 내요.",
+   "errors": []
+  },
+  {
+   "id": "m31",
+   "start": 880.57,
+   "end": 893.34,
+   "said": "Yes, yes. I think... of all or rice is left.",
+   "better": "When rice is left in the bowl...",
+   "ko": "밥이 그릇에 남아있을 때요...",
+   "errors": []
+  },
+  {
+   "id": "m32",
+   "start": 895.37,
+   "end": 904.61,
+   "said": "Left light lighting. Oh, right. Location. Yes, this location is soup. Soup is...",
+   "better": "Left and right... soup is on the right side.",
+   "ko": "왼쪽 오른쪽... 국은 오른쪽에 있어요.",
+   "errors": []
+  },
+  {
+   "id": "m33",
+   "start": 907.5,
+   "end": 918.6,
+   "said": "Light is light and life is left. This is man.",
+   "better": "Right is right and left is left. This is table manners.",
+   "ko": "오른쪽은 오른쪽, 왼쪽은 왼쪽. 이게 식사 예절이에요.",
+   "errors": []
+  },
+  {
+   "id": "m34",
+   "start": 927.67,
+   "end": 929.67,
+   "said": "Yes, table man, yes.",
+   "better": "Yes, table manners.",
+   "ko": "네, 식사 예절이요.",
+   "errors": []
+  },
+  {
+   "id": "m35",
+   "start": 932.99,
+   "end": 958.95,
+   "said": "And also it yes soup soup soup is Like this. Right location, right location, right, right, right is left location. Oh, okay. who is on the right? left location, right location, left location Yes, soup.",
+   "better": "The soup should be placed on the right side.",
+   "ko": "국은 오른쪽에 놓아야 해요.",
+   "errors": []
+  },
+  {
+   "id": "m36",
+   "start": 963.88,
+   "end": 966.81,
+   "said": "Oh, okay.",
+   "better": "Oh, okay.",
+   "ko": "아, 그렇군요.",
+   "errors": []
+  },
+  {
+   "id": "m37",
+   "start": 974.85,
+   "end": 975.84,
+   "said": "O",
+   "better": "Oh.",
+   "ko": "아.",
+   "errors": []
+  },
+  {
+   "id": "m38",
+   "start": 978.19,
+   "end": 1001.44,
+   "said": "So like our yes our table is Traditional food is Korean traditional food is there are very many side dishes. Oh yes, yes. Side dishes is very many. Many, many.",
+   "better": "In traditional Korean food, there are many side dishes.",
+   "ko": "한국 전통 음식에는 반찬이 아주 많아요.",
+   "errors": [
+    {
+     "wrong": "Side dishes is",
+     "right": "Side dishes are",
+     "why": "주어가 복수이므로 동사는 are를 써야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m39",
+   "start": 1001.9,
+   "end": 1007.5,
+   "said": "Pariah Kids Size this, she eat it.",
+   "better": "We eat with many side dishes.",
+   "ko": "반찬과 같이 먹어요.",
+   "errors": []
+  },
+  {
+   "id": "m40",
+   "start": 1014.78,
+   "end": 1015.65,
+   "said": "the table",
+   "better": "on the table.",
+   "ko": "식탁 위에요.",
+   "errors": []
+  },
+  {
+   "id": "m41",
+   "start": 1036.75,
+   "end": 1042.87,
+   "said": "Can you use a soft stick?",
+   "better": "Can you use chopsticks?",
+   "ko": "젓가락을 쓸 수 있나요?",
+   "errors": [
+    {
+     "wrong": "soft stick",
+     "right": "chopsticks",
+     "why": "단어 오류 (젓가락을 잘못 발음함)."
+    }
+   ]
+  },
+  {
+   "id": "m42",
+   "start": 1065.51,
+   "end": 1068.82,
+   "said": "Okay, okay, I yes",
+   "better": "Okay, yes.",
+   "ko": "네, 알겠습니다.",
+   "errors": []
+  },
+  {
+   "id": "m43",
+   "start": 1068.81,
+   "end": 1069.85,
+   "said": "Oh?",
+   "better": "Oh?",
+   "ko": "네?",
+   "errors": []
+  },
+  {
+   "id": "m44",
+   "start": 1070.2,
+   "end": 1104.29,
+   "said": "Mmm... Don't, don't, don't eat. You are just super and hefty. You spoon and tap, tap the",
+   "better": "Don't tap the bowl with your spoon or chopsticks.",
+   "ko": "숟가락이나 젓가락으로 그릇을 치지 마세요.",
+   "errors": [
+    {
+     "wrong": "super and hefty",
+     "right": "spoon and chopsticks",
+     "why": "발음 오류 및 단어 혼동입니다."
+    }
+   ]
+  },
+  {
+   "id": "m45",
+   "start": 1117.97,
+   "end": 1119.01,
+   "said": "Oh",
+   "better": "Oh.",
+   "ko": "아.",
+   "errors": []
+  },
+  {
+   "id": "m46",
+   "start": 1119.61,
+   "end": 1128.74,
+   "said": "Try.",
+   "better": "Try it.",
+   "ko": "한번 해보세요.",
+   "errors": []
+  },
+  {
+   "id": "m47",
+   "start": 1129.46,
+   "end": 1135.02,
+   "said": "How? How to eating?",
+   "better": "How to eat?",
+   "ko": "어떻게 먹나요?",
+   "errors": [
+    {
+     "wrong": "How to eating",
+     "right": "How to eat",
+     "why": "to 부정사 뒤에는 동사원형을 써야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m48",
+   "start": 1135.47,
+   "end": 1138.16,
+   "said": "Oh, so...",
+   "better": "Ah, so...",
+   "ko": "아, 그래서...",
+   "errors": []
+  },
+  {
+   "id": "m49",
+   "start": 1140.43,
+   "end": 1142.65,
+   "said": "Oh, pork!",
+   "better": "Oh, fork!",
+   "ko": "아, 포크요!",
+   "errors": []
+  },
+  {
+   "id": "m50",
+   "start": 1148.51,
+   "end": 1149.43,
+   "said": "I can",
+   "better": "I can use them.",
+   "ko": "저는 쓸 수 있어요.",
+   "errors": []
+  },
+  {
+   "id": "m51",
+   "start": 1158.28,
+   "end": 1164.23,
+   "said": "When I use the shop But I'm trying We usually",
+   "better": "When I use chopsticks, but I'm trying. We usually...",
+   "ko": "젓가락을 쓸 때요, 그래도 노력하고 있어요. 우리는 보통...",
+   "errors": [
+    {
+     "wrong": "shop",
+     "right": "chopsticks",
+     "why": "발음 인식 오류 (젓가락)."
+    }
+   ]
+  },
+  {
+   "id": "m52",
+   "start": 1180.71,
+   "end": 1182.76,
+   "said": "and can also sorry make...",
+   "better": "And sorry for my camera.",
+   "ko": "그리고 카메라 때문에 죄송해요.",
+   "errors": []
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "Not update.",
+   "better": "It hasn't been updated yet.",
+   "ko": "아직 업데이트되지 않았어요.",
+   "tip": "진행형 수동태(~hasn't been updated)를 써서 표현해 보세요."
+  },
+  {
+   "mine": "Your front-end is very clear.",
+   "better": "Your voice is very clear.",
+   "ko": "목소리가 아주 잘 들려요. (전달력이 좋아요.)",
+   "tip": "프로그램이나 개발 용어(front-end) 대신 voice나 pronunciation을 사용하세요."
+  },
+  {
+   "mine": "Pay was 3",
+   "better": "She was a filial daughter (Shim Cheong).",
+   "ko": "그녀는 효녀였어요.",
+   "tip": "발음이 비슷한 'filial daughter(효녀)' 표현을 익혀두세요."
+  },
+  {
+   "mine": "Help is the help.",
+   "better": "She wanted to help her father.",
+   "ko": "아버지를 돕고 싶어 했어요.",
+   "tip": "주어와 동사를 갖춘 완전한 문장으로 말하는 연습을 해보세요."
+  },
+  {
+   "mine": "father's eyes cross eyes.",
+   "better": "Her father was blind and couldn't see.",
+   "ko": "아버지는 앞을 보지 못하셨어요.",
+   "tip": "'시력이 나쁘다'는 blind 또는 can't see로 표현합니다."
+  },
+  {
+   "mine": "grant her mish.",
+   "better": "grant her wish.",
+   "ko": "소원을 들어주다.",
+   "tip": "mish가 아니라 wish로 발음하고 사용해야 합니다."
+  },
+  {
+   "mine": "Papermana",
+   "better": "Table manners.",
+   "ko": "식사 예절.",
+   "tip": "table manners의 연음 발음을 정확히 익혀두세요."
+  },
+  {
+   "mine": "Complained with my son.",
+   "better": "I nag my son. / I tell my son off.",
+   "ko": "아들에게 잔소리를 해요.",
+   "tip": "complaint 대신 동사 nag나 tell off를 써보세요."
+  },
+  {
+   "mine": "Don't sound top top.",
+   "better": "Don't smack your lips / Don't make slurping noises.",
+   "ko": "소리 내서 먹지 마라.",
+   "tip": "음식을 먹을 때 소리를 내는 것은 make noise나 smack lips라고 합니다."
+  },
+  {
+   "mine": "How to eating?",
+   "better": "How do you eat? / How is it eaten?",
+   "ko": "어떻게 먹나요?",
+   "tip": "의문문에서는 'How + 조동사(do/should) + 주어 + 동사원형'을 사용하세요."
+  }
+ ],
+ "phrases": [
+  {
+   "en": "table manners",
+   "ko": "식사 예절",
+   "ex": "What are some important table manners in Korea?"
+  },
+  {
+   "en": "side dishes",
+   "ko": "반찬",
+   "ex": "Korean traditional food usually comes with many side dishes."
+  },
+  {
+   "en": "filial daughter",
+   "ko": "효녀",
+   "ex": "Shim Cheong is a famous filial daughter in Korean folklore."
+  },
+  {
+   "en": "blind",
+   "ko": "시각 장애가 있는, 앞을 못 보는",
+   "ex": "Her father was blind and could not see."
+  },
+  {
+   "en": "grant a wish",
+   "ko": "소원을 들어주다",
+   "ex": "The Dragon King decided to grant her wish."
+  },
+  {
+   "en": "make a sound",
+   "ko": "소리를 내다",
+   "ex": "My son always makes a sound when he eats soup."
+  },
+  {
+   "en": "chopsticks",
+   "ko": "젓가락",
+   "ex": "I am not very good at using chopsticks."
+  },
+  {
+   "en": "brave",
+   "ko": "용감한",
+   "ex": "The Dragon King thought the girl was very brave."
+  }
+ ],
+ "next": {
+  "q": "What are some unique dining customs or table manners in Korea that foreigners should know about?",
+  "ko": "외국인들이 알아야 할 한국의 독특한 식사 예절이나 문화에는 어떤 것이 있나요?",
+  "starters": [
+   {
+    "en": "In Korea, we usually don't lift our rice bowls off the table.",
+    "ko": "한국에서는 보통 밥그릇을 상 위에 두고 먹습니다."
+   },
+   {
+    "en": "My family sometimes complains when someone makes a slurping sound while eating soup.",
+    "ko": "저희 가족은 누군가 국을 먹을 때 소리를 내면 가끔 잔소리를 합니다."
+   },
+   {
+    "en": "Korean meals usually include a main dish and many different side dishes.",
+    "ko": "한국 식사는 보통 메인 요리와 여러 가지 반찬이 함께 나옵니다."
+   },
+   {
+    "en": "I always tell my children not to make noise with their spoons.",
+    "ko": "저는 항상 아이들에게 숟가락으로 소리를 내지 말라고 잔소리를 합니다."
+   },
+   {
+    "en": "Using chopsticks and a spoon at the same time can be difficult for foreigners.",
+    "ko": "외국인들에게는 젓가락과 숟가락을 동시에 사용하는 것이 어려울 수 있습니다."
+   }
+  ]
+ }
+}
