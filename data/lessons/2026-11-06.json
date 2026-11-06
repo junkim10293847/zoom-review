@@ -1,0 +1,726 @@
+{
+ "date": "2026-11-06",
+ "audio": "audio/2026-11-06.mp3",
+ "minutes": 19,
+ "topic": "Korean Dramas and Movies",
+ "topicKo": "한국 드라마와 영화",
+ "teacher": "Teacher",
+ "summary": "선생님과 학생이 한국 드라마와 영화에 대해 이야기를 나누었습니다. 특히 좀비물인 '킹덤'과 마동석 배우의 영화들에 대해 흥미로운 대화를 했습니다.",
+ "lines": [
+  {
+   "id": "t1",
+   "start": 50.83,
+   "end": 55.31,
+   "en": "So, how's Friday? How's the weather?",
+   "ko": "금요일은 어때요? 날씨는 어떤가요?",
+   "chunks": [
+    [
+     "So, how's Friday?",
+     "금요일은 어때요?"
+    ],
+    [
+     "How's the weather?",
+     "날씨는 어떤가요?"
+    ]
+   ],
+   "words": [
+    [
+     "How's",
+     "어때요?"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t2",
+   "start": 133.28,
+   "end": 144.51,
+   "en": "But now we are not interested. Why? Because Korean dramas nowadays are the same, right?",
+   "ko": "하지만 지금은 별로 흥미가 없어요. 왜냐고요? 요즘 한국 드라마는 다 똑같거든요, 그렇죠?",
+   "chunks": [
+    [
+     "But now we are not interested.",
+     "하지만 지금은 흥미가 없어요."
+    ],
+    [
+     "Why?",
+     "왜냐고요?"
+    ],
+    [
+     "Because Korean dramas nowadays are the same, right?",
+     "요즘 한국 드라마는 다 똑같으니까요, 그렇죠?"
+    ]
+   ],
+   "words": [
+    [
+     "interested",
+     "흥미 있는"
+    ],
+    [
+     "nowadays",
+     "요즘"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t3",
+   "start": 148.8,
+   "end": 154.21,
+   "en": "The storylines are the same.",
+   "ko": "줄거리가 다 똑같아요.",
+   "chunks": [
+    [
+     "The storylines",
+     "줄거리가"
+    ],
+    [
+     "are the same.",
+     "다 똑같아요."
+    ]
+   ],
+   "words": [
+    [
+     "storyline",
+     "줄거리"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t4",
+   "start": 383.87,
+   "end": 396.08,
+   "en": "So we already know what will happen. So it's not interesting anymore.",
+   "ko": "그래서 무슨 일이 일어날지 이미 다 알아요. 그래서 더 이상 재미가 없어요.",
+   "chunks": [
+    [
+     "So we already know",
+     "그래서 우리는 이미 알아요"
+    ],
+    [
+     "what will happen.",
+     "무슨 일이 일어날지."
+    ],
+    [
+     "So it's not interesting anymore.",
+     "그래서 더 이상 재미가 없어요."
+    ]
+   ],
+   "words": [
+    [
+     "already",
+     "이미"
+    ],
+    [
+     "anymore",
+     "더 이상"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t5",
+   "start": 396.29,
+   "end": 406.65,
+   "en": "The story is like there's a rich guy or rich girl who fell in love with the poor guy or the poor girl.",
+   "ko": "이야기는 부자 남자나 부자 여자가 가난한 남자나 가난한 여자와 사랑에 빠지는 식이에요.",
+   "chunks": [
+    [
+     "The story is like",
+     "이야기는 ~식이에요"
+    ],
+    [
+     "there's a rich guy or rich girl",
+     "부자 남자나 부자 여자가 있는"
+    ],
+    [
+     "who fell in love with the poor guy or the poor girl.",
+     "가난한 사람과 사랑에 빠지는"
+    ]
+   ],
+   "words": [
+    [
+     "fell in love with",
+     "~와 사랑에 빠지다"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  },
+  {
+   "id": "t6",
+   "start": 411.97,
+   "end": 424.38,
+   "en": "And there's a love triangle, and the ending is all the same.",
+   "ko": "삼각관계도 있고, 결말도 다 똑같아요.",
+   "chunks": [
+    [
+     "And there's a love triangle,",
+     "삼각관계도 있고,"
+    ],
+    [
+     "and the ending is all the same.",
+     "결말도 다 똑같아요."
+    ]
+   ],
+   "words": [
+    [
+     "love triangle",
+     "삼각관계"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t7",
+   "start": 441.58,
+   "end": 451.26,
+   "en": "Because in horror, you don't know who will die first.",
+   "ko": "공포물에서는 누가 먼저 죽을지 모르니까요.",
+   "chunks": [
+    [
+     "Because in horror,",
+     "공포물에서는"
+    ],
+    [
+     "you don't know",
+     "모르니까요"
+    ],
+    [
+     "who will die first.",
+     "누가 먼저 죽을지."
+    ]
+   ],
+   "words": [
+    [
+     "horror",
+     "공포물"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t8",
+   "start": 480.06,
+   "end": 485.39,
+   "en": "So you don't know what will happen, so it's more interesting.",
+   "ko": "무슨 일이 일어날지 모르니까 더 재미있어요.",
+   "chunks": [
+    [
+     "So you don't know what will happen,",
+     "무슨 일이 일어날지 모르니까,"
+    ],
+    [
+     "so it's more interesting.",
+     "더 재미있어요."
+    ]
+   ],
+   "words": [
+    [
+     "interesting",
+     "재미있는"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t9",
+   "start": 490.0,
+   "end": 494.4,
+   "en": "So what kind of movie do you like to watch, sir?",
+   "ko": "그럼 어떤 종류의 영화를 보는 걸 좋아하세요?",
+   "chunks": [
+    [
+     "So what kind of movie",
+     "어떤 종류의 영화를"
+    ],
+    [
+     "do you like to watch, sir?",
+     "보는 걸 좋아하세요?"
+    ]
+   ],
+   "words": [
+    [
+     "what kind of",
+     "어떤 종류의"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t10",
+   "start": 541.94,
+   "end": 547.08,
+   "en": "Do you have your favorite actor or artist?",
+   "ko": "가장 좋아하는 배우나 연예인이 있나요?",
+   "chunks": [
+    [
+     "Do you have",
+     "있나요?"
+    ],
+    [
+     "your favorite actor or artist?",
+     "가장 좋아하는 배우나 연예인이?"
+    ]
+   ],
+   "words": [
+    [
+     "favorite",
+     "가장 좋아하는"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t11",
+   "start": 1033.69,
+   "end": 1036.73,
+   "en": "The zombies here are so energetic.",
+   "ko": "여기 좀비들은 정말 에너지가 넘쳐요.",
+   "chunks": [
+    [
+     "The zombies here",
+     "여기 좀비들은"
+    ],
+    [
+     "are so energetic.",
+     "정말 에너지가 넘쳐요."
+    ]
+   ],
+   "words": [
+    [
+     "energetic",
+     "에너지가 넘치는"
+    ]
+   ],
+   "core": true,
+   "dict": true
+  },
+  {
+   "id": "t12",
+   "start": 1146.62,
+   "end": 1153.01,
+   "en": "I'll see you on Monday, sir, thank you so much and have a great weekend!",
+   "ko": "월요일에 뵙겠습니다. 정말 감사합니다. 즐거운 주말 보내세요!",
+   "chunks": [
+    [
+     "I'll see you on Monday, sir,",
+     "월요일에 뵙겠습니다,"
+    ],
+    [
+     "thank you so much",
+     "정말 감사합니다"
+    ],
+    [
+     "and have a great weekend!",
+     "즐거운 주말 보내세요!"
+    ]
+   ],
+   "words": [
+    [
+     "have a great weekend",
+     "즐거운 주말 보내세요"
+    ]
+   ],
+   "core": true,
+   "dict": false
+  }
+ ],
+ "mine": [
+  {
+   "id": "m1",
+   "start": 65.8,
+   "end": 69.67,
+   "said": "The weather is, it is cold.",
+   "better": "The weather is cold.",
+   "ko": "날씨가 춥습니다.",
+   "errors": [
+    {
+     "wrong": "is, it is",
+     "right": "is",
+     "why": "불필요한 대명사 반복을 피하고 한 번만 말하는 것이 자연스럽습니다."
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "start": 173.53,
+   "end": 176.76,
+   "said": "All nearly 100.",
+   "better": "Nearly 100.",
+   "ko": "거의 100개요.",
+   "errors": [
+    {
+     "wrong": "All nearly",
+     "right": "Nearly",
+     "why": "'All'은 불필요하며 'Nearly'만 쓰는 것이 자연스럽습니다."
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "start": 197.15,
+   "end": 200.62,
+   "said": "I'll show you.",
+   "better": "I'll show you.",
+   "ko": "보여드릴게요.",
+   "errors": []
+  },
+  {
+   "id": "m4",
+   "start": 229.59,
+   "end": 239.75,
+   "said": "I know Sitanto is animation from Japanese.",
+   "better": "I know City Hunter is a Japanese animation.",
+   "ko": "시티헌터는 일본 애니메이션인 걸 알아요.",
+   "errors": [
+    {
+     "wrong": "animation from Japanese",
+     "right": "a Japanese animation",
+     "why": "형용사 순서와 관사 사용 (Japanese animation)."
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "start": 262.73,
+   "end": 274.5,
+   "said": "This drama is... The name is \"Boys of Flower\".",
+   "better": "This drama's name is \"Boys Over Flowers\".",
+   "ko": "이 드라마 이름은 '꽃보다 남자'예요.",
+   "errors": [
+    {
+     "wrong": "Boys of Flower",
+     "right": "Boys Over Flowers",
+     "why": "드라마 공식 영어 제목은 'Boys Over Flowers'입니다."
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "start": 333.69,
+   "end": 336.9,
+   "said": "Oh, first thing was I heard this trauma.",
+   "better": "Oh, this is the first time I've heard of this drama.",
+   "ko": "오, 이 드라마는 처음 들어봐요.",
+   "errors": [
+    {
+     "wrong": "first thing was I heard this trauma",
+     "right": "first time I've heard of this drama",
+     "why": "표현 오류 (first time) 및 발음 혼동 (trauma -> drama)."
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "start": 374.57,
+   "end": 381.54,
+   "said": "story is very old",
+   "better": "The story is very old.",
+   "ko": "스토리가 너무 진부해요.",
+   "errors": [
+    {
+     "wrong": "story is",
+     "right": "The story is",
+     "why": "특정한 이야기를 가리키므로 정관사 'The'가 필요합니다."
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "start": 509.68,
+   "end": 518.7,
+   "said": "I-I-I am- I didn't watch the drama TV at TV.",
+   "better": "I didn't watch dramas on TV.",
+   "ko": "저는 TV로 드라마를 안 봐요.",
+   "errors": [
+    {
+     "wrong": "at TV",
+     "right": "on TV",
+     "why": "매체(TV)를 나타낼 때는 전치사 'on'을 사용합니다."
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "start": 555.46,
+   "end": 559.1,
+   "said": "All that are hot, old man, old man, very old man.",
+   "better": "They are old men now.",
+   "ko": "그분들은 이제 나이가 많으신 분들이죠.",
+   "errors": [
+    {
+     "wrong": "old man, old man",
+     "right": "old men",
+     "why": "복수형(men)을 사용해야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "start": 628.15,
+   "end": 632.86,
+   "said": "You are Jasso. He is not active, he is comedian.",
+   "better": "He is not an actor, he is a comedian.",
+   "ko": "그는 배우가 아니라 코미디언이에요.",
+   "errors": [
+    {
+     "wrong": "active",
+     "right": "an actor",
+     "why": "단어 혼동 (active -> actor) 및 관사 누락."
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "start": 694.52,
+   "end": 702.13,
+   "said": "when he is in his house. Yes, yes, yes, yes. He is boxing, boxing.",
+   "better": "When they went to his house. He is a boxer.",
+   "ko": "그의 집에 갔을 때요. 그 사람은 복싱선수예요.",
+   "errors": [
+    {
+     "wrong": "He is boxing",
+     "right": "He is a boxer",
+     "why": "직업을 말할 때는 명사(boxer)를 써야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "start": 719.65,
+   "end": 736.2,
+   "said": "I've learned, we can, I watch watching, I used to watch The Learning Man with my family.",
+   "better": "I used to watch Running Man with my family.",
+   "ko": "가족들과 함께 '런닝맨'을 보곤 했어요.",
+   "errors": [
+    {
+     "wrong": "The Learning Man",
+     "right": "Running Man",
+     "why": "프로그램 이름 오류 (Running Man)."
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "start": 779.79,
+   "end": 793.49,
+   "said": "And Korean movie name is English movie name is not different, different, different, different.",
+   "better": "The Korean movie title and English title are different.",
+   "ko": "한국 영화 제목이랑 영어 제목이 달라요.",
+   "errors": [
+    {
+     "wrong": "is not different",
+     "right": "are different",
+     "why": "주어가 두 개이므로 복수 동사(are)를 써야 합니다."
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "start": 811.38,
+   "end": 829.42,
+   "said": "City of... Crime... I don't suck Sook movie... claim.",
+   "better": "The Outlaws, Crime City.",
+   "ko": "'범죄도시'요.",
+   "errors": [
+    {
+     "wrong": "City of claim",
+     "right": "Crime City",
+     "why": "영화 제목 'Crime City' (범죄도시)의 발음 및 단어 교정."
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "start": 904.86,
+   "end": 912.54,
+   "said": "Oh yes, yes, crime is here. The outcome!",
+   "better": "Yes, Crime City. The Outlaws.",
+   "ko": "네, 크라임 시티요. 영어 제목은 The Outlaws죠.",
+   "errors": [
+    {
+     "wrong": "The outcome",
+     "right": "The Outlaws",
+     "why": "영화 제목 단어 혼동 (outcome -> Outlaws)."
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "start": 958.43,
+   "end": 962.75,
+   "said": "It's really cool. It's so funny.",
+   "better": "It's really cool and so funny.",
+   "ko": "정말 멋지고 아주 재미있어요.",
+   "errors": []
+  },
+  {
+   "id": "m17",
+   "start": 1000.72,
+   "end": 1006.79,
+   "said": "Kingdom is drama.",
+   "better": "Kingdom is a drama.",
+   "ko": "'킹덤'은 드라마예요.",
+   "errors": [
+    {
+     "wrong": "is drama",
+     "right": "is a drama",
+     "why": "가산 명사 단수 앞에는 관사 'a'가 필요합니다."
+    }
+   ]
+  },
+  {
+   "id": "m18",
+   "start": 1097.63,
+   "end": 1101.27,
+   "said": "Yes, I see. Working there.",
+   "better": "Yes, I know The Walking Dead.",
+   "ko": "네, '워킹 데드' 알아요.",
+   "errors": [
+    {
+     "wrong": "Working there",
+     "right": "The Walking Dead",
+     "why": "드라마 제목 발음 교정 (Walking Dead)."
+    }
+   ]
+  },
+  {
+   "id": "m19",
+   "start": 1151.43,
+   "end": 1154.8,
+   "said": "great weekend okay have a good day",
+   "better": "Have a great weekend and a good day.",
+   "ko": "좋은 주말 보내시고 좋은 하루 보내세요.",
+   "errors": []
+  }
+ ],
+ "fixes": [
+  {
+   "mine": "I'm press press",
+   "better": "I'm pressed for time",
+   "ko": "시간에 쫓겨요",
+   "tip": "시간이 부족하거나 압박감을 느낄 때는 'pressed for time'을 씁니다."
+  },
+  {
+   "mine": "I didn't watch the drama TV at TV.",
+   "better": "I don't really watch drama series on TV anymore.",
+   "ko": "더 이상 TV로 드라마를 잘 안 봐요.",
+   "tip": "'watch TV'라고 하지 'at TV'라고 하지 않으며, 평소 안 보는 것은 현재형(don't)을 씁니다."
+  },
+  {
+   "mine": "All that are hot, old man, old man, very old man.",
+   "better": "I like veteran actors, especially middle-aged or older ones.",
+   "ko": "베테랑 배우들, 특히 중견 이상의 연기파 배우들을 좋아해요.",
+   "tip": "'old man'보다는 'middle-aged actors'나 'veteran actors'가 자연스럽습니다."
+  },
+  {
+   "mine": "He is not active, he is comedian.",
+   "better": "He's not a dramatic actor; he's actually a comedian.",
+   "ko": "그는 정극 배우가 아니라 개그맨이에요.",
+   "tip": "연기 활동을 안 한다는 뜻의 'active'보다는 정극을 안 한다는 의미의 'dramatic actor'가 좋습니다."
+  },
+  {
+   "mine": "Korean movie name is English movie name is not different",
+   "better": "The Korean movie titles are often different from the English titles.",
+   "ko": "한국 영화 제목은 영어 제목과 다른 경우가 많아요.",
+   "tip": "'different'를 쓸 때는 'A is different from B' 구조를 사용하는 것이 정확합니다."
+  },
+  {
+   "mine": "I used to watch The Learning Man with my family.",
+   "better": "I used to watch Running Man with my family.",
+   "ko": "가족들과 함께 '런닝맨'을 보곤 했어요.",
+   "tip": "프로그램 이름은 고유명사이므로 정확하게 'Running Man'이라고 말합니다."
+  },
+  {
+   "mine": "Kingdom is drama.",
+   "better": "Kingdom is a series, not a movie.",
+   "ko": "'킹덤'은 영화가 아니라 드라마(시리즈)예요.",
+   "tip": "넷플릭스 등에서 방영하는 시리즈물은 'a series' 또는 'a TV show'라고 표현합니다."
+  },
+  {
+   "mine": "I'll try Other than-",
+   "better": "I should give it a try.",
+   "ko": "저도 한번 봐야겠네요.",
+   "tip": "상대가 추천해 준 것을 볼 의향이 있을 때 'I'll give it a try'가 아주 자연스럽습니다."
+  }
+ ],
+ "phrases": [
+  {
+   "en": "pressed for time",
+   "ko": "시간에 쫓기는",
+   "ex": "I'm a bit pressed for time today."
+  },
+  {
+   "en": "give it a try",
+   "ko": "한번 시도해 보다",
+   "ex": "I haven't watched Kingdom yet, but I'll give it a try."
+  },
+  {
+   "en": "predictable storyline",
+   "ko": "뻔한 스토리 라인",
+   "ex": "Most romance dramas have a very predictable storyline."
+  },
+  {
+   "en": "love triangle",
+   "ko": "삼각관계",
+   "ex": "The drama features a classic love triangle."
+  },
+  {
+   "en": "veteran actor",
+   "ko": "베테랑 배우",
+   "ex": "Ma Dong-seok is a veteran actor known for action films."
+  },
+  {
+   "en": "used to watch",
+   "ko": "(-하곤 했다)",
+   "ex": "I used to watch Running Man with my family."
+  },
+  {
+   "en": "action-packed",
+   "ko": "액션이 가득한, 박진감 넘치는",
+   "ex": "His movies are always action-packed and funny."
+  },
+  {
+   "en": "thrilling",
+   "ko": "스릴 넘치는, 손에 땀을 쥐게 하는",
+   "ex": "Zombie thrillers are much more thrilling than romance."
+  }
+ ],
+ "next": {
+  "q": "What is your all-time favorite Korean movie or TV show, and why do you like it?",
+  "ko": "당신이 역대 가장 좋아하는 한국 영화나 TV 프로그램은 무엇이며, 왜 좋아하시나요?",
+  "starters": [
+   {
+    "en": "My all-time favorite show is Running Man because...",
+    "ko": "제가 역대 가장 좋아하는 프로그램은 런닝맨입니다. 왜냐하면..."
+   },
+   {
+    "en": "I really enjoyed watching Ma Dong-seok's action movies like The Outlaws because...",
+    "ko": "저는 범죄도시 같은 마동석의 액션 영화를 정말 재밌게 봤습니다. 왜냐하면..."
+   },
+   {
+    "en": "Unlike romance dramas, I prefer thriller series like Kingdom because...",
+    "ko": "로맨스 드라마와 달리, 저는 킹덤 같은 스릴러 시리즈를 더 좋아합니다. 왜냐하면..."
+   },
+   {
+    "en": "I used to watch variety shows with my family on weekends, and...",
+    "ko": "저는 주말에 가족들과 예능 프로그램을 보곤 했는데, ..."
+   },
+   {
+    "en": "These days, I don't watch TV often, but I really liked...",
+    "ko": "요즘 TV를 자주 보지는 않지만, 정말 재밌게 본 것은..."
+   }
+  ]
+ }
+}
